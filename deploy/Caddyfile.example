@@ -1,0 +1,7 @@
+# Add this block to the EXISTING Caddyfile. Do not overwrite other websites.
+baatbaaki.com, www.baatbaaki.com {
+    @www host www.baatbaaki.com
+    redir @www https://baatbaaki.com{uri} permanent
+    encode zstd gzip
+    reverse_proxy 127.0.0.1:3010
+}

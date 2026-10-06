@@ -1,0 +1,3 @@
+import {getArticles,siteUrl} from '../../lib/content.mjs';
+const escape=s=>s.replace(/[<>&"']/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&apos;'}[c]));
+export async function GET(){return new Response(`<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>बात बाकी</title><link>${escape(siteUrl)}</link><description>खबर के आगे की बात</description><language>hi-IN</language>${getArticles().map(a=>`<item><title>${escape(a.title)}</title><link>${escape(siteUrl+'/news/'+a.slug)}</link><guid>${escape(siteUrl+'/news/'+a.slug)}</guid><description>${escape(a.excerpt)}</description><pubDate>${new Date(a.publishedAt).toUTCString()}</pubDate></item>`).join('')}</channel></rss>`,{headers:{'Content-Type':'application/rss+xml; charset=utf-8'}});}
