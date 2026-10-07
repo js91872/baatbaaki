@@ -1,0 +1,89 @@
+{
+  "tool": "built-in image generation",
+  "dimensions": {
+    "width": 1536,
+    "height": 864
+  },
+  "assets": [
+    {
+      "file": "public/images/amitabh-birthday.webp",
+      "prompt": "Amitabh Bachchan, recognizable dignified elderly Indian actor with salt-and-pepper hair, square glasses and a neatly trimmed white beard, elegant dark jacket, warm theatre light behind him. Original painted editorial portrait, not a photograph or actual appearance."
+    },
+    {
+      "file": "public/images/srk-ddlj.webp",
+      "prompt": "Shah Rukh Khan and Kajol, recognizable original painted editorial portraits side by side, with a softly illustrated vintage railway platform and golden autumn landscape behind them. Cinema retrospective mood. Not a film still, no replica costumes or poster."
+    },
+    {
+      "file": "public/images/salman-prem.webp",
+      "prompt": "Salman Khan, recognizable original painted editorial portrait in a plain navy shirt, warm vintage cinema light and a subtle film reel in background. Not a film still, no actual event."
+    },
+    {
+      "file": "public/images/aamir-dangal.webp",
+      "prompt": "Aamir Khan, recognizable original painted editorial portrait in a plain charcoal shirt, with a softly drawn empty clay wrestling arena and golden sunrise behind him. Not a movie still, not an actual event."
+    },
+    {
+      "file": "public/images/ranbir-ramayana.webp",
+      "prompt": "Ranbir Kapoor, recognizable original painted editorial portrait in a neutral dark jacket, against a rich cinematic amber background with a distant abstract palace silhouette and film light. He is not costumed as a deity; no movie scene or poster replica."
+    },
+    {
+      "file": "public/images/hrithik-war.webp",
+      "prompt": "Hrithik Roshan, recognizable original painted editorial portrait in a plain black jacket, dramatic blue and copper cinematic lighting with subtle unmarked film reel background. No weapons or movie costume, no film still."
+    },
+    {
+      "file": "public/images/virat-record.webp",
+      "prompt": "Virat Kohli, recognizable original painted editorial portrait with neat beard, plain blue athletic shirt with no team marks, warm stadium light bokeh and a cricket bat silhouette behind. Not a real match photograph."
+    },
+    {
+      "file": "public/images/rohit-264.webp",
+      "prompt": "Rohit Sharma, recognizable original painted editorial portrait with beard and plain blue athletic shirt, abstract empty cricket stadium in sunlight behind him. Crisp calm confident editorial composition, not a match photograph."
+    },
+    {
+      "file": "public/images/dhoni-captain.webp",
+      "prompt": "MS Dhoni, recognizable original painted editorial portrait with short greying hair, plain blue athletic shirt, three small abstract unmarked trophy silhouettes in background under warm stadium lights. No official trophy replica, not a ceremony photograph."
+    },
+    {
+      "file": "public/images/bumrah-bowling.webp",
+      "prompt": "Jasprit Bumrah, recognizable original painted editorial portrait with short hair and beard, plain blue athletic shirt, a red cricket ball and softly illustrated pitch behind. No depiction of a specific delivery or real event."
+    },
+    {
+      "file": "public/images/youtube-income.webp",
+      "prompt": "Close-up of an Indian creator's clean home desk: smartphone on tripod, compact microphone, bright natural window light, laptop with blank screen. Strong single focal point, premium editorial illustration with realistic textures. No currency rain, no guaranteed income symbolism."
+    },
+    {
+      "file": "public/images/freelance-first.webp",
+      "prompt": "An Indian freelancer concentrating at a small tidy desk, seen in three-quarter profile, laptop showing abstract blocks without text, sketch notebook and desk lamp, calm teal and warm amber light. High-end editorial illustration, generic adult."
+    },
+    {
+      "file": "public/images/home-tuition.webp",
+      "prompt": "A small home study table with an adult Indian tutor explaining a simple geometric sketch to two teenage students, notebooks without readable writing, warm daytime light, premium natural editorial illustration."
+    },
+    {
+      "file": "public/images/whatsapp-orders.webp",
+      "prompt": "Indian home-based entrepreneur hands photographing a small handcrafted gift box on a neat counter, phone screen blank, a few packed orders in background, warm attractive editorial illustration. No app logos."
+    },
+    {
+      "file": "public/images/modi-biography.webp",
+      "prompt": "Narendra Modi, recognizable original painted editorial portrait with white beard and glasses, neutral cream kurta and dark waistcoat, softly drawn Indian Parliament architectural background, dignified neutral documentary tone. Not a photograph of an actual event, no campaign symbols or slogans."
+    },
+    {
+      "file": "public/images/pm-kisan-status.webp",
+      "prompt": "Close-up of an Indian farmer's weathered hands holding a blank-screen smartphone beside healthy crop leaves and dark fertile soil, golden morning natural light, premium editorial illustration, no money piles or government marks."
+    },
+    {
+      "file": "public/images/mudra-loan.webp",
+      "prompt": "A small Indian tailoring workshop: sewing machine prominently in foreground, folded fabric, adult shop owner working in background, warm daylight, polished editorial illustration emphasizing enterprise rather than free cash, no logos or text."
+    },
+    {
+      "file": "public/images/neet-preparation.webp",
+      "prompt": "An Indian teenage medical entrance aspirant at a clean desk with biology books, generic botanical sketch, colour tabs and a plain timer, focused posture, soft daylight, premium editorial illustration, no text or test paper replica."
+    },
+    {
+      "file": "public/images/neet-mock.webp",
+      "prompt": "Close-up of a student hand with pencil over a generic unmarked practice answer grid, an analogue clock and tidy revision notebook, clear crisp blue-white editorial illustration. No readable exam title, no official form replica."
+    },
+    {
+      "file": "public/images/neet-counselling.webp",
+      "prompt": "A student and parent reviewing a blank-screen laptop and a neat folder together at home, medical college campus silhouette subtly visible through window, hopeful but realistic warm light, high-quality editorial illustration."
+    }
+  ]
+}
