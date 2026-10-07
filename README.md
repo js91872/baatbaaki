@@ -18,7 +18,7 @@ npm run build
 npm start
 ```
 
-Default local start uses port 3010, bound to loopback. Hindi fonts are bundled locally with system fallbacks; no Google Fonts request is needed. Feature illustrations are local WebP files and labelled as symbolic AI artwork.
+Default local start uses port 3010, bound to loopback. Hindi fonts are bundled locally with system fallbacks; no Google Fonts request is needed. Feature illustrations are local WebP files and labelled as symbolic illustrations.
 
 ## Editorial content
 
