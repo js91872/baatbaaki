@@ -14,7 +14,7 @@ cp .env.example .env.production
 nano .env.production
 ```
 
-Set `CONTACT_EMAIL` to a real monitored mailbox. Keep `SITE_INDEXABLE=false` during review. Set it to true for launch and rebuild. These are plain environment assignments; do not insert untrusted shell commands.
+The public contact address is `info@baatbaaki.com`. For public launch set `CONTACT_EMAIL=info@baatbaaki.com`, `SITE_INDEXABLE=true` and `PORT=3005` in the existing environment file, then rebuild. Set `SITE_INDEXABLE=false` only for staging. These are plain environment assignments; do not insert untrusted shell commands.
 
 ```bash
 cd /var/www/baatbaaki
@@ -63,3 +63,7 @@ bash scripts/deploy.sh
 If the health check fails, inspect `journalctl -u baatbaaki -n 60 --no-pager`. Build succeeds before restart, but deployment is not an atomic release swap; a failed build may require rebuilding the previous known-good commit to restore standalone output. Keep the previous working commit available.
 
 After launch, submit `/sitemap.xml` in Search Console. Check `robots.txt` and the page robots meta allow indexing. RSS is `/rss.xml`.
+
+## Existing live VPS (October 2026)
+
+Provider-managed external Caddy terminates HTTPS and forwards both domains directly to port 3005. Keep the systemd network drop-in with HOSTNAME=0.0.0.0 and PORT=3005. Do not run local Certbot for this route. `scripts/deploy.sh` uses PORT from .env.production for its health check. The www redirect must be configured in the provider route or application, not an unused local nginx route.

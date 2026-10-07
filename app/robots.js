@@ -1,2 +1,2 @@
 import {siteUrl,indexable} from '../lib/content.mjs';
-export default function robots(){return {rules:{userAgent:'*',allow:indexable?'/':undefined,disallow:indexable?'/search':'/'},sitemap:siteUrl+'/sitemap.xml'};}
+export default function robots(){return {rules:{userAgent:'*',...(indexable?{allow:'/'}:{disallow:'/'})},sitemap:siteUrl+'/sitemap.xml'};}

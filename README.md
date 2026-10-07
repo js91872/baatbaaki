@@ -30,11 +30,11 @@ Article URLs: `/news/<slug>`. Category URLs: `/category/<slug>`. Empty categorie
 
 ## Launch settings
 
-Copy `.env.example` to `.env.production` on the VPS and set an actual monitored `CONTACT_EMAIL`. Indexing defaults OFF to avoid indexing the starter edition before review. Set `SITE_INDEXABLE=true` ONLY once launch content, source checks and contact details are ready; rebuild afterward. No fake-success contact form, tracking, analytics or AdSense code is installed.
+Copy `.env.example` to `.env.production` on the VPS and set an actual monitored `CONTACT_EMAIL`. Indexing defaults ON. Set `SITE_INDEXABLE=false` only for a private staging build; rebuild after changing this setting. The public contact address defaults to `info@baatbaaki.com`. No fake-success contact form, tracking, analytics or AdSense code is installed.
 
 ## VPS deployment
 
-See [DEPLOYMENT.md](DEPLOYMENT.md). Uses standalone Node server, systemd, port 3010 and the existing Caddy reverse proxy. Does not modify other applications. Verify that port 3010 is free before using it.
+See [DEPLOYMENT.md](DEPLOYMENT.md). The live VPS uses standalone Node, systemd and port 3005 behind the provider’s external Caddy proxy. Its systemd drop-in binds HOSTNAME=0.0.0.0. Preserve that drop-in and the existing panel routes. Repository service/Caddy examples remain loopback templates for a local reverse proxy.
 
 ## Daily automation — next phase
 
