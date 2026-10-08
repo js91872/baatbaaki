@@ -1,0 +1,48 @@
+{
+  "preparedAt": "2026-10-08T01:53:52.156103+00:00",
+  "asOf": "8 October 2026 morning IST",
+  "articles": [
+    "nobel-prize-2026-winners-list-announcement-dates-hindi",
+    "nobel-medicine-2026-winners-optogenetics-explained",
+    "nobel-physics-2026-francis-halzen-icecube-neutrinos",
+    "nobel-chemistry-2026-kagan-soai-chirality-explained"
+  ],
+  "pending": [
+    "Literature: 8 October, earliest 16:30 IST",
+    "Peace: 9 October, 14:30 IST",
+    "Economic Sciences: 12 October, earliest 15:15 IST"
+  ],
+  "details": [
+    {
+      "slug": "nobel-prize-2026-winners-list-announcement-dates-hindi",
+      "title": "Nobel Prize 2026 Winners: तीन बड़े फैसले हो चुके, पूरी सूची में कौन बाकी है?",
+      "wordCount": 1338
+    },
+    {
+      "slug": "nobel-medicine-2026-winners-optogenetics-explained",
+      "title": "Medicine Nobel 2026: रोशनी से nerve cells का स्विच, यह खोज क्या बदलती है?",
+      "wordCount": 1558
+    },
+    {
+      "slug": "nobel-physics-2026-francis-halzen-icecube-neutrinos",
+      "title": "Physics Nobel 2026: बर्फ के भीतर ब्रह्मांड के संदेश, Halzen की खोज क्या है?",
+      "wordCount": 1505
+    },
+    {
+      "slug": "nobel-chemistry-2026-kagan-soai-chirality-explained",
+      "title": "Chemistry Nobel 2026: दो अणु आईने जैसे, असर अलग—इस खोज में क्या खास है?",
+      "wordCount": 1590
+    }
+  ],
+  "validation": {
+    "contentCheck": "passed: 60 articles",
+    "tests": "4 passed",
+    "productionBuild": "passed: 81 generated pages",
+    "imageDimensions": "all four WebP files: 1536x864",
+    "schema": "NewsArticle",
+    "vpsDeployed": false,
+    "productionHttpChecks": "passed: four pages, four source images, optimized image, canonical/OG/NewsArticle schema, large previews, six internal links, path/query-preserving www redirect, no image labels",
+    "sitemapUrls": 75,
+    "rssItems": 60
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "tool": "built-in image generation",
+  "dimensions": {
+    "width": 1536,
+    "height": 864
+  },
+  "assets": [
+    {
+      "file": "public/images/nobel-2026-winners-roundup.webp",
+      "prompt": "Use case: illustration-story. Asset type: feature image for a Hindi news explainer, wide landscape 1536x864. Style: sophisticated premium editorial painting with visible fine brush texture, strong composition, luminous detail, clearly an illustration rather than an event photograph. A beautifully composed still life symbolising the Nobel sciences: a plain uninscribed golden circular medallion, laboratory glass vessels, a subtle network of glowing neural connections, and a small ice-blue polar telescope silhouette, elegant deep blue and warm gold magazine cover art, uncluttered and credible. No text, letters, numbers, captions, logos, watermarks, signature, fake press conference, medals with inscriptions, or misleading depiction of an actual prize ceremony. Keep key subjects in a safe central crop. No labelled scientific diagram; visual metaphor only."
+    },
+    {
+      "file": "public/images/nobel-medicine-2026-optogenetics.webp",
+      "prompt": "Use case: illustration-story. Asset type: feature image for a Hindi news explainer, wide landscape 1536x864. Style: sophisticated premium editorial painting with visible fine brush texture, strong composition, luminous detail, clearly an illustration rather than an event photograph. An evocative painted visual metaphor of a human brain neural network lit by a narrow gentle blue beam, small organic green algae-like forms in the background suggesting the origins of optogenetics, deep indigo backdrop with amber highlights, no real patient or invasive procedure, no implication of mind control. No text, letters, numbers, captions, logos, watermarks, signature, fake press conference, medals with inscriptions, or misleading depiction of an actual prize ceremony. Keep key subjects in a safe central crop. No labelled scientific diagram; visual metaphor only."
+    },
+    {
+      "file": "public/images/nobel-physics-2026-icecube.webp",
+      "prompt": "Use case: illustration-story. Asset type: feature image for a Hindi news explainer, wide landscape 1536x864. Style: sophisticated premium editorial painting with visible fine brush texture, strong composition, luminous detail, clearly an illustration rather than an event photograph. An elegant editorial painting of the South Pole ice landscape at blue twilight, a small scientific observatory above a luminous artistic suggestion of deep ice and faint particle tracks below, starry southern sky. No claimed measured event, no detector schematic. Wide cinematic blue and amber light. No text, letters, numbers, captions, logos, watermarks, signature, fake press conference, medals with inscriptions, or misleading depiction of an actual prize ceremony. Keep key subjects in a safe central crop. No labelled scientific diagram; visual metaphor only."
+    },
+    {
+      "file": "public/images/nobel-chemistry-2026-chirality.webp",
+      "prompt": "Use case: illustration-story. Asset type: feature image for a Hindi news explainer, wide landscape 1536x864. Style: sophisticated premium editorial painting with visible fine brush texture, strong composition, luminous detail, clearly an illustration rather than an event photograph. An editorial painting of two natural human hands mirroring one another above subtle stylised molecular forms and laboratory glassware, emphasizing left and right handedness and mirror symmetry as a visual metaphor, refined teal and warm amber illumination. Scientifically suggestive art, not an exact molecular diagram. No text, letters, numbers, captions, logos, watermarks, signature, fake press conference, medals with inscriptions, or misleading depiction of an actual prize ceremony. Keep key subjects in a safe central crop. No labelled scientific diagram; visual metaphor only."
+    }
+  ]
+}
