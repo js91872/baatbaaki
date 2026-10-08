@@ -4,3 +4,71 @@
 @media(max-width:380px){.brand>span{font-size:42px}.wrap{padding-left:14px;padding-right:14px}.front-left{grid-template-columns:1fr}.story-card{grid-template-columns:105px 1fr;gap:13px}.story-card .story-image img{height:110px}.story-copy h3{font-size:18px}.story-copy>p{display:none}.article-heading h1{font-size:27px}.header-search{right:14px}.mobile-menu{left:14px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 @media print{.site-header,.reader-tools,.article-sidebar,footer,.related-section,.breadcrumbs{display:none}.wrap{max-width:none;padding:0}.article-layout{display:block}.article-heading h1{font-size:28px}.article-body p{font-size:12pt;line-height:1.7}.article-figure{max-width:450px}.sources-box{break-inside:avoid}a{color:black}}
+
+
+/* BaatBaaki editorial refresh — October 2026 */
+:root{--ink:#172238;--muted:#657084;--red:#e23850;--line:#e6eaf1;--paper:#fbfcff;--article-font-size:19px}
+body{background:var(--paper);color:var(--ink)}
+a,button{transition:color .18s ease,background-color .18s ease,box-shadow .18s ease}
+.wrap{max-width:1240px}
+.utility{border-bottom-color:var(--line)}
+.masthead{min-height:122px}
+.brand>span{font-size:60px;letter-spacing:-2px}
+.brand small{letter-spacing:.65px}
+.main-nav{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#fff;gap:30px;border-radius:12px;padding:14px 20px;box-shadow:0 4px 20px #182c4808}
+.main-nav a{border-radius:7px;padding:3px 1px}
+.main-nav a:hover{color:var(--red)}
+.topic-bar{border-bottom:0;gap:16px}
+.topic-bar a{background:#fff;border:1px solid var(--line);border-radius:99px;padding:5px 12px;color:#414c60}
+.topic-bar a:hover{border-color:#f6b1bc;color:var(--red)}
+.edition-heading{padding-top:22px}
+.edition-heading h1{font-family:var(--sans);font-size:26px;line-height:1.4}
+.frontpage-grid{grid-template-columns:minmax(0,1fr) minmax(0,2.1fr) minmax(0,1fr);gap:20px;border-bottom:0}
+.front-left,.front-right{border:0;padding:0}
+.front-left,.front-right,.lead-story{min-width:0}
+.lead-story{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 12px 40px #182c480c}
+.lead-image img{aspect-ratio:1.65}
+.lead-body{padding:22px 25px 28px}
+.lead-story h2{font-size:31px;line-height:1.48}
+.lead-body>p{line-height:1.75}
+.column-label{font-family:var(--sans);border-bottom:2px solid var(--red);padding-bottom:12px}
+.text-story{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:14px;box-shadow:0 5px 20px #182c4807}
+.text-story:last-child{border:1px solid var(--line);padding:18px;margin-bottom:0}
+.text-story h2{font-size:20px;line-height:1.55}
+.text-story p{line-height:1.7}
+.numbered-story{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:10px}
+.numbered-story:first-of-type{padding:14px}
+.numbered-story h3{line-height:1.55}
+.number{color:#f3a1ad}
+.editor-note{border-radius:14px;background:#fff4f5}
+.latest-section{margin-top:32px}
+.section-heading{border-bottom-color:var(--line)}
+.section-heading h2{font-size:29px}
+.cards-grid{gap:20px}
+.story-card{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 6px 26px #182c480a;transition:transform .2s,box-shadow .2s}
+.story-card:hover{transform:translateY(-3px);box-shadow:0 14px 34px #182c4819}
+.story-card .story-image img{aspect-ratio:1.65}
+.story-copy{padding:19px 20px 22px}
+.story-copy h3{font-size:21px;line-height:1.6}
+.story-copy>p{line-height:1.75}
+.eyebrow{font-size:12px;letter-spacing:.1px}
+.reader-section{background:#edf3ff;border:0;border-radius:18px;padding:35px;gap:30px}
+.reader-section h2{font-size:29px}
+.reader-search input,.search-form input{border-radius:10px 0 0 10px;border-color:#ccd5e4}
+.reader-search button,.search-form button{border-radius:0 10px 10px 0}
+.directory-grid{gap:12px}
+.directory-grid a{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 20px;transition:box-shadow .2s}
+.directory-grid a:hover{box-shadow:0 8px 25px #182c4812}
+footer{background:#eff3f9;border-top:1px solid var(--line)}
+.article-layout{gap:45px}
+.article-heading h1{font-size:39px;line-height:1.5}
+.article-deck{line-height:1.75}
+.article-figure img{border-radius:14px}
+.article-body p{line-height:1.95}
+.article-body h2{line-height:1.5}
+.takeaway{border-radius:12px;background:#fff2f4}
+.article-sidebar{border-left-color:var(--line)}
+.sources-box{border-radius:12px;background:#fff}
+@media(max-width:1100px){.frontpage-grid{grid-template-columns:minmax(0,1fr) minmax(0,1.7fr)}.front-right{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.front-right>.column-label{grid-column:1/-1}.front-right .numbered-story{padding:15px}.editor-note{display:none}}
+@media(max-width:760px){.wrap{padding-left:16px;padding-right:16px}.masthead{min-height:104px}.brand>span{font-size:43px}.main-nav{border-radius:0;box-shadow:none;padding:10px 0;gap:22px}.frontpage-grid{display:flex;flex-direction:column;gap:22px}.lead-story{order:-1}.lead-body{padding:17px 18px 21px}.lead-story h2{font-size:25px;line-height:1.55}.front-left{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.front-left>.column-label{grid-column:1/-1}.text-story,.text-story:last-child{padding:13px;margin:0}.text-story h2{font-size:17px;line-height:1.6}.text-story p{font-size:13px}.front-right{display:block}.front-right .numbered-story{margin-bottom:9px}.cards-grid,.category-grid{grid-template-columns:1fr;gap:13px}.story-card{display:grid;grid-template-columns:116px minmax(0,1fr);gap:0;padding:0}.story-card .story-image img{height:100%;min-height:145px;aspect-ratio:auto}.story-copy{padding:12px}.story-copy h3{font-size:17px;line-height:1.5}.story-copy>p{font-size:13px;line-height:1.6}.story-copy .meta{font-size:11px}.reader-section{margin:28px 0;padding:22px;gap:20px}.reader-section h2{font-size:25px}.directory-grid{grid-template-columns:1fr 1fr;gap:10px}.directory-grid a{padding:14px}.article-heading h1{font-size:29px;line-height:1.5}.article-deck{font-size:17px}.article-body p{font-size:18px;line-height:1.95}.article-body h2{font-size:23px}.page-heading h1{font-size:30px}}
+@media(max-width:380px){.front-left{grid-template-columns:1fr}.story-card{grid-template-columns:100px minmax(0,1fr)}.story-card .story-image img{min-height:135px}.story-copy h3{font-size:16px}}
