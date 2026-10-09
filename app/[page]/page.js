@@ -3,7 +3,7 @@ import {notFound} from 'next/navigation';
 import {pages} from '../../lib/pages.mjs';
 import {siteUrl,contactEmail,dateLabel} from '../../lib/content.mjs';
 export function generateStaticParams(){return Object.keys(pages).map(page=>({page}));}
-export async function generateMetadata({params}){const {page}=await params;const p=pages[page];return p?{title:p.title,description:p.intro,alternates:{canonical:'/'+page},openGraph:{title:p.title,description:p.intro,url:siteUrl+'/'+page,type:'website',locale:'hi_IN',siteName:'बात बाकी'}}:{};}
+export async function generateMetadata({params}){const {page}=await params;const p=pages[page];return p?{title:p.title,description:p.intro,alternates:{canonical:'/'+page},openGraph:{title:p.title,description:p.intro,url:siteUrl+'/'+page,type:'website',locale:'hi_IN',siteName:'बात बाकी',images:[{url:'/images/baatbaaki-social.png',width:1200,height:630,alt:'BaatBaaki.com'}]}}:{};}
 export default async function InfoPage({params}){
  const {page}=await params;const p=pages[page];if(!p)notFound();
  const schema={'@context':'https://schema.org','@type':page==='about'?'AboutPage':page==='contact'?'ContactPage':'WebPage','@id':siteUrl+'/'+page+'#page',url:siteUrl+'/'+page,name:p.title,description:p.intro,inLanguage:'hi-IN',dateModified:p.updatedAt,isPartOf:{'@type':'WebSite',name:'बात बाकी',url:siteUrl},breadcrumb:{'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'होम',item:siteUrl+'/'},{'@type':'ListItem',position:2,name:p.title,item:siteUrl+'/'+page}]}};
