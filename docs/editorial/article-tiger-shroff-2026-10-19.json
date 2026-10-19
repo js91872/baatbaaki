@@ -1,0 +1,70 @@
+{
+  "slug": "tiger-shroff-juhu-firing-hand-bandage-police-update-2026",
+  "baseCommit": "526157fa02e3c0f21dec06c11adc9d1c165bb075",
+  "preparedAt": "2026-10-19T02:41:56.197563+00:00",
+  "scope": "One original Hindi developing-news explainer; no application code or existing article edits.",
+  "wordCount": 1037,
+  "shorterThanEvergreenTarget": "Developing incident with limited confirmed facts; not padded to 1500 words.",
+  "editorialDecisions": [
+    "Headline question answered immediately; no claim of gunshot injury to actor.",
+    "Hand injury attributed to Shinde through a freshly opened ANI syndicated report; not a medical diagnosis.",
+    "No right/left hand specified because published reports differ.",
+    "No unverified criminal identities, motive or arrest count asserted.",
+    "One directly relevant existing film guide linked; unrelated links were not added to meet a quota.",
+    "Article and image explicitly distinguish a licensed 2019 archive frame from October 2026 incident imagery."
+  ],
+  "image": {
+    "path": "public/images/tiger-shroff-2019-licensed-archive.webp",
+    "creator": "CNX : India",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:GQ_x_Onitsuka_-_Tiger_Shroff_(Insta_cut).webm",
+    "originalPublicationUrl": "https://www.youtube.com/watch?v=EHPngOQawXc",
+    "originalFileUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/GQ_x_Onitsuka_-_Tiger_Shroff_%28Insta_cut%29.webm",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "sourceDate": "2019-03-18",
+    "sourceDimensions": [
+      1920,
+      1080
+    ],
+    "frameSeconds": 33,
+    "cropBox": [
+      320,
+      108,
+      1856,
+      972
+    ],
+    "outputDimensions": [
+      1536,
+      864
+    ],
+    "transformations": "Single existing video frame extracted, rectangular crop and WebP conversion only; no compositing or invented incident imagery.",
+    "sourceVideoSha1": "3d92f511dc8d55052b68e633870ded2174ac2328",
+    "licenseVerification": "Commons file page records CNX : India attribution, CC BY 3.0 and reviewed YouTube permission. Credit, original source, license and changes are in visible article sources; provenance is internal imageCaption."
+  },
+  "research": {
+    "police": "Freshly opened public-statement transcript on Economic Times; no claim to have independently watched the video.",
+    "injury": "Freshly opened ANI syndicated story on Asianet, 19 October 2026 04:00 IST.",
+    "investigation": "Freshly opened Indian Express reporting; criminal affiliations and motive remain unconfirmed.",
+    "x": "Original ANI X link returned HTTP 403; not used as an independently accessed source.",
+    "sourceRestriction": "India Today and Hindustan Times search results were discovery only; their 25-word source limits were not used to build the story."
+  },
+  "reviewAfter": "2026-10-19: revisit upon material police, hospital or authorised representative update.",
+  "deployment": "Not deployed. VPS must pull/rebuild. Existing rollback backup must be retained.",
+  "validation": {
+    "contentValidator": "passed",
+    "tests": "5 passed",
+    "productionBuild": "passed",
+    "productionPage": "HTTP 200",
+    "metadata": true,
+    "canonical": true,
+    "newsArticleSchema": true,
+    "largeImagePreview": true,
+    "rawImage": "HTTP 200 and decoded 1536x864 WebP",
+    "optimizedImages": "HTTP 200 and decoded at requested widths 1080 and 1920",
+    "visibleAttributionAndLicense": true,
+    "relatedArticleTarget": "HTTP 200",
+    "hashtags": true,
+    "sitemapAndRSS": true,
+    "publicFeatureCaption": false
+  }
+}
