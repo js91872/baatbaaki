@@ -1,0 +1,242 @@
+{
+  "batchDate": "2026-10-19",
+  "preparedAt": "2026-10-19T00:57:39.856840+00:00",
+  "baseCommit": "1dba95377ad0736e9eeab752ecff0348fdafe3ec",
+  "slugs": [
+    "upi-circle-family-payments-monthly-limit-setup-guide",
+    "apaar-id-school-parent-consent-opt-out-digilocker-guide",
+    "orionid-meteor-shower-october-2026-india-viewing-guide"
+  ],
+  "editorialGuide": "HINDI_EDITORIAL_STYLE_GUIDE.md from current main",
+  "topics": "Two evergreen practical explainers and one verified upcoming astronomy event",
+  "discovery": {
+    "googleTrends": "India Trending Now page freshly opened; Orionid meteor shower appeared among visible public trends. No traffic estimates or ranking guarantees used.",
+    "youtube": "Official Google Pay help linked a public setup video; video fetch failed, so no video content or popularity claim was used.",
+    "x": "No X feed or popularity metrics accessed.",
+    "skipped": "Unverified celebrity trend claims were not pursued; no breaking-event or first-hand reporting claim made."
+  },
+  "validation": {
+    "contentCheck": "passed",
+    "tests": "5 passed",
+    "productionBuild": "passed",
+    "production": {
+      "articles": [
+        {
+          "slug": "upi-circle-family-payments-monthly-limit-setup-guide",
+          "words": 1681,
+          "internalLinks": 3,
+          "image": "/images/upi-circle-family-payments.webp",
+          "dimensions": [
+            1536,
+            864
+          ]
+        },
+        {
+          "slug": "apaar-id-school-parent-consent-opt-out-digilocker-guide",
+          "words": 1828,
+          "internalLinks": 3,
+          "image": "/images/apaar-school-classroom-delhi.webp",
+          "dimensions": [
+            1536,
+            864
+          ]
+        },
+        {
+          "slug": "orionid-meteor-shower-october-2026-india-viewing-guide",
+          "words": 1561,
+          "internalLinks": 2,
+          "image": "/images/orionids-2020-archive-composite.webp",
+          "dimensions": [
+            1536,
+            864
+          ]
+        }
+      ],
+      "linkedTargetsVerified": 8,
+      "rawImages": 3,
+      "optimizedImages": 6,
+      "sitemap": true,
+      "rss": true,
+      "canonical": true,
+      "schema": true,
+      "largePreviews": true,
+      "publicFeatureCaptions": false
+    },
+    "sourceLinks": {
+      "directHTTP200": 17,
+      "total": 20,
+      "restrictedPDFs": "Three APAAR PDF URLs returned HTTP 403 to direct requests. Their full text was freshly opened through web retrieval, and links were confirmed on the official Resources page; do not claim all direct URL checks passed.",
+      "details": [
+        {
+          "url": "https://apaar.education.gov.in/faqs",
+          "status": 200,
+          "type": "text/html; charset=UTF-8",
+          "redirect": "https://apaar.education.gov.in/faqs"
+        },
+        {
+          "url": "https://apaar.education.gov.in/privacy-policy",
+          "status": 200,
+          "type": "text/html; charset=UTF-8",
+          "redirect": "https://apaar.education.gov.in/privacy-policy"
+        },
+        {
+          "url": "https://apaar.education.gov.in/resource",
+          "status": 200,
+          "type": "text/html; charset=UTF-8",
+          "redirect": "https://apaar.education.gov.in/resource"
+        },
+        {
+          "url": "https://blog.google/intl/en-in/convenience-and-commerce-with-google-pay-at-global-fintech-festival-2024/",
+          "status": 200,
+          "type": "text/html; charset=utf-8",
+          "redirect": "https://blog.google/intl/en-in/convenience-and-commerce-with-google-pay-at-global-fintech-festival-2024/"
+        },
+        {
+          "url": "https://cdn-apaar.dl6.in/apaar/consent_form/English_APAAR_Consent_Form_V1.pdf",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://cdn-apaar.dl6.in/apaar/info/APAAR_General_advisory.pdf",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://cdn-apaar.dl6.in/resources/resoucre_files/04-APAAR-Misconception-Eng.pdf",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Classroom_in_Mother's_International_School,_Delhi.JPG",
+          "status": 200,
+          "type": "text/html; charset=UTF-8",
+          "redirect": "https://commons.wikimedia.org/wiki/File:Classroom_in_Mother's_International_School,_Delhi.JPG"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Orionid_Meteor_Shower_Composite_(50521737888).jpg",
+          "status": 200,
+          "type": "text/html; charset=UTF-8",
+          "redirect": "https://commons.wikimedia.org/wiki/File:Orionid_Meteor_Shower_Composite_(50521737888).jpg"
+        },
+        {
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "status": 200,
+          "type": "text/html",
+          "redirect": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        {
+          "url": "https://creativecommons.org/licenses/by/2.0/",
+          "status": 200,
+          "type": "text/html",
+          "redirect": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "url": "https://pay.google.com/intl/en_in/about/terms/",
+          "status": 200,
+          "type": "text/html",
+          "redirect": "https://pay.google.com/intl/en_in/about/terms/"
+        },
+        {
+          "url": "https://science.nasa.gov/solar-system/meteors-meteorites/orionids/",
+          "status": 200,
+          "type": "text/html; charset=UTF-8",
+          "redirect": "https://science.nasa.gov/solar-system/meteors-meteorites/orionids/"
+        },
+        {
+          "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/",
+          "status": 200,
+          "type": "text/html; charset=UTF-8",
+          "redirect": "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/"
+        },
+        {
+          "url": "https://support.google.com/pay/india/answer/15128460?hl=en",
+          "status": 200,
+          "type": "text/html; charset=UTF-8",
+          "redirect": "https://support.google.com/pay/india/answer/15128460?hl=en"
+        },
+        {
+          "url": "https://www.amsmeteors.org/faq/",
+          "status": 200,
+          "type": "text/html",
+          "redirect": "https://www.amsmeteors.org/faq/"
+        },
+        {
+          "url": "https://www.flickr.com/photos/jimvajda/50521737888/",
+          "status": 200,
+          "type": "text/html; charset=utf-8",
+          "redirect": "https://www.flickr.com/photos/jimvajda/50521737888/"
+        },
+        {
+          "url": "https://www.nasa.gov/blogs/watch-the-skies/2026/10/05/disappearing-planets-dragon-fireballs-hunters-moon-fill-octobers-spooky-skies/",
+          "status": 200,
+          "type": "text/html; charset=UTF-8",
+          "redirect": "https://www.nasa.gov/blogs/watch-the-skies/2026/10/05/disappearing-planets-dragon-fireballs-hunters-moon-fill-octobers-spooky-skies/"
+        },
+        {
+          "url": "https://www.npci.org.in/uploads/NBSL_Press_release_BHIM_Goes_Live_with_UPI_Circle_Full_Delegation_Enabling_Authorised_UPI_Payments_within_set_limits_7b308e643d.pdf",
+          "status": 200,
+          "type": "application/pdf",
+          "redirect": "https://www.npci.org.in/uploads/NBSL_Press_release_BHIM_Goes_Live_with_UPI_Circle_Full_Delegation_Enabling_Authorised_UPI_Payments_within_set_limits_7b308e643d.pdf"
+        },
+        {
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2281148&lang=1&reg=3",
+          "status": 200,
+          "type": "text/html; charset=utf-8",
+          "redirect": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2281148&lang=1&reg=3"
+        }
+      ]
+    }
+  },
+  "images": [
+    {
+      "image": "/images/apaar-school-classroom-delhi.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Classroom_in_Mother's_International_School,_Delhi.JPG",
+      "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Classroom_in_Mother%27s_International_School%2C_Delhi.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "creator": "Prateek Karandikar",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "date": "2010-12-14",
+      "place": "Delhi, India",
+      "originalDimensions": [
+        3648,
+        2736
+      ],
+      "width": 1536,
+      "height": 864,
+      "changes": "Archive classroom at Mother's International School, not an APAAR enrolment event. Cropped to 16:9, resized and converted to WebP; same CC BY-SA 4.0 license applies."
+    },
+    {
+      "image": "/images/orionids-2020-archive-composite.webp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Orionid_Meteor_Shower_Composite_(50521737888).jpg",
+      "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Orionid_Meteor_Shower_Composite_%2850521737888%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "creator": "Jim Vajda",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "date": "2020-10-23",
+      "place": "Ohio, United States",
+      "originalDimensions": [
+        6048,
+        4024
+      ],
+      "width": 1536,
+      "height": 864,
+      "changes": "Original photographer composite of 19 selected timelapse frames, not a single exposure or 2026 India photograph. Cropped to 16:9, resized and converted to WebP."
+    },
+    {
+      "image": "/images/upi-circle-family-payments.webp",
+      "creator": "BaatBaaki editorial",
+      "source": "Original editorial illustration prepared for this article",
+      "originalDimensions": [
+        1672,
+        941
+      ],
+      "width": 1536,
+      "height": 864,
+      "changes": "Resized to 1536x864 and converted to WebP",
+      "provenance": "Original generated editorial illustration; not documentary evidence of actual people, a live transaction or an app screen.",
+      "generationTool": "Built-in image generation",
+      "generationPrompt": "Premium hand-painted editorial illustration for a Hindi UPI Circle explainer: an Indian parent reviewing a smartphone at a kitchen table and a young adult buying groceries, connected by a subtle curved motif. Warm Indian home/shop setting, teal, saffron and cream; clearly illustrated rather than documentary. Abstract phone panels only; no text, app UI, brand logos, QR codes, watermarks or lettering. Wide landscape composition, 1536x864."
+    }
+  ],
+  "reviewAfter": {
+    "orionids": "2026-10-22: review event language after peak night; retain stable URL and distinguish archive image from the event."
+  },
+  "deployment": "Not deployed. Fetch and run scripts/deploy-vps.sh on VPS after archiving standalone.previous rollback data; never delete it automatically."
+}
