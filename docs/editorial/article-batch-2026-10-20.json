@@ -1,0 +1,76 @@
+{
+  "baseCommit": "cc15e1f5c4d38ed12a3738ac3f9f75cd0a713f4d",
+  "preparedAt": "2026-10-20T00:25:46.898063+00:00",
+  "newArticles": [
+    {
+      "slug": "rajmargyatra-app-toll-plaza-feedback-fastag-complaint-guide",
+      "words": 1523,
+      "pageHTTP": 200,
+      "canonical": true,
+      "newsArticleSchema": true,
+      "metadata": true,
+      "largePreview": true,
+      "sourceAndCreditLinks": true,
+      "relatedArticleTargets": true,
+      "hashtags": true,
+      "rawWebP": "HTTP 200; decoded 1536x864",
+      "optimizedImages": "HTTP 200; decoded w=1080 and w=1920",
+      "sitemap": true,
+      "rss": true,
+      "featureCaption": false
+    },
+    {
+      "slug": "divyangjan-pension-40-percent-nsap-new-rules-2026-guide",
+      "words": 1626,
+      "pageHTTP": 200,
+      "canonical": true,
+      "newsArticleSchema": true,
+      "metadata": true,
+      "largePreview": true,
+      "sourceAndCreditLinks": true,
+      "relatedArticleTargets": true,
+      "hashtags": true,
+      "rawWebP": "HTTP 200; decoded 1536x864",
+      "optimizedImages": "HTTP 200; decoded w=1080 and w=1920",
+      "sitemap": true,
+      "rss": true,
+      "featureCaption": false
+    },
+    {
+      "slug": "hospital-rate-list-treatment-estimate-itemised-bill-guide",
+      "words": 1654,
+      "pageHTTP": 200,
+      "canonical": true,
+      "newsArticleSchema": true,
+      "metadata": true,
+      "largePreview": true,
+      "sourceAndCreditLinks": true,
+      "relatedArticleTargets": true,
+      "hashtags": true,
+      "rawWebP": "HTTP 200; decoded 1536x864",
+      "optimizedImages": "HTTP 200; decoded w=1080 and w=1920",
+      "sitemap": true,
+      "rss": true,
+      "featureCaption": false
+    }
+  ],
+  "validation": {
+    "contentValidator": "passed",
+    "unitTests": "5 passed",
+    "productionBuild": "passed"
+  },
+  "discovery": {
+    "primaryNews": "Fresh PIB announcements 19, 14 and 12 October 2026",
+    "googleTrends": "No usable current trend data returned; no popularity claim",
+    "youtube": "Public search returned an older February 2026 video with a June expiry; not used as a current factual source",
+    "x": "No useful accessible result; not used"
+  },
+  "images": "Three newly added licensed real archive photos; no generated assets or reused feature assets",
+  "limitations": [
+    "Last reported VPS state diverges from GitHub; deployment must stop until local commits are reviewed."
+  ],
+  "deployment": "Not performed; VPS pull/rebuild remains required",
+  "ci": "Pending commit; check matching GitHub Actions run after push",
+  "sourceVerification": "All 16 distinct cited URLs returned HTTP 200 in direct source checks. Fresh IRDAI HTML confirms cashless approval and policy qualifications; web-search fetch alone returned 403.",
+  "publicationDates": "Actual UTC preparation timestamps; no future or fabricated publication dates."
+}
