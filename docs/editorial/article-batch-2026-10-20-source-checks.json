@@ -1,0 +1,117 @@
+{
+  "checkedAt": "2026-10-20T00:25:22.439105+00:00",
+  "sources": [
+    {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2325131",
+      "status": 200,
+      "finalURL": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2325131&reg=48&lang=2",
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 83917
+    },
+    {
+      "url": "https://rajmargyatra.nhai.gov.in/",
+      "status": 200,
+      "finalURL": "https://rajmargyatra.nhai.gov.in/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 553
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:National_Highway_6_Toll_Plaza.jpg",
+      "status": 200,
+      "finalURL": "https://commons.wikimedia.org/wiki/File:National_Highway_6_Toll_Plaza.jpg",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 105099
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "status": 200,
+      "finalURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "contentType": "text/html",
+      "bytesRead": 35530
+    },
+    {
+      "url": "https://www.pib.gov.in/PressReleasepage.aspx?PRID=2323264&lang=1&reg=48",
+      "status": 200,
+      "finalURL": "https://www.pib.gov.in/PressReleasepage.aspx?PRID=2323264&lang=1&reg=48",
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 125812
+    },
+    {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294315&lang=1&reg=1",
+      "status": 200,
+      "finalURL": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294315&lang=1&reg=1",
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 535430
+    },
+    {
+      "url": "https://www.myscheme.gov.in/hi/schemes/igndpschh",
+      "status": 200,
+      "finalURL": "https://www.myscheme.gov.in/hi/schemes/igndpschh",
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 42141
+    },
+    {
+      "url": "https://swavlambancard.gov.in/",
+      "status": 200,
+      "finalURL": "https://swavlambancard.gov.in/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 52827
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Wheelchair_Ramp_-_Gopalpur_High_School_Courtyard_-_Mahisadal_-_East_Midnapore_2015-09-18_3848.JPG",
+      "status": 200,
+      "finalURL": "https://commons.wikimedia.org/wiki/File:Wheelchair_Ramp_-_Gopalpur_High_School_Courtyard_-_Mahisadal_-_East_Midnapore_2015-09-18_3848.JPG",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 127842
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by/3.0/",
+      "status": 200,
+      "finalURL": "https://creativecommons.org/licenses/by/3.0/",
+      "contentType": "text/html",
+      "bytesRead": 31824
+    },
+    {
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2322150&lang=2&reg=48",
+      "status": 200,
+      "finalURL": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2322150&lang=2&reg=48",
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 102708
+    },
+    {
+      "url": "https://www.clinicalestablishments.mohfw.gov.in/",
+      "status": 200,
+      "finalURL": "https://www.clinicalestablishments.mohfw.gov.in/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 177737
+    },
+    {
+      "url": "https://clinicalestablishments.mohfw.gov.in/sites/default/files/2022-06/302.pdf",
+      "status": 200,
+      "finalURL": "https://clinicalestablishments.mohfw.gov.in/sites/default/files/2022-06/302.pdf",
+      "contentType": "application/pdf",
+      "bytesRead": 69541
+    },
+    {
+      "url": "https://clinicalestablishments.mohfw.gov.in/sites/default/files/2023-07/8431.pdf",
+      "status": 200,
+      "finalURL": "https://clinicalestablishments.mohfw.gov.in/sites/default/files/2023-07/8431.pdf",
+      "contentType": "application/pdf",
+      "bytesRead": 706062
+    },
+    {
+      "url": "https://irdai.gov.in/health-dept",
+      "status": 200,
+      "finalURL": "https://irdai.gov.in/health-dept",
+      "contentType": "text/html;charset=UTF-8",
+      "bytesRead": 465140
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Reception_at_D_Y_Patil_Hospital.jpg",
+      "status": 200,
+      "finalURL": "https://commons.wikimedia.org/wiki/File:Reception_at_D_Y_Patil_Hospital.jpg",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 98917
+    }
+  ]
+}
