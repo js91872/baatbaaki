@@ -1,0 +1,216 @@
+{
+  "reviewedAt": "2026-10-21T00:19:17.299203+00:00",
+  "baseCommit": "80bdeaf96bd92eaebe557a0f11de6214a7a8b70f",
+  "editorialGuide": "HINDI_EDITORIAL_STYLE_GUIDE.md",
+  "discovery": {
+    "officialReleases": "Freshly opened PIB releases of 19 and 20 October 2026; corroborated FTA commencement with New Zealand Customs.",
+    "googleTrends": "India Trending Now page accessed; selected useful nonduplicate explainers, not a claim of traffic or keyword difficulty.",
+    "youtubeAndX": "No independent platform analytics accessed; no popularity claims used.",
+    "duplicateReview": "166 main article files plus live sitemap reviewed; no matching new topics. Live and main remain divergent; no VPS changes made."
+  },
+  "articles": [
+    {
+      "slug": "india-new-zealand-fta-zero-duty-small-exporter-checklist-2026",
+      "words": 1518,
+      "raw": [
+        1536,
+        864
+      ],
+      "optimized": [
+        {
+          "requestedWidth": 1080,
+          "decodedSize": [
+            1080,
+            608
+          ]
+        },
+        {
+          "requestedWidth": 1920,
+          "decodedSize": [
+            1536,
+            864
+          ]
+        }
+      ],
+      "relatedLinks": 2,
+      "checks": "passed"
+    },
+    {
+      "slug": "green-diwali-campaign-2026-pledge-family-school-guide",
+      "words": 1404,
+      "raw": [
+        1536,
+        864
+      ],
+      "optimized": [
+        {
+          "requestedWidth": 1080,
+          "decodedSize": [
+            1080,
+            608
+          ]
+        },
+        {
+          "requestedWidth": 1920,
+          "decodedSize": [
+            1536,
+            864
+          ]
+        }
+      ],
+      "relatedLinks": 2,
+      "checks": "passed"
+    },
+    {
+      "slug": "bharat-tulip-shilp-samagam-artisan-market-access-guide",
+      "words": 1529,
+      "raw": [
+        1536,
+        864
+      ],
+      "optimized": [
+        {
+          "requestedWidth": 1080,
+          "decodedSize": [
+            1080,
+            608
+          ]
+        },
+        {
+          "requestedWidth": 1920,
+          "decodedSize": [
+            1536,
+            864
+          ]
+        }
+      ],
+      "relatedLinks": 3,
+      "checks": "passed"
+    }
+  ],
+  "imageProvenance": [
+    {
+      "slug": "india-new-zealand-fta-zero-duty-small-exporter-checklist-2026",
+      "file": "/images/india-new-zealand-fta-chennai-port-2011.webp",
+      "width": 1536,
+      "height": 864,
+      "record": "VtTN; 2011-03-16; CC BY 3.0; https://commons.wikimedia.org/wiki/File:Chennai_Port_Container_terminal.JPG; cropped and resized to 1536x864 WebP; archival Chennai port view, not a 2026 consignment.",
+      "credit": "Visible credit in body and sources; original and license URLs included; archive date/context explicit; no feature caption."
+    },
+    {
+      "slug": "green-diwali-campaign-2026-pledge-family-school-guide",
+      "file": "/images/green-diwali-diyas-2020-archive.webp",
+      "width": 1536,
+      "height": 864,
+      "record": "Praful Kharade; 2020-11-15; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Diwali_Diyas.jpg; cropped/resized to 1536x864 WebP; archival decoration, not a campaign event.",
+      "credit": "Visible credit in body and sources; original and license URLs included; archive date/context explicit; no feature caption."
+    },
+    {
+      "slug": "bharat-tulip-shilp-samagam-artisan-market-access-guide",
+      "file": "/images/bharat-tulip-dilli-haat-crafts-2012.webp",
+      "width": 1536,
+      "height": 864,
+      "record": "Pallav.journo; 2012-04-05; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Dilli_Haat_Handicrafts.jpg; cropped/resized to 1536x864 WebP; archival handicrafts, not Mysuru 2026 or a verified BHARAT TULIP listing.",
+      "credit": "Visible credit in body and sources; original and license URLs included; archive date/context explicit; no feature caption."
+    }
+  ],
+  "validation": {
+    "contentCheck": "passed, all 169 articles",
+    "tests": "5 passed",
+    "productionBuild": "passed",
+    "sourceAndExistingLinkChecks": [
+      {
+        "url": "https://baatbaaki.com/news/government-scheme-viral-message-fact-check-how-to-verify",
+        "status": 200,
+        "bytes": 111085
+      },
+      {
+        "url": "https://baatbaaki.com/news/online-shopping-refund-complaint-national-consumer-helpline-1915-guide",
+        "status": 200,
+        "bytes": 127097
+      },
+      {
+        "url": "https://baatbaaki.com/news/pm-vishwakarma-toolkit-training-loan-eligibility-guide",
+        "status": 200,
+        "bytes": 122851
+      },
+      {
+        "url": "https://baatbaaki.com/news/rodtep-scheme-extension-december-2026-exporters-guide",
+        "status": 200,
+        "bytes": 131972
+      },
+      {
+        "url": "https://baatbaaki.com/news/whatsapp-business-home-orders-profit-guide",
+        "status": 200,
+        "bytes": 95139
+      },
+      {
+        "url": "https://baatbaaki.com/news/women-home-business-work-income-planning-guide",
+        "status": 200,
+        "bytes": 121120
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Chennai_Port_Container_terminal.JPG",
+        "status": 200,
+        "bytes": 115712
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Dilli_Haat_Handicrafts.jpg",
+        "status": 200,
+        "bytes": 113160
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Diwali_Diyas.jpg",
+        "status": 200,
+        "bytes": 105764
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "status": 200,
+        "bytes": 35530
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "status": 200,
+        "bytes": 31824
+      },
+      {
+        "url": "https://nsfdc.nic.in/",
+        "status": 200,
+        "bytes": 217107
+      },
+      {
+        "url": "https://www.customs.govt.nz/information-releases-and-legislation/legislation/international-agreements/free-trade-agreements/new-zealand-india-free-trade-agreement",
+        "status": 200,
+        "bytes": 600973
+      },
+      {
+        "url": "https://www.nbcfdc.gov.in/nbcfdc/web/",
+        "status": 200,
+        "bytes": 91511
+      },
+      {
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2325463&lang=1&reg=48",
+        "status": 200,
+        "bytes": 136164
+      },
+      {
+        "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2325235&lang=1&reg=3",
+        "status": 200,
+        "bytes": 272333
+      },
+      {
+        "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2325381&lang=2&reg=48",
+        "status": 200,
+        "bytes": 191164
+      }
+    ],
+    "metadata": "H1, canonical, robots large previews, OpenGraph dimensions and NewsArticle dates/dimensions passed",
+    "images": "Raw files decode at 1536x864; optimized requests at 1080 and 1920 return HTTP 200 and decode; 1920 requests retain source width 1536.",
+    "publicNewPages": "Not checked as live publication: VPS has not been deployed.",
+    "ci": "Check matching GitHub Actions after commit; local checks are not a substitute for CI."
+  },
+  "scope": "Only three new article files, three new licensed archive photos and this editorial record. No existing URLs, site code, policies, or deployment changed.",
+  "lengthDecision": "1518 and 1529 words for business explainers; 1404 words for finite campaign announcement and practical guidance, without padding to a target.",
+  "deployment": "Use scripts/deploy-vps.sh after clean-worktree and fast-forward checks; archive standalone.previous under /var/backups/baatbaaki rather than delete rollback data. If VPS commits diverge, stop and review rather than reset/force."
+}
