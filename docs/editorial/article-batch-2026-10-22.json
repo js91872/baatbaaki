@@ -1,0 +1,234 @@
+{
+  "reviewedAt": "2026-10-22T01:04:09.518801+00:00",
+  "baseCommit": "047995dcf91518ce299364f66fc3ba6676eb4b3f",
+  "styleGuide": "HINDI_EDITORIAL_STYLE_GUIDE.md fetched from current main",
+  "discovery": {
+    "officialNews": "Freshly opened PIB releases 2325193 (NIOS), 2326059 (MNRE conference), 2326148 (CAQM); NIOS live hall-ticket and notifications pages; US DOE technical background.",
+    "googleTrends": "India Trending Now accessed. Selected distinct useful explainers after reviewing 179 repository articles and live sitemap with 199 entries. No traffic/KD claim for selected topics.",
+    "youtubeX": "No independent public YouTube/X material used; no unsupported trend or popularity claims."
+  },
+  "articles": [
+    {
+      "slug": "nios-hall-ticket-october-november-2026-exam-day-checklist",
+      "words": 1305,
+      "rawImage": [
+        1536,
+        864
+      ],
+      "optimized": [
+        {
+          "requestedWidth": 1080,
+          "decodedSize": [
+            1080,
+            608
+          ]
+        },
+        {
+          "requestedWidth": 1920,
+          "decodedSize": [
+            1536,
+            864
+          ]
+        }
+      ],
+      "relatedLinks": 2,
+      "checks": "passed"
+    },
+    {
+      "slug": "agrivoltaics-farming-solar-panels-cost-crop-questions-guide",
+      "words": 1526,
+      "rawImage": [
+        1536,
+        864
+      ],
+      "optimized": [
+        {
+          "requestedWidth": 1080,
+          "decodedSize": [
+            1080,
+            608
+          ]
+        },
+        {
+          "requestedWidth": 1920,
+          "decodedSize": [
+            1536,
+            864
+          ]
+        }
+      ],
+      "relatedLinks": 2,
+      "checks": "passed"
+    },
+    {
+      "slug": "delhi-caqm-construction-road-dust-review-resident-guide",
+      "words": 1124,
+      "rawImage": [
+        1536,
+        864
+      ],
+      "optimized": [
+        {
+          "requestedWidth": 1080,
+          "decodedSize": [
+            1080,
+            608
+          ]
+        },
+        {
+          "requestedWidth": 1920,
+          "decodedSize": [
+            1536,
+            864
+          ]
+        }
+      ],
+      "relatedLinks": 2,
+      "checks": "passed"
+    }
+  ],
+  "imageProvenance": [
+    {
+      "slug": "nios-hall-ticket-october-november-2026-exam-day-checklist",
+      "file": "/images/apaar-school-classroom-delhi.webp",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "record": "Prateek Karandikar; 2010-12-14; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Classroom_in_Mother%27s_International_School,_Delhi.JPG; existing 1536x864 cropped/resized WebP reused; generic classroom, not an NIOS examination centre or 2026 examination photograph.",
+      "visibleCredit": "Body and source links; no feature caption; archive dates and actual location identified."
+    },
+    {
+      "slug": "agrivoltaics-farming-solar-panels-cost-crop-questions-guide",
+      "file": "/images/agrivoltaics-uc-davis-2021-archive.webp",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "record": "Nikita Mistry / UC Davis; UC Davis College of Engineering; 2021-08-20; CC BY 2.0; https://commons.wikimedia.org/wiki/File:Agrivoltaics_-_51414359260.jpg; original https://www.flickr.com/photos/52030408@N05/51414359260/; cropped/resized 6000x4000 to 1536x864 WebP; California research archive, not India 2026 conference.",
+      "visibleCredit": "Body and source links; no feature caption; archive dates and actual location identified."
+    },
+    {
+      "slug": "delhi-caqm-construction-road-dust-review-resident-guide",
+      "file": "/images/delhi-air-pollution-2017-archive.webp",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "record": "Rrthakur22; 2017-11-02; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Pollution_in_Delhi.jpg; cropped/resized 2592x1944 to 1536x864 WebP; generic Delhi archive, not evidence of October 2026 dust violations, current AQI or an identified construction project.",
+      "visibleCredit": "Body and source links; no feature caption; archive dates and actual location identified."
+    }
+  ],
+  "validation": {
+    "content": "passed, all 182 article files",
+    "tests": "5 passed, 0 failed",
+    "build": "production build passed; 203 generated pages",
+    "production": "All three articles HTTP 200 locally; H1, self-canonical, indexable robots with max-image-preview:large, OpenGraph dimensions, NewsArticle timestamps/image dimensions, no figcaption, final hashtags, related targets, sitemap/RSS checked. Raw 1536x864 WebPs and optimized 1080/1920 requests decode. 1920 requests retain original width 1536 rather than upscale.",
+    "sourceLinks": [
+      {
+        "url": "https://baatbaaki.com/news/apaar-id-school-parent-consent-opt-out-digilocker-guide",
+        "status": "200",
+        "exitCode": 0
+      },
+      {
+        "url": "https://baatbaaki.com/news/government-scheme-viral-message-fact-check-how-to-verify",
+        "status": "200",
+        "exitCode": 0
+      },
+      {
+        "url": "https://baatbaaki.com/news/green-diwali-campaign-2026-pledge-family-school-guide",
+        "status": "200",
+        "exitCode": 0
+      },
+      {
+        "url": "https://baatbaaki.com/news/pm-surya-ghar-rooftop-solar-subsidy-cost-guide",
+        "status": "200",
+        "exitCode": 0
+      },
+      {
+        "url": "https://baatbaaki.com/news/scholarship-application-defective-rejected-verification-guide",
+        "status": "200",
+        "exitCode": 0
+      },
+      {
+        "url": "https://caqm.nic.in/",
+        "status": "200",
+        "exitCode": 0
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Agrivoltaics_-_51414359260.jpg",
+        "status": "200",
+        "exitCode": 0
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Classroom_in_Mother%27s_International_School,_Delhi.JPG",
+        "status": "200",
+        "exitCode": 0
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Pollution_in_Delhi.jpg",
+        "status": "200",
+        "exitCode": 0
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "status": "200",
+        "exitCode": 0
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "status": "200",
+        "exitCode": 0
+      },
+      {
+        "url": "https://sdmis.nios.ac.in/registration/home-notifications",
+        "status": "200",
+        "exitCode": 0
+      },
+      {
+        "url": "https://sdmis.nios.ac.in/search/hall-ticket",
+        "status": "200",
+        "exitCode": 0
+      },
+      {
+        "url": "https://www.energy.gov/cmei/systems/agrivoltaics-solar-and-agriculture-co-location",
+        "status": "200",
+        "exitCode": 0
+      },
+      {
+        "url": "https://www.flickr.com/photos/52030408@N05/51414359260/",
+        "status": "403",
+        "exitCode": 0
+      },
+      {
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2326148&lang=1&reg=48",
+        "status": "200",
+        "exitCode": 0
+      },
+      {
+        "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2325193&lang=1&reg=1",
+        "status": "200",
+        "exitCode": 0
+      },
+      {
+        "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2326059&lang=1&reg=3",
+        "status": "200",
+        "exitCode": 0
+      }
+    ],
+    "limits": [
+      "Original Flickr image page returns HTTP 403 to this environment; Wikimedia Commons description and reviewed CC BY 2.0 licence verified. Original URL retained for provenance.",
+      "NIOS notifications and hall-ticket pages accessible. Linked 8 October timetable PDF returns HTTP 403; no subject-wise dates or uniform reporting time reproduced. Regional 22 October commencement scoped to Maharashtra/Goa per primary release."
+    ],
+    "images": "Two new licensed real archive photos; existing licensed 2010 classroom WebP reused for NIOS with source rechecked. No generated images.",
+    "ci": "Matching GitHub Actions checked after commit; see final run report for actual result.",
+    "live": "No VPS deployment performed; new public URLs not claimed live."
+  },
+  "editorialDecisions": [
+    "Agrivoltaics article 1526 words; NIOS 1305 and CAQM 1124, kept shorter for finite announcements without padding.",
+    "No new subsidy application, guaranteed earnings, blanket construction ban, current AQI, subject timetable or onsite reporting invented.",
+    "2 relevant existing published internal links and 4–5 final hashtags per article."
+  ],
+  "scope": "Three new JSON articles, two new WebP photos, this editorial record. Preserve all existing content, URLs, layout, Analytics, policies and contact details.",
+  "deployment": "scripts/deploy-vps.sh freshly fetched. Archive existing .next/standalone.previous under /var/backups/baatbaaki without deleting it; require clean worktree and fast-forward ancestry, then deploy. No VPS access used."
+}
