@@ -24,4 +24,12 @@ export default function RootLayout({children}){return <html lang="hi"><body>
           `,
         }}
       />
-<a href="#main" className="skip-link">मुख्य सामग्री पर जाएं</a><Header/>{children}<Footer/><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({'@context':'https://schema.org','@type':'NewsMediaOrganization','@id':siteUrl+'/#organization',name:'बात बाकी',alternateName:'BaatBaaki',url:siteUrl,logo:{'@type':'ImageObject',url:siteUrl+'/favicon.svg'},description:'भारत और दुनिया की ताज़ा हिंदी खबरें और आसान जानकारी।',email:'info@baatbaaki.com'}).replace(/</g,'\\u003c')}}/></body></html>}
+<a href="#main" className="skip-link">मुख्य सामग्री पर जाएं</a><Header/>{children}<Footer/><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({'@context':'https://schema.org','@type':'NewsMediaOrganization','@id':siteUrl+'/#organization',name:'बात बाकी',alternateName:'BaatBaaki',url:siteUrl,logo:{'@type':'ImageObject',url:siteUrl+'/favicon.svg'},description:'भारत और दुनिया की ताज़ा हिंदी खबरें और आसान जानकारी।',email:'info@baatbaaki.com'}).replace(/</g,'\\u003c')}}/>
+<Script
+  id="webpushr-setup"
+  strategy="afterInteractive"
+  dangerouslySetInnerHTML={{
+    __html: `(function(w,d,s,id){if(typeof w.webpushr!=="undefined")return;w.webpushr=w.webpushr||function(){(w.webpushr.q=w.webpushr.q||[]).push(arguments)};var js,fjs=d.getElementsByTagName(s)[0];js=d.createElement(s);js.id=id;js.async=1;js.src="https://cdn.webpushr.com/app.min.js";fjs.parentNode.appendChild(js)})(window,document,"script","webpushr-jssdk");webpushr("setup",{key:"BGHHqXt4qiHsPEMEog1OvLRnQrRWZELfBPhRiiuokpyd5Ni_QhDwPFu7vsdp14DvFICCK2GP6Cb9d7p2nStuy6Y"})`,
+  }}
+/>
+</body></html>}
