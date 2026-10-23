@@ -1,0 +1,261 @@
+{
+  "date": "2026-10-23",
+  "reviewedAt": "2026-10-23T00:53:44.368834+00:00",
+  "baseCommit": "fde893ea8a72fc8b940bb86c70332c8ad6e414a5",
+  "existingArticlesInspected": 192,
+  "newArticles": [
+    {
+      "slug": "bank-re-kyc-campaign-october-december-2026-documents-bc-guide",
+      "title": "बैंक से re-KYC का मैसेज आया? नए अभियान में ये काम करें, 31 दिसंबर का मतलब भी समझें",
+      "bodyWhitespaceWordCount": 1420,
+      "image": "/images/rbi-mumbai-building-2024-archive.webp",
+      "imageCaptionProvenance": "DesiBoy101; 2024-09-22; CC BY 4.0; https://commons.wikimedia.org/wiki/File:Reserve_Bank_of_India,_Mumbai_HQ_in_September_2024.jpg; cropped/resized from 4000x3000 to 1536x864 WebP; archival RBI Mumbai building, not the Nagpur October 2026 campaign event.",
+      "internalLinks": 3
+    },
+    {
+      "slug": "force-motors-vehicle-scrappage-delhi-ncr-rvsf-documents-guide",
+      "title": "पुरानी Force गाड़ी स्क्रैप करानी है? नई पहल में रकम से पहले ये कागज जरूर समझें",
+      "bodyWhitespaceWordCount": 1353,
+      "image": "/images/force-traveller-2013-archive.webp",
+      "imageCaptionProvenance": "OnkelFordTaunus; 2013-03-11; CC BY-SA 3.0; https://commons.wikimedia.org/wiki/File:ForceTravellerfront.JPG; cropped/resized 2048x1536 to 1536x864 WebP; derivative also CC BY-SA 3.0; archival model photograph, not a scrapping facility, an identified end-of-life vehicle or a 2026 model.",
+      "internalLinks": 3
+    },
+    {
+      "slug": "anti-cancer-medicine-price-reduction-november-9-2026-bill-check-guide",
+      "title": "कैंसर की दवाओं पर 70% तक राहत की खबर: 9 नवंबर से अपना बिल ऐसे जांचें",
+      "bodyWhitespaceWordCount": 1273,
+      "image": "/images/medicines-jar-2018-archive.webp",
+      "imageCaptionProvenance": "BuhaM; 2018-01-18; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Pills_and_medicines_01.jpg; cropped/resized 3864x5152 to 1536x864 WebP; derivative also CC BY-SA 4.0; generic archival pharmaceutical photograph, not identification of notified anti-cancer medicines or treatment advice.",
+      "internalLinks": 2
+    }
+  ],
+  "editorialNotes": [
+    "Finite verified announcements with practical reader guidance; no padding to 1500 words.",
+    "Re-KYC campaign end is not a universal account-freeze deadline; RBI authorised-BC provision checked directly.",
+    "Force programme starts in Delhi-NCR; no invented scrap value, national availability or guaranteed discount.",
+    "Medicine article is a pricing-record explainer, not treatment advice; up to 70% is not universal, effective date is 2026-11-09. No product-level price table asserted.",
+    "All photos archival; dates, creator, original source, changes and licences publicly credited in body and sources. No captions below feature image.",
+    "All 8 internal targets exist, published, public HTTP 200.",
+    "Google Trends India was opened; usable topic metrics were unavailable. No X/YouTube analytics or keyword-volume claims made."
+  ],
+  "checks": {
+    "contentValidation": "passed, 195 articles",
+    "tests": "5 passed, 0 failed",
+    "productionBuild": "passed, 216 pages",
+    "productionVerification": [
+      {
+        "slug": "bank-re-kyc-campaign-october-december-2026-documents-bc-guide",
+        "page": 200,
+        "rawImage": 200,
+        "rawDimensions": [
+          1536,
+          864
+        ],
+        "optimizedImages": [
+          {
+            "requestedWidth": 1080,
+            "decodedSize": [
+              1080,
+              608
+            ],
+            "status": 200
+          },
+          {
+            "requestedWidth": 1920,
+            "decodedSize": [
+              1536,
+              864
+            ],
+            "status": 200
+          }
+        ],
+        "canonical": "https://baatbaaki.com/news/bank-re-kyc-campaign-october-december-2026-documents-bc-guide",
+        "schema": "NewsArticle",
+        "relatedLinks": 3,
+        "sitemap": true,
+        "rss": true,
+        "homepage": true,
+        "noFeatureCaption": true,
+        "largeImagePreview": true
+      },
+      {
+        "slug": "force-motors-vehicle-scrappage-delhi-ncr-rvsf-documents-guide",
+        "page": 200,
+        "rawImage": 200,
+        "rawDimensions": [
+          1536,
+          864
+        ],
+        "optimizedImages": [
+          {
+            "requestedWidth": 1080,
+            "decodedSize": [
+              1080,
+              608
+            ],
+            "status": 200
+          },
+          {
+            "requestedWidth": 1920,
+            "decodedSize": [
+              1536,
+              864
+            ],
+            "status": 200
+          }
+        ],
+        "canonical": "https://baatbaaki.com/news/force-motors-vehicle-scrappage-delhi-ncr-rvsf-documents-guide",
+        "schema": "NewsArticle",
+        "relatedLinks": 3,
+        "sitemap": true,
+        "rss": true,
+        "homepage": true,
+        "noFeatureCaption": true,
+        "largeImagePreview": true
+      },
+      {
+        "slug": "anti-cancer-medicine-price-reduction-november-9-2026-bill-check-guide",
+        "page": 200,
+        "rawImage": 200,
+        "rawDimensions": [
+          1536,
+          864
+        ],
+        "optimizedImages": [
+          {
+            "requestedWidth": 1080,
+            "decodedSize": [
+              1080,
+              608
+            ],
+            "status": 200
+          },
+          {
+            "requestedWidth": 1920,
+            "decodedSize": [
+              1536,
+              864
+            ],
+            "status": 200
+          }
+        ],
+        "canonical": "https://baatbaaki.com/news/anti-cancer-medicine-price-reduction-november-9-2026-bill-check-guide",
+        "schema": "NewsArticle",
+        "relatedLinks": 2,
+        "sitemap": true,
+        "rss": true,
+        "homepage": true,
+        "noFeatureCaption": true,
+        "largeImagePreview": true
+      }
+    ],
+    "sourceLinkChecks": [
+      {
+        "url": "https://baatbaaki.com/news/aadhaar-card-document-update-online-free-myaadhaar-portal-poi-poa-guide-2026",
+        "status": "200",
+        "exit": 0
+      },
+      {
+        "url": "https://baatbaaki.com/news/ayushman-card-status-eligibility-check-download-guide",
+        "status": "200",
+        "exit": 0
+      },
+      {
+        "url": "https://baatbaaki.com/news/car-insurance-renewal-idv-ncb-add-ons-guide",
+        "status": "200",
+        "exit": 0
+      },
+      {
+        "url": "https://baatbaaki.com/news/digilocker-driving-licence-rc-issued-documents-guide",
+        "status": "200",
+        "exit": 0
+      },
+      {
+        "url": "https://baatbaaki.com/news/hospital-rate-list-treatment-estimate-itemised-bill-guide",
+        "status": "200",
+        "exit": 0
+      },
+      {
+        "url": "https://baatbaaki.com/news/rbi-udgam-unclaimed-bank-deposit-old-fd-search-claim-guide",
+        "status": "200",
+        "exit": 0
+      },
+      {
+        "url": "https://baatbaaki.com/news/traffic-challan-online-payment-echallan-parivahan-lok-adalat-guide-2026",
+        "status": "200",
+        "exit": 0
+      },
+      {
+        "url": "https://baatbaaki.com/news/whatsapp-file-scam-cyber-fraud-1930-reporting-guide",
+        "status": "200",
+        "exit": 0
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:ForceTravellerfront.JPG",
+        "status": "200",
+        "exit": 0
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Pills_and_medicines_01.jpg",
+        "status": "200",
+        "exit": 0
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Reserve_Bank_of_India,_Mumbai_HQ_in_September_2024.jpg",
+        "status": "200",
+        "exit": 0
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "status": "200",
+        "exit": 0
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "status": "200",
+        "exit": 0
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "status": "200",
+        "exit": 0
+      },
+      {
+        "url": "https://nppa.gov.in/en",
+        "status": "503",
+        "exit": 0
+      },
+      {
+        "url": "https://vscrap.parivahan.gov.in/vehiclescrap/forms/GSR%20653%28E%29%2023.09.2021%20RVSF%20Rules%202021%20%282%29.pdf",
+        "status": "503",
+        "exit": 0
+      },
+      {
+        "url": "https://www.forcemotors.com/wp-content/uploads/2026/10/Force-Motors-Launches-Sustainable-End-of-life-vehicle-management.pdf",
+        "status": "200",
+        "exit": 0
+      },
+      {
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2326545&reg=48&lang=2",
+        "status": "200",
+        "exit": 0
+      },
+      {
+        "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2324743&lang=1&reg=3",
+        "status": "200",
+        "exit": 0
+      },
+      {
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=12866",
+        "status": "200",
+        "exit": 0
+      }
+    ]
+  },
+  "sourceLimitations": [
+    "NPPA site returned HTTP 503; central announcement verified via Department of Pharmaceuticals PIB release, with no claim that product-level price list was retrieved.",
+    "RVSF original rules PDF returned HTTP 503 in shell check but was freshly opened and read through research browser; cited only certificate definitions, with current-process confirmation advised."
+  ],
+  "ci": "Check matching GitHub Actions run after commit; result reported separately.",
+  "deployment": "Not deployed. Use current scripts/deploy-vps.sh after clean-worktree and fast-forward checks; archive standalone.previous to /var/backups/baatbaaki without deletion."
+}
