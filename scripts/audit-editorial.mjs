@@ -23,7 +23,7 @@ for (const file of fs.readdirSync(folder).filter((f) => f.endsWith('.json'))) {
   })) flags.push('Only source homepages: provide direct evidence links');
   if (/champions trophy 2026|चैंपियंस ट्रॉफी 2026/i.test(prose) &&
       !/2029|2026.{0,40}(?:नहीं|not scheduled|no tournament)/i.test(prose))
-    flags.push('Check nonexistent 2026 men's Champions Trophy claims');
+    flags.push("Check nonexistent 2026 men's Champions Trophy claims");
   if (/(?:2026|2025)/.test(prose) && Number.isFinite(updated) &&
       now - updated > maxAge &&
       /(?:ब्याज दर|interest rate|अंतिम तिथि|last date|deadline|शेड्यूल|schedule)/i.test(prose))
