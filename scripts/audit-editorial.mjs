@@ -1,25 +1,38 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-// Editorial review helper. This is intentionally non-blocking: a warning is a
-// request for human fact checking, not a verdict about an article.
-const dir = 'content/articles';
+// Non-blocking editorial review: flags prompt verification, never auto-unpublish.
+const folder = 'content/articles';
+const now = Date.now();
+const maxAge = 90 * 86400000;
 let warnings = 0;
-for (const name of fs.readdirSync(dir).filter((f) => f.endsWith('.json'))) {
-  const a = JSON.parse(fs.readFileSync(path.join(dir, name), 'utf8'));
-  if (a.status !== 'published') continue;
-  const text = [a.title, a.excerpt, a.takeaway, a.body].join(' ');
+let reviewed = 0;
+for (const file of fs.readdirSync(folder).filter((f) => f.endsWith('.json'))) {
+  const article = JSON.parse(fs.readFileSync(path.join(folder, file), 'utf8'));
+  if (article.status !== 'published') continue;
+  reviewed++;
+  const prose = [article.title, article.excerpt, article.takeaway, article.body].join(' ');
   const flags = [];
-  if (/champions trophy 2026|चैंपियंस ट्रॉफी 2026/i.test(text) &&
-      !/2026.{0,35}(?:नहीं|न होगी|नहीं होगी|not scheduled|no tournament)|2029/i.test(text)) {
-    flags.push('Verify Champions Trophy year against official ICC calendar');
-  }
-  if ((a.sources || []).every((s) => {
-    try { return new URL(s.url).pathname === '/'; } catch { return true; }
-  })) flags.push('Only generic homepages cited; add direct supporting source URLs');
+  const published = Date.parse(article.publishedAt);
+  const updated = Date.parse(article.updatedAt);
+  if (Number.isFinite(published) && published > now + 86400000) flags.push('Publication date is in the future');
+  if (article.expiresAt && Date.parse(article.expiresAt) < now) flags.push('Published article has expired');
+  if ((article.sources || []).length === 0) flags.push('No attributed sources');
+  if ((article.sources || []).every((source) => {
+    try { return new URL(source.url).pathname.replace(/\\/$/, '') === ''; } catch { return true; }
+  })) flags.push('Only source homepages: provide direct evidence links');
+  if (/champions trophy 2026|चैंपियंस ट्रॉफी 2026/i.test(prose) &&
+      !/2029|2026.{0,40}(?:नहीं|not scheduled|no tournament)/i.test(prose))
+    flags.push('Check nonexistent 2026 men's Champions Trophy claims');
+  if (/\\b(?:2026|2025)\\b/.test(prose) && Number.isFinite(updated) &&
+      now - updated > maxAge &&
+      /(?:ब्याज दर|interest rate|अंतिम तिथि|last date|deadline|शेड्यूल|schedule)/i.test(prose))
+    flags.push('Time-sensitive facts may need re-verification');
   if (flags.length) {
     warnings += flags.length;
-    console.log(name + ': ' + flags.join('; '));
+    console.log('REVIEW ' + file);
+    flags.forEach((flag) => console.log('  - ' + flag));
   }
 }
-console.log('Editorial warnings: ' + warnings);
+console.log('Editorial audit: ' + reviewed + ' published articles reviewed; ' + warnings + ' warnings.');
+console.log('Warnings require human review; this tool never changes publication status.');
