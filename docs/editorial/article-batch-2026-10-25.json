@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-25",
+  "base": "acabbd46d80501fa64f21e33b260559c2ff4ae3f",
+  "existingArticles": 203,
+  "newArticles": [
+    "railmadad-train-station-complaint-grp-festival-travel-guide",
+    "ncs-portal-job-search-free-registration-fake-offer-check-guide"
+  ],
+  "count": 2,
+  "skipped": "Crop-insurance topic: Trends showed interest, but current primary policy detail was not verified. No claim dates or compensation advice published.",
+  "discovery": "Google Trends India opened; no YouTube/X analytics used.",
+  "images": "One new licensed railway archive WebP and one reused licensed classroom photo, both 1536x864, accurate archival context and source/license credits.",
+  "validation": "Content check, five tests and production build passed. Raw/optimized images decode; schema/canonical/large preview and sitemap/RSS checked.",
+  "evidence": {
+    "production": [
+      {
+        "slug": "railmadad-train-station-complaint-grp-festival-travel-guide",
+        "pageImageMetadataSitemapRss": "passed"
+      },
+      {
+        "slug": "ncs-portal-job-search-free-registration-fake-offer-check-guide",
+        "pageImageMetadataSitemapRss": "passed"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "url": "https://baatbaaki.com/news/train-late-three-hours-irctc-tdr-refund-deadline-guide",
+        "status": 200
+      },
+      {
+        "url": "https://baatbaaki.com/news/urban-mobility-india-2026-last-mile-public-transport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2327812&lang=1&reg=3",
+        "status": 200
+      },
+      {
+        "url": "https://baatbaaki.com/news/government-jobs-after-12th-science-options-guide",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Indian_Train_Station.jpg",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "url": "https://railmadad.indianrailways.gov.in/madad/final/home.jsp",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "url": "https://baatbaaki.com/news/whatsapp-file-scam-cyber-fraud-1930-reporting-guide",
+        "status": 200
+      },
+      {
+        "url": "https://ncs.gov.in/",
+        "status": 200
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Classroom_in_Mother's_International_School,_Delhi.JPG",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "url": "https://baatbaaki.com/news/home-packing-job-scam-verification-guide",
+        "status": 200
+      }
+    ]
+  },
+  "sourceLimitations": "RailMadad source opened through web research, but shell HTTP 503; Commons/license pages returned 403 to urllib. Do not interpret these as passed link checks.",
+  "deployment": "VPS not deployed. Preserve standalone.previous by moving to timestamped /var/backups/baatbaaki path before scripts/deploy-vps.sh."
+}
