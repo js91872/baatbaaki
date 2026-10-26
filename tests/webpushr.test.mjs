@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {candidates,payload} from '../scripts/webpushr.mjs';
+const a={slug:'notice',title:'नौकरी सूचना',excerpt:'पात्रता देखें',status:'published',publishedAt:'2026-01-01T00:00:00Z'};
+test('push excludes drafts, future notices, baselines and ambiguous attempts',()=>{assert.equal(candidates([a],{items:{}}).length,1);for(const status of ['sent','baseline','pending-review'])assert.equal(candidates([a],{items:{notice:{status}}}).length,0);assert.equal(candidates([{...a,status:'draft'},{...a,publishedAt:'2099-01-01'}],{items:{}}).length,0);});
+test('push payload uses canonical URL and respects unicode character limits',()=>{const p=payload({...a,title:'क'.repeat(120),excerpt:'क'.repeat(300)});assert.equal([...p.title].length,100);assert.equal([...p.message].length,255);assert.equal(p.target_url,'https://baatbaaki.com/news/notice');});

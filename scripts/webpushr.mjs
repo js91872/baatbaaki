@@ -1,0 +1,17 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+export function candidates(articles,state){return articles.filter(a=>a.status==='published'&&!state.items[a.slug]&&Date.parse(a.publishedAt)<=Date.now()).sort((a,b)=>a.publishedAt.localeCompare(b.publishedAt));}
+export function payload(a){return {title:[...a.title].slice(0,100).join(''),message:[...a.excerpt].slice(0,255).join(''),target_url:'https://baatbaaki.com/news/'+a.slug,name:a.slug.slice(0,100),expire_push:'1d',auto_hide:1};}
+export async function run(){
+ const dir=process.env.WEBPUSHR_STATE_DIR||'/var/lib/baatbaaki-webpushr';fs.mkdirSync(dir,{recursive:true,mode:0o700});const lock=path.join(dir,'lock');try{fs.mkdirSync(lock);}catch(e){if(e.code==='EEXIST')throw Error('Push worker locked; check running process before removing lock');throw e;}
+ try{const file=path.join(dir,'state.json');const save=s=>{fs.writeFileSync(file+'.tmp',JSON.stringify(s,null,2),{mode:0o600});fs.renameSync(file+'.tmp',file);};const content=process.env.WEBPUSHR_CONTENT_DIR||'/var/www/baatbaaki/.next/standalone/content/articles';const articles=fs.readdirSync(content).filter(f=>f.endsWith('.json')).map(f=>JSON.parse(fs.readFileSync(path.join(content,f),'utf8')));
+ if(process.argv.includes('--init')){if(fs.existsSync(file))throw Error('State already initialized; refusing to overwrite');save({items:Object.fromEntries(articles.filter(a=>a.status==='published').map(a=>[a.slug,{status:'baseline'}]))});console.log('Baseline saved; existing articles will not send');return;}
+ if(!fs.existsSync(file))throw Error('Initialize baseline with --init before enabling automatic push');const state=JSON.parse(fs.readFileSync(file,'utf8'));const pending=candidates(articles,state);if(process.argv.includes('--dry-run')){console.log(JSON.stringify(pending.map(payload),null,2));return;}
+ if(process.env.WEBPUSHR_ENABLED!=='true'){console.log('Push disabled');return;}const key=process.env.WEBPUSHR_API_KEY,token=process.env.WEBPUSHR_AUTH_TOKEN;if(!key||!token)throw Error('REST API credentials missing');const a=pending[0];if(!a)return;const data=payload(a);const page=await fetch(data.target_url,{redirect:'error',signal:AbortSignal.timeout(15000)});if(!page.ok)throw Error('Public article not available; push deferred');const html=await page.text();if(!html.includes(a.title)||!html.includes(data.target_url))throw Error('Public article differs from deployed content; push deferred');
+ // Reserve before API call: ambiguous failures are held for manual review, never retried automatically.
+ state.items[a.slug]={status:'pending-review',attemptedAt:new Date().toISOString()};save(state);
+ const response=await fetch('https://api.webpushr.com/v1/notification/send/all',{method:'POST',headers:{'Content-Type':'application/json',webpushrKey:key,webpushrAuthToken:token},body:JSON.stringify(data),signal:AbortSignal.timeout(20000)});const result=await response.json();if(!response.ok||result.status!=='success'||!result.ID)throw Error('Push not confirmed; inspect Webpushr dashboard and reserved state before retry');state.items[a.slug]={status:'sent',campaignId:result.ID,sentAt:new Date().toISOString()};save(state);console.log('Push campaign created for '+a.slug);
+ }finally{fs.rmdirSync(lock);}
+}
+if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url))run().catch(()=>{console.error('Webpushr worker failed. Check credentials, public page, network and pending-review state; secrets are not logged.');process.exitCode=1;});
