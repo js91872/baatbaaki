@@ -25,6 +25,10 @@
     {
       "label": "Unique Identification Authority of India (UIDAI) Bank Seeding",
       "url": "https://myaadhaar.uidai.gov.in/"
+    },
+    {
+      "label": "NPCI — Official Aadhaar Seeding for Direct Benefit Transfer",
+      "url": "https://www.npci.org.in/PDF/nach/faqs/apbs-customer/Aadhaar-seeding-process.pdf"
     }
   ]
 }
