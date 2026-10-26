@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-26T12:08:51.146506+00:00",
+  "slug": "isro-hsfc-medical-officer-sd-recruitment-2026-notification",
+  "advertisement": "HSFC:02:RMT:2026",
+  "source": "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2026/Oct/HSFC_DETAILED_ADVERTISEMENT_09102026.pdf",
+  "sourceSHA256": "946c1a81f083ad649e7c79521b93b43d5bcd197332887e2090746497c84af1aa",
+  "checks": "Content validator, 8 tests, production build, page/schema/canonical/large preview, raw and optimized images, internal links, bulletin, sitemap and RSS passed",
+  "image": "Existing education.webp editorial illustration reused; 1536x1024. No real event implied.",
+  "applicationMethod": "Ordinary post only; receipt deadline 2026-11-08, detailed PDF overrides generic online listing label",
+  "deployment": "Not deployed; new slug eligible for configured VPS notification worker only after deployment"
+}
