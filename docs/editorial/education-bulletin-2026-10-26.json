@@ -1,0 +1,17 @@
+{
+  "changes": [
+    "Education category replaced by searchable filterable bulletin list; existing category URL retained",
+    "Three recruitment headlines formalized; original slugs and publishedAt retained",
+    "Typed bulletin metadata with validated deadlines and recruitment detail summary",
+    "CollectionPage and ItemList schema; canonical retained",
+    "Hourly watch updated to formal notice style"
+  ],
+  "validation": {
+    "content": "passed",
+    "tests": "6 passed",
+    "productionBuild": "passed",
+    "http": "Bulletin SSR, metadata, 3 notice pages, sitemap/RSS and auto category passed",
+    "browser": "Unavailable: Playwright browser binary missing; browser download failed. Interactive visual checks not claimed."
+  },
+  "scope": "No VPS deployment. Existing non-bulletin education content remains in guide filter; no fabricated notice metadata."
+}
