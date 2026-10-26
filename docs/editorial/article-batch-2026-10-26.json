@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-26",
+  "base": "c1bb0069e8d33f45d1b1fc0f1b880590cd1adc49",
+  "existingArticles": 210,
+  "newArticles": [
+    "foreign-travel-plants-seeds-india-customs-quarantine-documents-guide",
+    "niftem-hack-the-fork-food-tech-hackathon-student-guide",
+    "youth-parliament-wardha-student-debate-preparation-guide"
+  ],
+  "checks": "Content validation, 5 tests and production build passed. Pages, raw and optimized images, canonical/schema/large previews, sitemap and RSS checked.",
+  "results": {
+    "links": [
+      {
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "status": "200",
+        "exit": 0
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Classroom_in_Mother's_International_School,_Delhi.JPG",
+        "status": "200",
+        "exit": 0
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Plant_seedlings.jpg",
+        "status": "200",
+        "exit": 0
+      },
+      {
+        "url": "https://baatbaaki.com/news/passport-apply-online-fresh-tatkaal-documents-fees-guide-2026",
+        "status": "200",
+        "exit": 0
+      },
+      {
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2328178&lang=1&reg=3",
+        "status": "503",
+        "exit": 0
+      },
+      {
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2328253&reg=48&lang=2",
+        "status": "200",
+        "exit": 0
+      },
+      {
+        "url": "https://baatbaaki.com/news/government-scheme-viral-message-fact-check-how-to-verify",
+        "status": "200",
+        "exit": 0
+      },
+      {
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2328180&reg=48&lang=2",
+        "status": "503",
+        "exit": 0
+      },
+      {
+        "url": "https://baatbaaki.com/news/voter-list-name-missing-form-6-form-8-check-guide",
+        "status": "200",
+        "exit": 0
+      },
+      {
+        "url": "https://baatbaaki.com/news/ncs-portal-job-search-free-registration-fake-offer-check-guide",
+        "status": "200",
+        "exit": 0
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Tofu_a0.jpg",
+        "status": "200",
+        "exit": 0
+      }
+    ],
+    "production": [
+      {
+        "slug": "foreign-travel-plants-seeds-india-customs-quarantine-documents-guide",
+        "pageImagesMetadataSitemapRss": "passed"
+      },
+      {
+        "slug": "niftem-hack-the-fork-food-tech-hackathon-student-guide",
+        "pageImagesMetadataSitemapRss": "passed"
+      },
+      {
+        "slug": "youth-parliament-wardha-student-debate-preparation-guide",
+        "pageImagesMetadataSitemapRss": "passed"
+      }
+    ]
+  },
+  "sourceNotes": "Customs PIB contents freshly fetched/read through shell; later link recheck 503. Youth Parliament PIB freshly read in research service; later link recheck 503. No claim that every link check passed.",
+  "discovery": "Google Trends India accessed. No popularity/KD claims or inaccessible X/YouTube analytics used.",
+  "images": "Two newly prepared CC BY-SA 4.0 archive WebPs, plants and tofu; one reused classroom archive. All 1536x864, inspected/decoded and credited with changes; not event evidence.",
+  "scope": "Finite announcements with practical explainers, no padding to 1500 words.",
+  "deployment": "Not deployed; use scripts/deploy-vps.sh after clean/fast-forward check and archive standalone.previous without deletion."
+}
