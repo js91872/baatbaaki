@@ -1,0 +1,65 @@
+{
+  "checkedAt": "2026-10-26T14:24:05.251861+00:00",
+  "baseHead": "3846c85bb83aae06295dae31231ba2a5e4838c2b",
+  "coverage": [
+    "ONGC recruitment notices and complete CA/CMA PDF",
+    "BEML careers/current recruitment accessible, mixed historical notices; no fresh vacancy verified",
+    "SAIL careers and Bhilai portal-malfunction corrigendum PDF"
+  ],
+  "notice": {
+    "key": "ONGC|ONGC/Industrial Trainee/1/2026|CA-CMA-industrial-training",
+    "slug": "ongc-ca-cma-industrial-training-2026-application-notice",
+    "advertisementNumber": "ONGC/Industrial Trainee/1/2026",
+    "issued": "2026-10-23",
+    "deadline": "2026-11-15",
+    "sourceUrl": "https://ongcindia.com/documents/77751/2660534/Advertisement26-CACMA_IndustrialTrainee.pdf/43144617-01e6-d2ff-d5ce-6c88deffb436",
+    "sha256": "f155fd44ca017c9ca7d456e0a0bc4d742835076e34cff8964f060dd3f886cc92",
+    "verifiedClaims": {
+      "places": 50,
+      "CA": 25,
+      "CMA": 25,
+      "qualification": "CA/CMA Intermediate passed; Class 12 overall minimum60%",
+      "birthDateOnOrAfter": "2000-01-01",
+      "duration": "CA9-12months; CMA15-18months",
+      "selection": "eligibility, preference ONGC wards and first attempt; online/offline/telephone interview",
+      "stipend": "X cities year1 INR25000 year2 INR27000; Vadodara year1 INR22000 year2 INR25000",
+      "fee": "Not specified; no free-application claim",
+      "employment": "Fixed-period industrial training; not regular recruitment"
+    },
+    "applyUrl": "https://forms.gle/zpmfeDo9E3MGn2E19",
+    "applicationAccess": "Opened and resolved to Google Forms sign-in; HTTP401 without authentication, no form fields inspected. Official PDF supplies link and required documents."
+  },
+  "held": [
+    {
+      "employer": "SAIL Bhilai Steel Plant",
+      "update": "Left-out apprenticeship applicants due to portal malfunction; online deadline20Oct2026",
+      "url": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/BHILAI_News%20%26%20Jobs_22102026_120743.pdf",
+      "reason": "Need original advertisement, exact trade walk-in dates and application context before article; no date inferred from filename."
+    }
+  ],
+  "image": {
+    "path": "/images/education.webp",
+    "reused": true,
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "provenance": "Existing original BaatBaaki career-preparation illustration; no suitable verified licensed ONGC photo used; not an actual training event. Visually inspected; no prohibited wording."
+  },
+  "validation": {
+    "content": "passed",
+    "tests": "8 passed",
+    "productionBuild": "passed",
+    "pageMetadataCanonicalSchemaLargePreview": "passed",
+    "internalPublishedLinks": 2,
+    "bulletinSitemapRSS": "passed",
+    "rawImageDecode": "1536x1024 passed",
+    "optimizedImageDecode": "1080px passed",
+    "sourcePdf": "fresh200 matchingSHA256",
+    "applicationForm": "sign-in restriction",
+    "browserVisual": "not performed",
+    "CI": "check matching commit after push"
+  },
+  "deployment": "Not deployed; VPS pull/build required",
+  "coverageLimit": "Rotating partial coverage; other employers not rechecked this run."
+}
