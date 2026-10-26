@@ -1,0 +1,72 @@
+{
+  "checkedAt": "2026-10-26T10:24:34.301961+00:00",
+  "articles": [
+    {
+      "slug": "isro-ursc-technician-driver-recruitment-2026-apply-guide",
+      "words": 869,
+      "page": "200",
+      "rawImage": "200 decoded",
+      "optimizedImage": "200 decoded",
+      "canonical": true,
+      "schema": true,
+      "largePreview": true,
+      "relatedLinks": [
+        "/news/government-jobs-after-12th-science-options-guide",
+        "/news/ncs-portal-job-search-free-registration-fake-offer-check-guide"
+      ],
+      "sitemap": true,
+      "rss": true,
+      "imageReuse": true
+    },
+    {
+      "slug": "isro-sdsc-shar-recruitment-2026-technical-mts-apply-guide",
+      "words": 904,
+      "page": "200",
+      "rawImage": "200 decoded",
+      "optimizedImage": "200 decoded",
+      "canonical": true,
+      "schema": true,
+      "largePreview": true,
+      "relatedLinks": [
+        "/news/government-jobs-after-12th-science-options-guide",
+        "/news/ncs-portal-job-search-free-registration-fake-offer-check-guide"
+      ],
+      "sitemap": true,
+      "rss": true,
+      "imageReuse": true
+    },
+    {
+      "slug": "sbi-specialist-officer-ai-recruitment-2026-experience-apply-guide",
+      "words": 914,
+      "page": "200",
+      "rawImage": "200 decoded",
+      "optimizedImage": "200 decoded",
+      "canonical": true,
+      "schema": true,
+      "largePreview": true,
+      "relatedLinks": [
+        "/news/ncs-portal-job-search-free-registration-fake-offer-check-guide",
+        "/news/home-packing-job-scam-verification-guide"
+      ],
+      "sitemap": true,
+      "rss": true,
+      "imageReuse": true
+    }
+  ],
+  "checks": {
+    "validator": "passed",
+    "tests": "5 passed",
+    "build": "passed",
+    "production": "passed"
+  },
+  "sources": {
+    "ursc": "Official PDF downloaded and decoded with pdftotext",
+    "sdsc": "Official PDF web fetch timed out; direct HTTPS download and pdftotext succeeded",
+    "sbi": "Official detailed PDF read and downloaded"
+  },
+  "notes": [
+    "Existing relevant editorial education illustration reused for URSC and SBI, actual dimensions 1536x1024. Existing licensed classroom archival photograph reused for SDSC, 1536x864. No employer/event photos implied.",
+    "No JobPosting markup added. Vacancy-specific expiry not set because existing renderer has an admission-specific expiry warning; explicit deadlines remain in body.",
+    "No VPS deployment performed."
+  ]
+}
