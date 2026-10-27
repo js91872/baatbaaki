@@ -1,0 +1,76 @@
+{
+  "checkedAt": "2026-10-27T06:17:10.225079+00:00",
+  "baseHead": "d63549c3aa1f6d64a35c9febd580a86f7dc3863e",
+  "coverage": [
+    "SBI Current Openings, full 13-page original advertisement 25, official application page",
+    "SAIL careers, Bhilai portal-malfunction corrigendum and original apprenticeship advertisement"
+  ],
+  "coverageLimit": "Partial rotating coverage. Other employers were not rechecked in this run.",
+  "notice": {
+    "key": "SBI|CRPD/SCO/2026-27/25|Wealth Management and Premier Banking",
+    "slug": "sbi-wealth-management-sco-2026-25-deadline-extension-notice",
+    "issued": "2026-09-30",
+    "change": "Registration and fee deadline extended from 21 to 31 October 2026; exact extension issue date not verified",
+    "applicationDeadline": "2026-10-31",
+    "sourceUrls": [
+      "https://sbi.bank.in/web/careers/current-openings",
+      "https://sbi.bank.in/documents/77530/57941334/1_Advertisement%2B_Wealth%2BMGMT_30.09.2026.pdf/ed836f34-1d3a-408a-f3a5-09005623781a?t=1790692625089",
+      "https://recruitment.sbi.bank.in/crpd-sco-2026-27-25/apply"
+    ],
+    "sourcePdfSha256": "3ed9578ec054e599cd756662c1e7bdb278d6ee991c7fbe6067511a297975ac34",
+    "verifiedClaims": {
+      "vacancies": 6,
+      "categoryTotals": {
+        "UR": 4,
+        "SC": 1,
+        "OBC": 1
+      },
+      "horizontalVI": "1 within COT Support, not additional",
+      "ageQualificationExperienceCutoff": "2026-08-31",
+      "employment": "5-year contract, renewal another4 at bank discretion",
+      "selection": "Shortlisting, personal/video interview100 marks, CTC negotiations",
+      "fees": "UR/EWS/OBC INR750; SC/ST/PwBD nil",
+      "payBasis": "Negotiable annual CTC upper limits, not take-home salary; Head199L/ProductLead77.20L/Manager47.20L/PDM47.20L/COT37.20L",
+      "qualificationExperience": "Post-specific MBA/PGDM or relevant alternatives/graduate and 3 to15years relevant experience; fully described in article"
+    },
+    "access": "Original PDF, careers and application HTTP200; registration/CAPTCHA not bypassed; no application submitted",
+    "deduplication": "Fresh article inventory and docs/editorial source records contain no employer+advertisement25 story; existing SBI story is advertisement30"
+  },
+  "held": [
+    {
+      "employer": "SBI",
+      "notice": "CRPD/SCO/2026-27/24",
+      "reason": "Careers lists extension31Oct; full original qualifications and application not verified this run"
+    },
+    {
+      "employer": "SAIL Bhilai",
+      "url": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/BHILAI_News%20%26%20Jobs_22102026_120743.pdf",
+      "originalUrl": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/BHILAI_News%20%26%20Jobs_30092026_120848.pdf",
+      "reason": "Corrigendum and original opened; exact trade-specific reporting schedule and application context still to verify; no new online window claimed"
+    }
+  ],
+  "image": {
+    "path": "/images/education.webp",
+    "reused": true,
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "rights": "Existing original BaatBaaki editorial illustration; no suitable rights-cleared SBI photograph verified",
+    "inspection": "Visually inspected; no prohibited wording; neutral alt; no public caption; not actual SBI event"
+  },
+  "validation": {
+    "validator": "passed",
+    "tests": "8 passed",
+    "productionBuild": "passed",
+    "renderedMetadataCanonicalNewsArticleLargePreview": "passed",
+    "internalPublishedLinks": 2,
+    "bulletinSitemapRSS": "passed",
+    "rawImageDecode": "1536x1024 passed",
+    "optimizedImageDecode": "1080px passed",
+    "sourceLinks": "fresh HTTP200 PDF/careers/application; official careers outbound application URL verified",
+    "browserVisual": "not performed",
+    "CI": "Check matching commit after push"
+  },
+  "deployment": "Not deployed. GitHub commit awaits VPS pull/rebuild."
+}
