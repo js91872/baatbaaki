@@ -1,0 +1,93 @@
+{
+  "checkedAt": "2026-10-28T17:25:18.376808+00:00",
+  "baseHead": "53567dc5631a84e807cd8f993039e7dd5bc88408",
+  "coverageLimit": "Partial rotating check, not exhaustive or instantaneous monitoring. Other watchlist employers and railway regions not checked in this run.",
+  "coverage": [
+    {
+      "source": "RRC Jaipur, North Western Railway",
+      "urls": [
+        "https://rrcjaipur.in/",
+        "https://rrcjaipur.in/Notice?a=Advt-Id-22"
+      ],
+      "status": "Homepage and notice index readable; original23-page advertisement and21-page scrutiny PDF opened; direct downloadsHTTP200; historical application link403, no new applications instructed"
+    },
+    {
+      "source": "RRB Chennai",
+      "url": "https://www.rrbchennai.gov.in/",
+      "status": "web reader timeout"
+    },
+    {
+      "source": "SAIL Bhilai",
+      "url": "https://sailcareers.com/Default.aspx?PlantName=BHILAI",
+      "status": "web reader inaccessible; pending advisor PDF retry also inaccessible"
+    },
+    {
+      "source": "SAIL Bhilai pending advisor PDF",
+      "url": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/BHILAI_News%20%26%20Jobs_27102026_152820.pdf",
+      "status": "web reader inaccessible; not published this run"
+    },
+    {
+      "source": "Punjab SSSB",
+      "url": "https://sssb.punjab.gov.in/",
+      "status": "web reader timeout"
+    },
+    {
+      "source": "GAIL",
+      "url": "https://www.gailonline.com/vacancies.html",
+      "status": "Only Careers headings readable; no original notice verified"
+    }
+  ],
+  "notice": {
+    "key": "North Western Railway RRC Jaipur|01/2026 (S&G Quota/RRC/NWR)|Level1 and Level2 Scouts and Guides",
+    "slug": "rrc-jaipur-scouts-guides-2026-eligible-list-objection-notice",
+    "type": "application-scrutiny update; not fresh recruitment or final result",
+    "originalIssued": "2026-06-29",
+    "updateIssued": "2026-10-27",
+    "noticeIdentifier": "740ई/आरआरसी/एस&जी/2026-27",
+    "objectionDeadline": "2026-10-30T18:00:00+05:30",
+    "applicationDeadlineFieldOmitted": "Current deadline is for objections, not new applications",
+    "verifiedClaims": {
+      "originalVacancies": 10,
+      "level1": 8,
+      "level2": 2,
+      "objectionMethods": "In person at RRC Jaipur or rrc.nwrjp@gmail.com",
+      "examDate": "No exact date in27Oct update; soon/tentative only",
+      "documents": "Original educational, scouting, DOB, community and applicableNOC; latest central-formatOBC certificate",
+      "originalApplicationPeriod": "2026-07-08 to2026-08-07; historical, closed"
+    },
+    "sourceUrls": [
+      "https://rrcjaipur.in/storeWebFiles/1011_35002882.PDF",
+      "https://rrcjaipur.in/storeWebFiles/959_31516079.PDF",
+      "https://rrcjaipur.in/Notice?a=Advt-Id-22"
+    ],
+    "sourceHashes": {
+      "1011_35002882.PDF": "850dd3789c57d6793b200546093e3433279fb2d270dd67870e21058cb393925a",
+      "959_31516079.PDF": "87af6535bca62e08d62106eacf5763cbec3950064bcd0c890b1d094ba1dba96d"
+    },
+    "deduplication": "Fresh main inventory plus full local content/articles and docs/editorial checked for employer, scout terms,01/2026 and update PDF identifier; only general railway guide, no matching bulletin. Existing general guide retained.",
+    "unverifiedOrOmitted": "No current fresh application link claimed. Detailed historical fees/age/qualification/pay omitted from this short scrutiny update."
+  },
+  "image": {
+    "path": "/images/train-delay-tdr-refund-deadline.webp",
+    "reused": true,
+    "creator": "BaatBaaki",
+    "rights": "Existing original BaatBaaki editorial illustration; no suitable rights-cleared recruitment photograph established",
+    "dimensions": [
+      1536,
+      864
+    ],
+    "inspection": "Visually inspected; station/train/traveler scene; not documentary recruitment evidence; no prohibited wording; descriptive neutral alt; no public caption"
+  },
+  "validation": {
+    "validator": "passed for draft and final build",
+    "tests": "8passed",
+    "draftBuild": "passed",
+    "publishedProductionBuild": "passed",
+    "sourceChecks": "All3article sources freshHTTP200; bothPDF magic bytes verified andSHA256recorded",
+    "productionChecks": "HTTP200 article and2published internal targets, correct canonical/datePublished/dateModified/NewsArticle/large preview, education notice board,sitemap,RSS,no figcaption",
+    "rawImage": "HTTP200 decoded1536x864",
+    "optimizedImage": "HTTP200 decoded1080x608",
+    "CI": "Check exact commit after guarded ref update"
+  },
+  "deployment": "Not deployed; GitHub commit awaits VPS pull/rebuild"
+}
