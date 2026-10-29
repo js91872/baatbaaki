@@ -1,0 +1,164 @@
+{
+  "checkedAt": "2026-10-29T13:54:18.694715+00:00",
+  "baseHead": "8d698c9d3ce3a584dad9f89887e3b29af468f4cc",
+  "coverageLimit": "Partial rotating watch; one RRB, one RRC zone and one production-unit homepage attempted. No exhaustive or instantaneous monitoring. Other regional and state commissions not checked this run.",
+  "coverage": [
+    {
+      "url": "https://sbi.bank.in/web/careers/current-openings",
+      "outcome": "Opened; advertisement24 extension verified with original PDF and application page"
+    },
+    {
+      "url": "https://www.rrbald.gov.in/",
+      "outcome": "502; no notice verification"
+    },
+    {
+      "url": "https://rrcpryj.org/notification/",
+      "outcome": "Opened; latest displayed notice19Oct2026 CEN08/2024 DV call letter; older baseline, no new development established"
+    },
+    {
+      "url": "https://clw.indianrailways.gov.in/",
+      "outcome": "Timeout; production-unit coverage blocked"
+    },
+    {
+      "url": "https://www.employmentnews.gov.in/",
+      "outcome": "Not accessible via web reader"
+    },
+    {
+      "url": "https://sssb.punjab.gov.in/",
+      "outcome": "Timeout"
+    },
+    {
+      "url": "https://www.ibps.in/",
+      "outcome": "Timeout"
+    },
+    {
+      "url": "https://upsc.gov.in/recruitment/recruitment-advertisement",
+      "outcome": "Timeout"
+    },
+    {
+      "url": "https://ssc.gov.in/",
+      "outcome": "Opened with zero extracted lines; notifications not verifiable"
+    },
+    {
+      "url": "https://ncs.gov.in/job-listing?isGovernmentJob=true",
+      "outcome": "Listing shell opened; rendered vacancy results unavailable; not evidence of zero vacancies"
+    },
+    {
+      "url": "https://www.bemlindia.in/careers/",
+      "outcome": "Opened; KP/S/17/2026 closing22Oct remains older closed baseline"
+    },
+    {
+      "url": "https://www.powergrid.in/en/job-opportunities",
+      "outcome": "Opened; CC/03/2026 dated24Sep ET2027 remains older baseline; no fresh update established"
+    },
+    {
+      "url": "https://iocl.com/latest-job-opening",
+      "outcome": "Opened; top PBR shortlisting23Oct remains older baseline; no fresh update established"
+    },
+    {
+      "url": "https://careers.ntpc.co.in/recruitment/",
+      "outcome": "403; NTPC Limited PSU, distinct from railway NTPC"
+    },
+    {
+      "url": "https://ongcindia.com/web/eng/career/recruitment-notice",
+      "outcome": "Timeout"
+    },
+    {
+      "url": "https://careers.bhel.in/",
+      "outcome": "403"
+    },
+    {
+      "url": "https://www.gailonline.com/vacancies.html",
+      "outcome": "Careers headings only; notices unavailable"
+    },
+    {
+      "url": "https://bel-india.in/job-notifications/",
+      "outcome": "502"
+    },
+    {
+      "url": "https://hal-india.co.in/career",
+      "outcome": "Timeout"
+    },
+    {
+      "url": "https://www.coalindia.in/career-cil/",
+      "outcome": "403"
+    },
+    {
+      "url": "https://sailcareers.com/Default.aspx?PlantName=BHILAI",
+      "outcome": "Not accessible via web reader"
+    }
+  ],
+  "notice": {
+    "key": "SBI|CRPD/SCO/2026-27/24|Digital Marketing Department",
+    "slug": "sbi-digital-marketing-sco-2026-24-deadline-extension-notice",
+    "issued": "2026-09-30",
+    "change": "Registration and fee deadline extended from21Oct to31Oct2026. Exact extension issue date not verified and not invented.",
+    "applicationDeadline": "2026-10-31",
+    "sourceChecks": [
+      {
+        "url": "https://sbi.bank.in/web/careers/current-openings",
+        "status": 200,
+        "bytes": 54768,
+        "sha256": "97e580527b9254a17d56791deb8b7462dd8295a4fb31033d24ac1b77df9154f3"
+      },
+      {
+        "url": "https://sbi.bank.in/documents/77530/57941334/FINAL%2BADVT%2BOF%2B2026-27_24.pdf/9cf5df5f-5ce2-976d-70d1-2dc8d49380cd?t=1790690953073",
+        "status": 200,
+        "bytes": 993192,
+        "sha256": "6f3f9b6342de9b37017e8a45bab215842c7596fc82904c70da5c8638d92f89bd"
+      },
+      {
+        "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-24/apply",
+        "status": 200,
+        "bytes": 18457,
+        "sha256": "a59c53ad0af68cf2267a79912f7e6ac9ca1a40bf7718c8b516e27ef80ea0c13e"
+      }
+    ],
+    "verifiedClaims": {
+      "vacancies": 4,
+      "posts": {
+        "DVP Analytical Marketing and Campaign": 1,
+        "DVP Digital Marketing": 2,
+        "Content Specialist": 1
+      },
+      "vertical": "All UR",
+      "horizontal": "One LD in each post group, within total and not additional",
+      "ageQualificationExperienceCutoff": "2026-08-31",
+      "age": "DVP33–45;ContentSpecialist25–40;relaxations as applicable GOI guidelines, no unsupported numeric relaxation",
+      "qualification": "Post-specific related bachelors degree; exact fields in original PDF",
+      "experience": "DVP minimum10years postqualification relevant marketing;ContentSpecialist5–7years content production/digital operations/creative coordination. Full requirements and preferred qualifications in original PDF.",
+      "pay": "Negotiable annual CTC upper limits DVP63L/Content19L,80%fixed20%variable; performance conditions apply",
+      "contract": "3years,bank discretion renewal2years",
+      "fee": "General/EWS/OBC750;SC/ST/PwBDnil",
+      "selection": "Shortlisting/interview100marks/CTCnegotiation;DVPpresentation5–10min"
+    },
+    "deduplication": "Fresh inventory plus all articles and docs/editorial scanned. Ad24 previously held in SBI wealth source record; no existing ad24 article. Ad25/ad30 articles are distinct.",
+    "access": "No registration submitted; no CAPTCHA bypassed"
+  },
+  "image": {
+    "path": "/images/education.webp",
+    "reused": true,
+    "creatorRightsholder": "BaatBaaki",
+    "provenance": "Existing original BaatBaaki editorial illustration reused; career preparation scene, not actual SBI office or event",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "sha256": "9262d0ea0a36346ce612551a9b6b30347b951a8d5326cf13934acc46c02017ba",
+    "rightsDecision": "No suitable licensed authentic SBI photograph verified; existing original illustration retained without resizing",
+    "inspection": "Bytes decoded and visually inspected; no prohibited wording or overlays; neutral alt and internal provenance; no public caption"
+  },
+  "validation": {
+    "validator": "passed",
+    "tests": "8 passed",
+    "draftProductionBuild": "passed",
+    "publishedProductionBuild": "passed",
+    "renderedChecks": "passed: canonical, NewsArticle dates/dimensions, large preview, no figcaption, education board, sitemap/RSS, two published internal links",
+    "CI": "Check matching SHA after commit",
+    "rawImage": "HTTP200 decoded WebP1536x1024",
+    "optimizedImage": "HTTP200 decoded JPEG1080x720",
+    "sourceLinks": "All three official sources fresh HTTP200; PDF bytes and SHA256 recorded",
+    "browserVisual": "Not performed; source image visually inspected"
+  },
+  "deployment": "Not deployed; GitHub commit awaits VPS pull/rebuild."
+}
