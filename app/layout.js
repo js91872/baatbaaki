@@ -5,7 +5,7 @@ import './globals.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import {siteUrl,indexable} from '../lib/content.mjs';
-export const metadata={metadataBase:new URL(siteUrl),other:{'kadam-verification':'kadame7ab3712a685c8e65c98aa5d5d57d5de'},title:{default:'बात बाकी — ताज़ा हिंदी समाचार और आसान भाषा में खबरें',template:'%s | बात बाकी'},description:'भारत और दुनिया की ताज़ा हिंदी खबरें—राजनीति, बॉलीवुड, क्रिकेट, शिक्षा, नौकरी, ऑटो और कारोबार। आसान भाषा में जानें क्या हुआ और इसका आप पर क्या असर है।',robots:{index:indexable,follow:indexable,'max-image-preview':'large'},openGraph:{locale:'hi_IN',siteName:'बात बाकी',type:'website',images:[{url:'/images/baatbaaki-social.png',width:1200,height:630,alt:'BaatBaaki.com'}]},twitter:{card:'summary_large_image',images:['/images/baatbaaki-social.png']},icons:{icon:'/favicon.svg'}};
+export const metadata={metadataBase:new URL(siteUrl),other:{'kadam-verification':'kadame7ab3712a685c8e65c98aa5d5d57d5de','google-adsense-account':'ca-pub-9025398782962067'},title:{default:'बात बाकी — ताज़ा हिंदी समाचार और आसान भाषा में खबरें',template:'%s | बात बाकी'},description:'भारत और दुनिया की ताज़ा हिंदी खबरें—राजनीति, बॉलीवुड, क्रिकेट, शिक्षा, नौकरी, ऑटो और कारोबार। आसान भाषा में जानें क्या हुआ और इसका आप पर क्या असर है।',robots:{index:indexable,follow:indexable,'max-image-preview':'large'},openGraph:{locale:'hi_IN',siteName:'बात बाकी',type:'website',images:[{url:'/images/baatbaaki-social.png',width:1200,height:630,alt:'BaatBaaki.com'}]},twitter:{card:'summary_large_image',images:['/images/baatbaaki-social.png']},icons:{icon:'/favicon.svg'}};
 export default function RootLayout({children}){return <html lang="hi"><body>
 
       <Script
