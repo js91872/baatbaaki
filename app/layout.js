@@ -9,8 +9,7 @@ export const metadata={metadataBase:new URL(siteUrl),other:{'kadam-verification'
 export default function RootLayout({children}){return <html lang="hi"><body>
 
       <Script
-        async
-        strategy="afterInteractive"
+        strategy="beforeInteractive"
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9025398782962067"
         crossOrigin="anonymous"
       />
