@@ -1,0 +1,227 @@
+{
+  "checkedAt": "2026-10-29T16:56:08.955051+00:00",
+  "baseHead": "64b56d85c49abd28163a797321df0dd1b46a64e4",
+  "scope": "Five distinct Hindi CWC2027 explainers: schedule overview, India match route, format/qualification, current ticket ballot, host venues/travel context",
+  "articles": [
+    {
+      "slug": "icc-cricket-world-cup-2027-schedule-dates-groups-final",
+      "title": "ICC World Cup 2027 शेड्यूल: भारत के मैच, ग्रुप और फाइनल की तारीख",
+      "words": 793
+    },
+    {
+      "slug": "india-world-cup-2027-match-schedule-pakistan-super-seven-route",
+      "title": "भारत का World Cup 2027 शेड्यूल: पाकिस्तान मैच और Super 7 का संभावित रास्ता",
+      "words": 842
+    },
+    {
+      "slug": "cricket-world-cup-2027-format-qualification-super-series-super-seven",
+      "title": "World Cup 2027 का नया format: 14 टीमें, Super Series और Super 7 कैसे चलेंगे?",
+      "words": 884
+    },
+    {
+      "slug": "icc-world-cup-2027-tickets-ballot-registration-deadline",
+      "title": "World Cup 2027 tickets: मुफ्त ballot registration, अंतिम तारीख और खरीद की प्रक्रिया",
+      "words": 809
+    },
+    {
+      "slug": "cricket-world-cup-2027-host-countries-venues-india-fan-guide",
+      "title": "World Cup 2027 कहां होगा? तीन मेजबान देश, 12 venues और भारत के मैचों के शहर",
+      "words": 854
+    }
+  ],
+  "deduplication": "Fresh main inventory contains no dedicated World Cup articles. VPS-only untracked drafts previously shown by user were not available and were not overwritten. New descriptive slugs used.",
+  "verification": {
+    "primarySources": "ICC schedule news,1Oct release,30Sep ballot release and official ticket portal opened afresh. No social popularity or keyword volumes claimed.",
+    "keyClaims": [
+      "2Oct–21Nov2027;14teams57matches12venues",
+      "India group fixtures7/10/14/17/24Oct;Super7 seeded route conditional,not guaranteed",
+      "10direct+4qualifier entrants;3team SuperSeries produces last group berth;12group teams;7advance;no carried points per schedule news",
+      "Ballot free,not first come;one entry/person/match,max4tickets;21Nov2026 23:59SAST;IST conversion explicitly derived",
+      "Host countries/8+3+1venues;no unsupported visa,streaming,squad,starttime or ticket guarantee claims"
+    ],
+    "conflict": "ICC release internally/news disagree on South Africa opener8OctCenturion vs9OctCapeTown. Disputed fixture omitted and qualification retained. Qualifier A/B identities not assigned without source.",
+    "links": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Newlands2.jpg",
+        "status": "200",
+        "error": ""
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Newlands_Cricket_Ground.jpg",
+        "status": "200",
+        "error": ""
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Wanderers_Stadium_2024.jpg",
+        "status": "200",
+        "error": ""
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "status": "200",
+        "error": ""
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "status": "200",
+        "error": ""
+      },
+      {
+        "url": "https://tickets.cricketworldcup.com/",
+        "status": "200",
+        "error": ""
+      },
+      {
+        "url": "https://www.icc-cricket.com/media-releases/global-cricket-fans-invited-to-enter-icc-men-s-cricket-world-cup-2027-ticket-ballot",
+        "status": "403",
+        "error": ""
+      },
+      {
+        "url": "https://www.icc-cricket.com/media-releases/icc-men-s-cricket-world-cup-2027-schedule-revealed-and-ballot-system-opens",
+        "status": "403",
+        "error": ""
+      },
+      {
+        "url": "https://www.icc-cricket.com/news/fixture-schedule-announced-for-icc-men-s-cricket-world-cup-2027",
+        "status": "403",
+        "error": ""
+      }
+    ],
+    "linkLimit": "ICC official content readable via web reader but direct curl returned403. Commons/license/ticket portal HTTP200. No bypass used."
+  },
+  "images": [
+    {
+      "index": 0,
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Newlands_Cricket_Ground.jpg",
+      "bytes": 2496312,
+      "originalDimensions": [
+        6000,
+        4000
+      ],
+      "sourceSha256": "f258dd6c35935e5555d89033c3819278d84cb019f1a650c291a411f1c3b6f2f7",
+      "outputSha256": "4779b2961cb9dd9ca2bf6f88df2d8cacadb53ddffda3a76223e85c342dc00ea1",
+      "outputDimensions": [
+        1536,
+        864
+      ],
+      "path": "/images/world-cup-2027-newlands-schedule.webp",
+      "alt": "केप टाउन के Newlands मैदान में 11 मार्च 2026 का क्रिकेट मैच",
+      "provenance": "Photograph by EGilham; source https://commons.wikimedia.org/wiki/File:Newlands_Cricket_Ground.jpg; CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/); 11 मार्च 2026, Western Province–Boland मैच. Cropped to16:9 and converted to1536x864WebP; derivative under same license where applicable. Historical venue context, not a photograph of the2027 event.",
+      "creditSources": [
+        {
+          "label": "फोटो credit: EGilham; 11 मार्च 2026, Western Province–Boland मैच; CC BY-SA 4.0; 16:9 crop और WebP conversion; 2027 आयोजन की फोटो नहीं",
+          "url": "https://commons.wikimedia.org/wiki/File:Newlands_Cricket_Ground.jpg"
+        },
+        {
+          "label": "Feature photo का लाइसेंस: CC BY-SA 4.0; cropped WebP पर भी यही अनुमति लागू",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/18/Wanderers_Stadium_2024.jpg",
+      "bytes": 7132001,
+      "originalDimensions": [
+        9212,
+        3628
+      ],
+      "sourceSha256": "29da6d1f4cac25c770eb667c5b58e0b5181ce736fa5c18bc83f40b6ceb51f1c1",
+      "outputSha256": "b4e935a3acaf120f93350b62027dddcab16f510501a9a4807a4fe584250c5183",
+      "outputDimensions": [
+        1536,
+        864
+      ],
+      "path": "/images/world-cup-2027-wanderers-india.webp",
+      "alt": "जोहान्सबर्ग के Wanderers मैदान में जनवरी 2024 का मैच",
+      "provenance": "Photograph by TapticInfo; source https://commons.wikimedia.org/wiki/File:Wanderers_Stadium_2024.jpg; CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); 13 जनवरी 2024, Joburg Super Kings–MI Cape Town मैच. Cropped to16:9 and converted to1536x864WebP; derivative under same license where applicable. Historical venue context, not a photograph of the2027 event.",
+      "creditSources": [
+        {
+          "label": "फोटो credit: TapticInfo; 13 जनवरी 2024, Joburg Super Kings–MI Cape Town मैच; CC BY 4.0; 16:9 crop और WebP conversion; 2027 आयोजन की फोटो नहीं",
+          "url": "https://commons.wikimedia.org/wiki/File:Wanderers_Stadium_2024.jpg"
+        },
+        {
+          "label": "Feature photo का लाइसेंस: CC BY 4.0; cropped WebP पर भी यही अनुमति लागू",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Newlands2.jpg",
+      "bytes": 1723063,
+      "originalDimensions": [
+        1795,
+        1024
+      ],
+      "sourceSha256": "4e90e39ffa16be88e548188baddf8159a18b5433eede878f3a1752dd06e618f8",
+      "outputSha256": "8c654cfbb40650431c6df496634b34c7a901aa957a30439bb20fb548aa3d0a24",
+      "outputDimensions": [
+        1536,
+        864
+      ],
+      "path": "/images/world-cup-2027-newlands-venues.webp",
+      "alt": "केप टाउन के Newlands क्रिकेट मैदान की पुरानी तस्वीर",
+      "provenance": "Photograph by Paddy Briggs; source https://commons.wikimedia.org/wiki/File:Newlands2.jpg; Public domain (https://commons.wikimedia.org/wiki/File:Newlands2.jpg); 10 नवंबर 2005 तक अपलोड की गई पुरानी तस्वीर; लेने की सटीक तारीख उपलब्ध नहीं. Cropped to16:9 and converted to1536x864WebP; derivative under same license where applicable. Historical venue context, not a photograph of the2027 event.",
+      "creditSources": [
+        {
+          "label": "फोटो credit: Paddy Briggs; 10 नवंबर 2005 तक अपलोड की गई पुरानी तस्वीर; लेने की सटीक तारीख उपलब्ध नहीं; Public domain; 16:9 crop और WebP conversion; 2027 आयोजन की फोटो नहीं",
+          "url": "https://commons.wikimedia.org/wiki/File:Newlands2.jpg"
+        },
+        {
+          "label": "Feature photo का लाइसेंस: Public domain; cropped WebP पर भी यही अनुमति लागू",
+          "url": "https://commons.wikimedia.org/wiki/File:Newlands2.jpg"
+        }
+      ]
+    }
+  ],
+  "imageReuse": "Three distinct authentic photographs for five articles; Newlands2026 reused in schedule/format and Wanderers2024 in India/tickets. PaddyBriggs Newlands image used for venues. Historical context and attribution in public sources, provenance internal.",
+  "imageQA": "All selected final images visually inspected. Mountain-only Newlands_view and watermarked Wanderers2007 rejected, not committed. No overlays added. No prohibited public image wording or figcaptions.",
+  "validation": {
+    "validator": "passed",
+    "tests": "8 passed",
+    "draftProductionBuild": "passed",
+    "publishedProductionBuild": "passed",
+    "productionRenderChecks": [
+      {
+        "slug": "icc-cricket-world-cup-2027-schedule-dates-groups-final",
+        "metadata": "passed",
+        "internalLinks": 3,
+        "rawImage": "1536x864 decoded HTTP200",
+        "optimizedImage": "1080x608 decoded HTTP200"
+      },
+      {
+        "slug": "india-world-cup-2027-match-schedule-pakistan-super-seven-route",
+        "metadata": "passed",
+        "internalLinks": 3,
+        "rawImage": "1536x864 decoded HTTP200",
+        "optimizedImage": "1080x608 decoded HTTP200"
+      },
+      {
+        "slug": "cricket-world-cup-2027-format-qualification-super-series-super-seven",
+        "metadata": "passed",
+        "internalLinks": 3,
+        "rawImage": "1536x864 decoded HTTP200",
+        "optimizedImage": "1080x608 decoded HTTP200"
+      },
+      {
+        "slug": "icc-world-cup-2027-tickets-ballot-registration-deadline",
+        "metadata": "passed",
+        "internalLinks": 3,
+        "rawImage": "1536x864 decoded HTTP200",
+        "optimizedImage": "1080x608 decoded HTTP200"
+      },
+      {
+        "slug": "cricket-world-cup-2027-host-countries-venues-india-fan-guide",
+        "metadata": "passed",
+        "internalLinks": 3,
+        "rawImage": "1536x864 decoded HTTP200",
+        "optimizedImage": "1080x608 decoded HTTP200"
+      }
+    ],
+    "categorySitemapRSS": "passed",
+    "browserVisual": "Not performed; feature images visually inspected",
+    "CI": "Check exact commit after guarded push"
+  },
+  "deployment": "Not deployed. Main commit awaits VPS pull/rebuild. Preserve local content/stash and standalone.previous rollback backup."
+}
