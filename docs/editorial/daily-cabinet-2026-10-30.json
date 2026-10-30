@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-30T03:52:31.182753+00:00",
+  "baseHead": "970791ccd268444d28055d67c60747c40e33f8e2",
+  "articles": [
+    "content/articles/central-government-da-dr-july-2026-three-percent-increase.json",
+    "content/articles/pm-viksit-gram-swaraj-yojana-2026-panchayat-planning.json",
+    "content/articles/khelo-india-sports-goods-manufacturing-scheme-2026.json"
+  ],
+  "sources": "Fresh PMO original Cabinet releases dated 2026-10-28; source URLs in each article. Direct web reader opened all three. No payment date or application promise invented.",
+  "discovery": "Google Trends India read in initial research; direct YouTube/X popularity not verified.",
+  "images": "Three existing original BaatBaaki editorial illustrations reused; visually inspected and decoded; provenance retained internally; no public feature caption. No documentary event photographs claimed. Dimensions retained, no upscaling.",
+  "validation": {
+    "validator": "passed",
+    "tests": "8 passed",
+    "productionBuild": "passed",
+    "renderedPages": "HTTP200 canonical NewsArticle dates large image previews no figcaption verified",
+    "internalLinks": "all six existing published targets HTTP200",
+    "images": "all raw and optimized URLs HTTP200 and PIL decoded",
+    "feeds": "all three slugs present in sitemap and RSS"
+  },
+  "deployment": "Not deployed; awaits VPS pull/rebuild",
+  "limitations": "Concise announcements, not padded substantial explainers. No suitable licensed documentary photographs established."
+}
