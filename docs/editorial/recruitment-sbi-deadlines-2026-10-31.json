@@ -1,0 +1,156 @@
+{
+  "checkedAt": "2026-10-31T09:14:57.909994+00:00",
+  "baseHead": "f9554938859a445e03bbdf95f210f31c5b7ecbe3",
+  "coverageLimit": "Partial rotating watch: SBI, RRC Jaipur, Punjab SSSB, and attempts at RRB Chandigarh, CLW, Employment News and SSC. Other regions, commissions, banks and PSUs not checked this run. No exhaustive or instantaneous monitoring claimed.",
+  "coverage": [
+    {
+      "url": "https://sbi.bank.in/web/careers/current-openings",
+      "outcome": "Opened successfully; both original advertisements and both official application pages opened. Registration and fee dates verified for every listed post."
+    },
+    {
+      "url": "https://www.rrbcdg.gov.in/",
+      "outcome": "Timeout; no notice verification"
+    },
+    {
+      "url": "https://rrcjaipur.in/",
+      "outcome": "Opened; latest listed 30 October departmental TBT call-letter link, not a new open-market recruitment advertisement. Apprentice 04/2026 and earlier quota notices also listed; no original notice/apply re-verification this run, so no additional article prepared."
+    },
+    {
+      "url": "https://clw.indianrailways.gov.in/",
+      "outcome": "Timeout; production-unit coverage blocked"
+    },
+    {
+      "url": "https://sssb.punjab.gov.in/",
+      "outcome": "Opened listing; JE 16/2025 counselling on 3 November and Line Superintendent 11/2026 pending documents due 3 November visible. Original notices not reverified in this run, held without publication."
+    },
+    {
+      "url": "https://www.employmentnews.gov.in/",
+      "outcome": "Not accessible through web reader"
+    },
+    {
+      "url": "https://ssc.gov.in/",
+      "outcome": "Page returned no readable lines; not evidence of no notices"
+    }
+  ],
+  "blockedSources": [
+    "https://www.rrbcdg.gov.in/",
+    "https://clw.indianrailways.gov.in/",
+    "https://www.employmentnews.gov.in/",
+    "https://ssc.gov.in/"
+  ],
+  "notices": [
+    {
+      "path": "content/articles/sbi-digital-marketing-sco-2026-24-deadline-extension-notice.json",
+      "slug": "sbi-digital-marketing-sco-2026-24-deadline-extension-notice",
+      "advertisementNumber": "CRPD/SCO/2026-27/24",
+      "publishedAt": "2026-10-29T13:51:51.084791+00:00",
+      "updatedAt": "2026-10-31T09:14:57.909994+00:00",
+      "change": "Verified registration and fee deadline extension from 2026-10-31 to 2026-11-04; original URL and publication date preserved. Original advertisement remains dated 2026-09-30; no separate extension issue date asserted.",
+      "verifiedClaims": {
+        "applicationDeadline": "2026-11-04",
+        "feePaymentDeadline": "2026-11-04"
+      },
+      "sources": [
+        {
+          "label": "SBI Current Openings: विज्ञापन 24 की विस्तारित अवधि",
+          "url": "https://sbi.bank.in/web/careers/current-openings"
+        },
+        {
+          "label": "SBI विज्ञापन CRPD/SCO/2026-27/24: मूल PDF, 30 सितंबर 2026",
+          "url": "https://sbi.bank.in/documents/77530/57941334/FINAL%2BADVT%2BOF%2B2026-27_24.pdf/9cf5df5f-5ce2-976d-70d1-2dc8d49380cd?t=1790690953073"
+        },
+        {
+          "label": "SBI आधिकारिक आवेदन: registration और payment की वर्तमान तारीख",
+          "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-24/apply"
+        }
+      ]
+    },
+    {
+      "path": "content/articles/sbi-wealth-management-sco-2026-25-deadline-extension-notice.json",
+      "slug": "sbi-wealth-management-sco-2026-25-deadline-extension-notice",
+      "advertisementNumber": "CRPD/SCO/2026-27/25",
+      "publishedAt": "2026-10-27T06:15:43.070594+00:00",
+      "updatedAt": "2026-10-31T09:14:57.909994+00:00",
+      "change": "Verified registration and fee deadline extension from 2026-10-31 to 2026-11-04; original URL and publication date preserved. Original advertisement remains dated 2026-09-30; no separate extension issue date asserted.",
+      "verifiedClaims": {
+        "applicationDeadline": "2026-11-04",
+        "feePaymentDeadline": "2026-11-04"
+      },
+      "sources": [
+        {
+          "label": "SBI Current Openings: विज्ञापन 25 की बढ़ी हुई अंतिम तारीख",
+          "url": "https://sbi.bank.in/web/careers/current-openings"
+        },
+        {
+          "label": "CRPD/SCO/2026-27/25: 30 सितंबर 2026 का विस्तृत मूल विज्ञापन",
+          "url": "https://sbi.bank.in/documents/77530/57941334/1_Advertisement%2B_Wealth%2BMGMT_30.09.2026.pdf/ed836f34-1d3a-408a-f3a5-09005623781a?t=1790692625089"
+        },
+        {
+          "label": "SBI आधिकारिक आवेदन: पंजीकरण और शुल्क भुगतान 4 नवंबर तक",
+          "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-25/apply"
+        }
+      ]
+    }
+  ],
+  "deduplication": "Current main inventory and existing article/source records inspected; same employer and advertisement numbers update existing URLs, no new recruitment articles created.",
+  "image": {
+    "path": "/images/education.webp",
+    "reused": true,
+    "creatorRightsholder": "BaatBaaki",
+    "permission": "Existing original BaatBaaki editorial illustration retained; internal provenance preserved. No new third-party photograph used.",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "sha256": "9262d0ea0a36346ce612551a9b6b30347b951a8d5326cf13934acc46c02017ba"
+  },
+  "validation": {
+    "validator": "passed",
+    "tests": "8 passed, 0 failed",
+    "productionBuild": "passed",
+    "renderedChecks": "passed: both articles HTTP200, canonical, NewsArticle dates, max-image-preview:large, no figcaption; internal published links HTTP200; education board, sitemap and RSS contain both URLs",
+    "rawImage": "HTTP200; decoded WebP 1536x1024",
+    "optimizedImage": "HTTP200; decoded JPEG1080x720",
+    "imageInspection": "Visually inspected existing illustration: no prohibited wording or text overlay. Neutral alt and internal provenance retained.",
+    "sourceLinks": "All five official URLs HTTP200; SHA256 and check times recorded",
+    "CI": "Pending matching commit Actions result after guarded ref update"
+  },
+  "deployment": "Not deployed. GitHub content awaits VPS pull/rebuild.",
+  "sourceChecks": [
+    {
+      "url": "https://sbi.bank.in/documents/77530/57941334/1_Advertisement%2B_Wealth%2BMGMT_30.09.2026.pdf/ed836f34-1d3a-408a-f3a5-09005623781a?t=1790692625089",
+      "status": 200,
+      "bytes": 910449,
+      "sha256": "3ed9578ec054e599cd756662c1e7bdb278d6ee991c7fbe6067511a297975ac34",
+      "checkedAt": "2026-10-31T09:15:40.870972+00:00"
+    },
+    {
+      "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-25/apply",
+      "status": 200,
+      "bytes": 19655,
+      "sha256": "f5c666589790350e2c2b49ec131cb30651e1e81ef4e6dc8124319aad77f35e62",
+      "checkedAt": "2026-10-31T09:15:37.611644+00:00"
+    },
+    {
+      "url": "https://sbi.bank.in/documents/77530/57941334/FINAL%2BADVT%2BOF%2B2026-27_24.pdf/9cf5df5f-5ce2-976d-70d1-2dc8d49380cd?t=1790690953073",
+      "status": 200,
+      "bytes": 993192,
+      "sha256": "6f3f9b6342de9b37017e8a45bab215842c7596fc82904c70da5c8638d92f89bd",
+      "checkedAt": "2026-10-31T09:15:42.009568+00:00"
+    },
+    {
+      "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-24/apply",
+      "status": 200,
+      "bytes": 18457,
+      "sha256": "df36c6b07732880b915c2e1ed257d2cf5cd55f8bd12ef68fa7e4cf441ae51256",
+      "checkedAt": "2026-10-31T09:15:37.590516+00:00"
+    },
+    {
+      "url": "https://sbi.bank.in/web/careers/current-openings",
+      "status": 200,
+      "bytes": 55019,
+      "sha256": "3fb282e91e5d8b0c34bbbfd171154d638f02a09746d1529f686a3971c9319280",
+      "checkedAt": "2026-10-31T09:15:38.945676+00:00"
+    }
+  ]
+}
