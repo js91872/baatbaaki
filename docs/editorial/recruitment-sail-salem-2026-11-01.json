@@ -1,0 +1,145 @@
+{
+  "checkedAt": "2026-11-01T02:03:50.215966+00:00",
+  "baseCommit": "ef1db82bcf811f4a0dd998fed4c64a4e827e1e18",
+  "scope": "Partial rotating coverage; not exhaustive or instantaneous monitoring",
+  "publishedNotices": [
+    {
+      "employer": "SAIL — Salem Steel Plant",
+      "advertisementNumber": "SSP/HR-2(15)/2026/(2)",
+      "vacancyKey": "GDMO:1:OBC:contract",
+      "articleSlug": "sail-salem-gdmo-contract-recruitment-2026-walk-in-notice",
+      "issueDate": "2026-10-30",
+      "sources": [
+        {
+          "label": "SAIL: आधिकारिक करियर सूची और सेलम अस्पताल की सूचना",
+          "url": "https://sailcareers.com/"
+        },
+        {
+          "label": "SAIL सेलम: मूल विज्ञापन और Annexure-1 आवेदन प्रारूप, 30 अक्टूबर 2026",
+          "url": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/SSP_News%20%26%20Jobs_30102026_103920.pdf"
+        }
+      ],
+      "originalPdfSha256": "007b4b83e288b008ff02b04dd0fc051edcd4a1a96f258a21746f8d7df4310796",
+      "verifiedClaims": {
+        "vacancies": 1,
+        "reservation": "OBC",
+        "qualification": "Recognized MBBS and registration/practitioner licence as specified in original notice",
+        "experience": "Relevant experience preferred; no mandatory minimum duration stated",
+        "upperAge": 69,
+        "ageCutoff": "2026-10-30",
+        "remuneration": "INR 90000 per month consolidated; prorated for shorter hours",
+        "initialContract": "1 year; extension discretionary; total cap 3 years",
+        "selection": [
+          "document and caste certificate screening",
+          "walk-in interview",
+          "screening test if required",
+          "medical screening for selected candidate"
+        ],
+        "registration": "2026-11-20 08:00–11:00 IST",
+        "interview": "2026-11-20 11:00–16:00 IST",
+        "venue": "HRDC Building, Salem Steel Plant",
+        "applicationMethod": "Annexure-1 in original PDF; submit at walk-in; no other mode accepted"
+      },
+      "omittedFields": {
+        "fee": "Not specified; no free-application claim made",
+        "relaxations": "Not specified; no additional age relaxation inferred",
+        "applicationOpeningDate": "No online application window; issue date not represented as opening date",
+        "applicationDeadline": "Bulletin date omitted because this is walk-in registration, not an online closing date"
+      },
+      "documentDiscrepancy": "Instructions page 2 say one set of self-attested copies; Annexure-1 says three sets. Article advises clarification with official HR contact 0427-2382274.",
+      "dedup": "Fresh article inventory and all source records searched by employer, advertisement and vacancy; no matching existing article/record."
+    }
+  ],
+  "coverage": [
+    {
+      "url": "https://sailcareers.com/",
+      "result": "Opened official listing; original Salem PDF and Annexure-1 opened in full; both HTTP 200 from execution runtime."
+    },
+    {
+      "url": "https://www.rrcser.co.in/notice.html",
+      "result": "Opened official RRC board and original sports quota PDF. Candidate retained on hold because official application page returned 403."
+    },
+    {
+      "url": "https://www.rrcser.co.in/pdf/Notification%20Sports%20Quota%20OA%202026-27%20SER.pdf",
+      "noticeIdentifier": "SER/Pers/Sports Quota/OA/2026-27",
+      "result": "PDF opened; first page verifies issue 26 October, opening 31 October and closing 30 November 2026 23:59, 54 posts across Levels 1–5. Full eligibility review not completed in this run; no article."
+    },
+    {
+      "url": "https://iroams.com/rrc_ser_sports2026/index.php",
+      "result": "403 Forbidden; no bypass attempted."
+    },
+    {
+      "url": "https://ongcindia.com/documents/77751/2660534/Advertisement-engagement-Apprentices2026-27.pdf/e926a825-c08b-6403-60f1-ea0232bcaab8",
+      "result": "Timeout. Pending apprenticeship details remain unverified; no article."
+    },
+    {
+      "url": "https://www.ongcindia.com/en/web/eng/career/recruitment-notice",
+      "result": "Inaccessible via web tool."
+    },
+    {
+      "url": "https://www.rrbbhopal.gov.in/",
+      "result": "502 Bad Gateway."
+    },
+    {
+      "url": "https://sssb.punjab.gov.in/",
+      "result": "Homepage opened; lists JE 16/2025 counselling for 3 November. Original PDF timed out; no update cleared."
+    },
+    {
+      "url": "https://sssb.punjab.gov.in/wp-content/uploads/2026/10/Public-Notice-counseling-JE-Civil-16-of-2025-1.pdf",
+      "result": "Timeout."
+    },
+    {
+      "url": "https://www.employmentnews.gov.in/",
+      "result": "Inaccessible via web tool."
+    },
+    {
+      "url": "https://www.ncs.gov.in/Pages/Govt-Job-Vacancies.aspx",
+      "result": "Redirected to NCS homepage. Government job link opened https://ncs.gov.in/job-listing?isGovernmentJob=true but exposed a client-rendered zero-results shell; not evidence of no vacancies."
+    },
+    {
+      "url": "https://nfr.indianrailways.gov.in/",
+      "result": "Zonal homepage opened; vacancies page https://nfr.indianrailways.gov.in/offerings/vacancies exposed section headings only; no original new notice verified."
+    }
+  ],
+  "notCheckedThisRotation": [
+    "UPSC",
+    "SSC",
+    "other RRB regions and RRC zones",
+    "railway production-unit recruitment pages",
+    "IBPS",
+    "SBI",
+    "other state commissions",
+    "NTPC Limited",
+    "IOCL",
+    "BHEL",
+    "GAIL",
+    "BEL",
+    "BEML",
+    "HAL",
+    "Power Grid",
+    "Coal India"
+  ],
+  "image": {
+    "path": "/images/education.webp",
+    "reuse": true,
+    "creatorAndRightsholder": "BaatBaaki",
+    "permissionBasis": "Existing original publisher-owned editorial illustration; internal provenance retained",
+    "depiction": "Generic career/application preparation; no employer, hospital, doctor or event asserted",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "9262d0ea0a36346ce612551a9b6b30347b951a8d5326cf13934acc46c02017ba",
+    "visualInspection": "No overlay, prohibited wording or caption; neutral alt. No licensed documentary photograph selected."
+  },
+  "validation": {
+    "validator": "passed current repository validator",
+    "tests": "8 passed",
+    "productionBuild": "passed",
+    "sourceLinks": "SAIL listing and original PDF HTTP 200",
+    "renderedArticle": "canonical, NewsArticle dates, max-image-preview:large, no figcaption passed",
+    "internalLinks": "2 published targets verified HTTP 200",
+    "rawImage": "200; WebP decoded 1536x1024",
+    "optimizedImage": "200; JPEG decoded 1080x720",
+    "integration": "article present in education board, sitemap and RSS"
+  },
+  "deployment": "Not deployed. GitHub content awaits VPS pull/rebuild; no live-page publication claim."
+}
