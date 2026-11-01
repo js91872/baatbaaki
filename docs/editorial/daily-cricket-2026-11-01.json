@@ -1,0 +1,29 @@
+{
+  "article": "india-new-zealand-odi-squad-2026-auqib-nabi-update",
+  "checkedAt": "2026-11-01T00:15:43.784991+00:00",
+  "sources": [
+    {
+      "url": "https://www.bcci.tv/news/article/squad-update-auqib-nabi-added-to-squad-for-first-three-odis-against-new-zealand",
+      "status": 200,
+      "sha256": "008d724920d6082520a68b86c2d51ed4c557ae5a5318beebb757c703ecdbde20"
+    },
+    {
+      "url": "https://www.bcci.tv/news/article/india-and-india-a-squad-updates-for-new-zealand-tour",
+      "status": 200,
+      "sha256": "f4a04e49a731712675c99914f749464d4cc485c9739376ae0b22de547fc43649"
+    }
+  ],
+  "image": {
+    "path": "/images/india-new-zealand-third-t20-2026.webp",
+    "reused": true,
+    "creator": "BaatBaaki",
+    "dimensions": [
+      1536,
+      864
+    ],
+    "inspection": "Decoded and visually inspected; no prohibited wording; original illustration, not event photography"
+  },
+  "validation": "Validator passed; 8 tests passed; production build passed; rendered canonical/NewsArticle dates/large preview/no caption/internal links/raw and optimized images HTTP200 decoded.",
+  "discovery": "BCCI and PIB fresh primary sources opened. Google Trends shell accessible without usable rankings. No YouTube/X metrics verified. Additional two topics not prepared; insufficient completed verification and rights checks.",
+  "deployment": "Not deployed; awaits VPS pull/rebuild"
+}
