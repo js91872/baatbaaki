@@ -1,0 +1,94 @@
+{
+  "checkedAt": "2026-11-02T19:50:46.376581+00:00",
+  "baseCommit": "0f1a5e12f555187ec63540be2f4d432f1afa564d",
+  "scope": "Partial rotating coverage; not exhaustive or instantaneous monitoring",
+  "publishedNotices": [
+    {
+      "employer": "State Bank of India",
+      "advertisementNumber": "CRPD/SCO/2026-27/27",
+      "vacancyKey": "Risk Specialist:3:UR:MMGS-II:regular",
+      "articleSlug": "sbi-risk-specialist-recruitment-2026-27-notice",
+      "sources": [
+        {
+          "label": "SBI: वर्तमान भर्तियां और आधिकारिक विज्ञापन",
+          "url": "https://sbi.bank.in/web/careers/current-openings"
+        },
+        {
+          "label": "SBI: CRPD/SCO/2026-27/27 का मूल विस्तृत विज्ञापन",
+          "url": "https://sbi.bank.in/documents/77530/57941334/DETAILED%2BADV_RMD_SCO_2026-27_27.pdf/fff268f5-f55d-3ec8-b1ca-b7a51e705e0e?t=1793599952659"
+        },
+        {
+          "label": "SBI: Risk Specialist के लिए आधिकारिक आवेदन",
+          "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-27/apply"
+        }
+      ],
+      "verifiedClaims": {
+        "vacancies": 3,
+        "category": "UR 3; VI 1 horizontal within total",
+        "openingDate": "2026-11-02",
+        "closingDate": "2026-11-23",
+        "age": "25–35 as on 2026-10-31",
+        "qualification": "CA/CFA or MBA/PGDM/equivalent in Finance/Data Analytics/Business Analytics",
+        "experience": "Minimum 2 years post-qualification relevant ECL modelling as on 2026-10-31; internship/teaching/training excluded",
+        "pay": "MMGS-II basic 64820-2340/1-67160-2680/10-93960; allowances under bank rules",
+        "fee": "INR750 General/EWS/OBC; nil SC/ST/PwBD",
+        "selection": "Shortlisting, 100-mark interview; merit from interview",
+        "relaxations": "Where applicable OBC3 SC/ST5 PwBD10/13/15; UR eligibility caveat retained"
+      },
+      "omittedFields": {
+        "issueDate": "No separate issue date verified; opening date not substituted"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "url": "https://sbi.bank.in/web/careers/current-openings",
+      "outcome": "Opened; new ads26 and27. Original PDFs and official application pages for both opened. Risk Specialist27 fully reviewed for article."
+    },
+    {
+      "url": "https://www.rrbmumbai.gov.in/",
+      "outcome": "502; inaccessible"
+    },
+    {
+      "url": "https://www.rrccr.com/",
+      "outcome": "Entry page only; recruitment notices not reached"
+    },
+    {
+      "url": "https://sssb.punjab.gov.in/",
+      "outcome": "Timeout"
+    },
+    {
+      "url": "https://employmentnews.gov.in/",
+      "outcome": "Inaccessible"
+    }
+  ],
+  "pending": [
+    {
+      "employer": "State Bank of India",
+      "advertisementNumber": "CRPD/SCO/2026-27/26",
+      "status": "Original PDF and application page opened; full review deferred; no article created",
+      "officialPdf": "https://sbi.bank.in/documents/77530/57941334/FINAL%2BADVT%2BCRPD%2B_SCO_2026-27_26_GMU.pdf/ade1acc4-609b-5c9a-ed89-670e70d0a82c?t=1793600742622",
+      "applicationUrl": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-26/apply",
+      "applicationDeadline": "2026-11-23"
+    }
+  ],
+  "deduplication": "Searched fresh main articles and docs/editorial for ad26/ad27 and Risk Specialist; no matching article/source record. Existing other SBI notices preserved.",
+  "image": {
+    "path": "/images/education.webp",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "reuse": true,
+    "rights": "Existing publisher-owned original editorial illustration; prior repository provenance retained",
+    "sha256": "9262d0ea0a36346ce612551a9b6b30347b951a8d5326cf13934acc46c02017ba",
+    "review": "Visually inspected; no prohibited text; career preparation, not SBI documentary photograph"
+  },
+  "validation": {
+    "contentValidator": "passed",
+    "tests": "8 passed",
+    "productionBuild": "passed",
+    "renderedChecks": "Passed canonical, NewsArticle dates, large preview, no feature caption, notice board, sitemap/RSS, 2 internal links; raw WebP1536x1024 and optimized JPEG1080x720 decoded with HTTP200"
+  },
+  "deployment": "No VPS deployment; GitHub changes await VPS pull/rebuild"
+}
