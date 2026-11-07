@@ -1,0 +1,51 @@
+{
+  "checkedAt": "2026-11-07T01:01:52.995Z",
+  "article": "india-sri-lanka-first-odi-2026-delhi-visakhapatnam-venue-change",
+  "officialSources": [
+    {
+      "label": "BCCI: 5 नवंबर 2026, पहले ODI के मैदान में बदलाव और सीरीज कार्यक्रम",
+      "url": "https://www.bcci.tv/news/article/first-odi-between-india-and-sri-lanka-shifted-from-delhi-to-visakhapatnam"
+    }
+  ],
+  "verifiedClaims": [
+    "BCCI advisory dated 2026-11-05",
+    "First ODI moved Delhi to ACA-VDCA Visakhapatnam; date 2026-12-13 unchanged",
+    "Three ODI and three T20I schedule reproduced from advisory; tickets and refund not announced"
+  ],
+  "image": {
+    "path": "/images/india-new-zealand-third-t20-2026.webp",
+    "width": 1536,
+    "height": 864,
+    "creator": "BaatBaaki",
+    "rights": "Owned original editorial illustration; reused; no external attribution",
+    "documentary": false
+  },
+  "validation": {
+    "content": "passed",
+    "tests": "8 passed",
+    "productionBuild": "passed",
+    "renderMetadata": "passed",
+    "internalLinks": "2 HTTP 200 in production build",
+    "rawImage": "HTTP 200 decoded WebP 1536x864",
+    "optimizedImage": "HTTP 200 decoded JPEG 1080x608",
+    "sitemapRssCategory": "passed"
+  },
+  "heldTopics": [
+    {
+      "topic": "NHAI multi-lane free flow tolling",
+      "source": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2333654&reg=48&lang=2",
+      "reason": "Linked release returned no release text"
+    },
+    {
+      "topic": "UIDAI offline verification entities",
+      "source": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2333177&reg=48&lang=2",
+      "reason": "Linked release returned no release text"
+    }
+  ],
+  "discoveryLimits": [
+    "Google Trends no usable rankings",
+    "YouTube no usable rankings",
+    "X 403"
+  ],
+  "deployed": false
+}
