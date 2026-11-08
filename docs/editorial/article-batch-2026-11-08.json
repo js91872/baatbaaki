@@ -1,0 +1,282 @@
+{
+  "checkedAt": "2026-11-08T01:01:31.067423+00:00",
+  "baseHead": "0894de5cffd304fe969ccd46d819225b169f1170",
+  "scope": "Three concise verified news explainers; not an exhaustive news or recruitment monitoring run.",
+  "discovery": {
+    "opened": [
+      "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=6",
+      "https://www.pib.gov.in/AllReleasem.aspx?lang=1&reg=1",
+      "https://www.bcci.tv/news"
+    ],
+    "unavailableMetrics": [
+      {
+        "url": "https://trends.google.com/trending?geo=IN",
+        "reason": "Page accessible; no usable trend rankings extracted."
+      },
+      {
+        "url": "https://www.youtube.com/feed/trending",
+        "reason": "Only shell/footer returned; no usable rankings."
+      },
+      {
+        "url": "https://x.com/explore",
+        "reason": "HTTP 403."
+      }
+    ],
+    "sourceAccessNotes": "Some direct PIB variants failed or returned empty translated shells. Mobile article links opened from official index successfully; original mobile pages also downloaded with HTTP 200. No CAPTCHA or paywall bypass."
+  },
+  "deduplication": "Fresh GitHub article inventory and pinned main archive checked; no existing published article for these three developments. Previous November 7 record held NHAI as inaccessible; original text verified this run. E20 new sampling response differs from existing E85/E100 compatibility guide.",
+  "articles": [
+    {
+      "slug": "nhai-mlff-barrier-free-toll-design-guidelines-november-2026",
+      "title": "NHAI के नए MLFF टोल नियम: बिना बैरियर सफर की तैयारी में क्या बदलेगा?",
+      "status": "published",
+      "publishedAt": "2026-11-08T00:59:56.404748+00:00",
+      "verifiedClaims": [
+        "NHAI design guidelines announced 6 November 2026; four-lane and above highways; future and under-construction projects; no universal activation date stated."
+      ],
+      "sourceURLs": [
+        "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2333654",
+        "https://commons.wikimedia.org/wiki/File:National_Highway_6_Toll_Plaza.jpg",
+        "https://creativecommons.org/licenses/by-sa/4.0/"
+      ],
+      "image": {
+        "path": "/images/rajmargyatra-toll-plaza-2022-archive.webp",
+        "sha256": "3f073024051363cd57b785b05a9ecf6563f0b82355d23637f8c7dc30c23a1316",
+        "width": 1536,
+        "height": 864,
+        "provenance": "Arindambasu2; 2022-10-06; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:National_Highway_6_Toll_Plaza.jpg; reused existing cropped/resized 1536x864 WebP under same licence. Archival conventional toll plaza, not new MLFF infrastructure.",
+        "reusedExisting": true
+      },
+      "primarySnapshots": [
+        {
+          "noticeIdentifier": "PIB 2333654",
+          "sha256": "c29f1ed2e34a3812b3ffb6c38150ead2667ef596ab795064f7bf17a69210911f"
+        }
+      ]
+    },
+    {
+      "slug": "e20-petrol-quality-test-893-samples-ministry-response-2026",
+      "title": "E20 पेट्रोल जांच: मंत्रालय ने 893 नमूने मानक के भीतर बताए, विवाद क्या है?",
+      "status": "published",
+      "publishedAt": "2026-11-08T00:59:56.404748+00:00",
+      "verifiedClaims": [
+        "Ministry statement 7 November 2026: 893 samples within 19–21%; Karnataka 56 samples at 19–20%; disputed sampling attributed to ministry/OMCs. Karnataka original lab reports not independently verified; no final adjudication."
+      ],
+      "sourceURLs": [
+        "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2333919",
+        "https://commons.wikimedia.org/wiki/File:Indian_oil_Petrol_Pump_in_Marthandam.jpg",
+        "https://creativecommons.org/licenses/by-sa/4.0/"
+      ],
+      "image": {
+        "path": "/images/marthandam-petrol-pump-2025-archive.webp",
+        "sha256": "44387c66204d1b5420cf72083552ef5c02ff9229653daf86b4b45ee6c0148484",
+        "width": 1536,
+        "height": 864,
+        "provenance": "Manukrishnan80; 2025-11-24 per EXIF; https://commons.wikimedia.org/wiki/File:Indian_oil_Petrol_Pump_in_Marthandam.jpg; CC BY-SA 4.0. Original 3072x4096 JPEG centre-cropped and resized to 1536x864 WebP; derivative under same licence. General archive, not Karnataka samples or November 2026 testing.",
+        "reusedExisting": false
+      },
+      "primarySnapshots": [
+        {
+          "noticeIdentifier": "PIB 2333919",
+          "sha256": "b0a207dd8081517de970277ed585d906ef514c87a9d0a3533a00daa3c0fcb18e"
+        }
+      ]
+    },
+    {
+      "slug": "india-eu-horizon-europe-negotiations-research-funding-2026",
+      "title": "Horizon Europe पर भारत–EU वार्ता पूरी: शोधकर्ताओं के लिए आगे क्या होगा?",
+      "status": "published",
+      "publishedAt": "2026-11-08T00:59:56.404748+00:00",
+      "verifiedClaims": [
+        "Negotiations concluded; EURAXESS says signature/procedures pending and January 2027 envisaged; arrangements not applicable until agreement enters into force."
+      ],
+      "sourceURLs": [
+        "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2333903",
+        "https://euraxess.ec.europa.eu/worldwide/india/news/eu-india-eu-and-india-conclude-negotiations-association-horizon-europe",
+        "https://commons.wikimedia.org/wiki/File:Immunology_and_Regenerative_Medicine_Research_Laboratory_-_University_of_Calcutta_-_Ballygunge_-_Kolkata_2014-02-26_3833.JPG",
+        "https://creativecommons.org/licenses/by/3.0/"
+      ],
+      "image": {
+        "path": "/images/calcutta-research-laboratory-2014-archive.webp",
+        "sha256": "4d64c3484e0b1905d75d31dbcf7a9a0d321183022664d4b2b152e9968206f89c",
+        "width": 1536,
+        "height": 864,
+        "provenance": "Biswarup Ganguly; 2014-02-26; https://commons.wikimedia.org/wiki/File:Immunology_and_Regenerative_Medicine_Research_Laboratory_-_University_of_Calcutta_-_Ballygunge_-_Kolkata_2014-02-26_3833.JPG; selected CC BY 3.0 licence. Original 4288x2848 JPEG centre-cropped/resized to 1536x864 WebP. General research archive; no claim this lab or person participates in Horizon Europe.",
+        "reusedExisting": false
+      },
+      "primarySnapshots": [
+        {
+          "noticeIdentifier": "PIB 2333903",
+          "sha256": "92e5366aa6085fb1ab838bd6075dd9b11986d04f5769b3b0e59aa777ee07405d"
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "contentValidator": "passed",
+    "tests": "8 passed, 0 failed, with final published JSON",
+    "productionBuild": "passed",
+    "productionChecks": [
+      {
+        "slug": "nhai-mlff-barrier-free-toll-design-guidelines-november-2026",
+        "page": 200,
+        "canonical": true,
+        "newsArticle": true,
+        "dates": true,
+        "largePreview": true,
+        "noCaption": true,
+        "internalLinks": [
+          "/news/rajmargyatra-app-toll-plaza-feedback-fastag-complaint-guide",
+          "/news/traffic-challan-online-payment-echallan-parivahan-lok-adalat-guide-2026"
+        ],
+        "feedsAndCategory": true,
+        "images": [
+          {
+            "url": "/images/rajmargyatra-toll-plaza-2022-archive.webp",
+            "format": "WEBP",
+            "dimensions": [
+              1536,
+              864
+            ],
+            "bytes": 233588
+          },
+          {
+            "url": "/_next/image?url=/images/rajmargyatra-toll-plaza-2022-archive.webp&w=1080&q=75",
+            "format": "JPEG",
+            "dimensions": [
+              1080,
+              608
+            ],
+            "bytes": 62514
+          }
+        ]
+      },
+      {
+        "slug": "e20-petrol-quality-test-893-samples-ministry-response-2026",
+        "page": 200,
+        "canonical": true,
+        "newsArticle": true,
+        "dates": true,
+        "largePreview": true,
+        "noCaption": true,
+        "internalLinks": [
+          "/news/e85-e100-flex-fuel-rules-october-2026-car-compatibility",
+          "/news/tata-nexon-petrol-vs-icng-running-cost-buying-guide"
+        ],
+        "feedsAndCategory": true,
+        "images": [
+          {
+            "url": "/images/marthandam-petrol-pump-2025-archive.webp",
+            "format": "WEBP",
+            "dimensions": [
+              1536,
+              864
+            ],
+            "bytes": 306022
+          },
+          {
+            "url": "/_next/image?url=/images/marthandam-petrol-pump-2025-archive.webp&w=1080&q=75",
+            "format": "JPEG",
+            "dimensions": [
+              1080,
+              608
+            ],
+            "bytes": 100458
+          }
+        ]
+      },
+      {
+        "slug": "india-eu-horizon-europe-negotiations-research-funding-2026",
+        "page": 200,
+        "canonical": true,
+        "newsArticle": true,
+        "dates": true,
+        "largePreview": true,
+        "noCaption": true,
+        "internalLinks": [
+          "/news/national-scholarship-portal-nsp-online-apply-pre-post-matric-guide-2026",
+          "/news/national-startup-awards-6-2026-student-prize-application"
+        ],
+        "feedsAndCategory": true,
+        "images": [
+          {
+            "url": "/images/calcutta-research-laboratory-2014-archive.webp",
+            "format": "WEBP",
+            "dimensions": [
+              1536,
+              864
+            ],
+            "bytes": 203452
+          },
+          {
+            "url": "/_next/image?url=/images/calcutta-research-laboratory-2014-archive.webp&w=1080&q=75",
+            "format": "JPEG",
+            "dimensions": [
+              1080,
+              608
+            ],
+            "bytes": 89907
+          }
+        ]
+      }
+    ],
+    "sourceLinks": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Immunology_and_Regenerative_Medicine_Research_Laboratory_-_University_of_Calcutta_-_Ballygunge_-_Kolkata_2014-02-26_3833.JPG",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Indian_oil_Petrol_Pump_in_Marthandam.jpg",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:National_Highway_6_Toll_Plaza.jpg",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://euraxess.ec.europa.eu/worldwide/india/news/eu-india-eu-and-india-conclude-negotiations-association-horizon-europe",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2333654",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2333903",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2333919",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      }
+    ],
+    "visualReview": "All three feature images visually inspected. No prohibited overlays or public image remarks. Neutral dated archival alt text; attribution in sources; no figcaption.",
+    "deployment": "Not deployed. GitHub commit requires separate VPS pull/rebuild."
+  }
+}
