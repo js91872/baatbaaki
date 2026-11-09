@@ -1,0 +1,322 @@
+{
+  "checkedAt": "2026-11-09T01:04:16.908965+00:00",
+  "baseHead": "433b6164f7d55036daa6bcc2af2724d85eda249c",
+  "scope": "Three concise Hindi news explainers; no claim of exhaustive news, social-platform or recruitment monitoring.",
+  "freshRepositoryReads": [
+    "main ref",
+    "content/articles inventory",
+    "HINDI_EDITORIAL_STYLE_GUIDE.md",
+    "lib/pages.mjs editorial and corrections policies",
+    "scripts/validate-content.mjs",
+    "app/news/[slug]/page.js",
+    "scripts/deploy-vps.sh"
+  ],
+  "discovery": {
+    "officialIndexes": [
+      "https://www.pib.gov.in/AllReleasem.aspx?lang=1&reg=1",
+      "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=6"
+    ],
+    "unavailableMetrics": [
+      {
+        "url": "https://trends.google.com/trending?geo=IN",
+        "reason": "Page shell accessible, no usable rankings extracted."
+      },
+      {
+        "url": "https://www.youtube.com/feed/trending",
+        "reason": "Only shell/footer returned, no usable rankings."
+      },
+      {
+        "url": "https://x.com/explore",
+        "reason": "HTTP 403."
+      }
+    ],
+    "accessNotes": [
+      "ISM homepage returned 403 in web retrieval, but ordinary curl fetched HTTP 200 and full program content. No bypass.",
+      "WaveX public page retains 2025 FAQ. Login page opened but yielded no readable form; authenticated 2026 form contents, fees and deadline not asserted.",
+      "Phone original Unsplash page inaccessible in web tool; Commons records pre-June-2017 publication and CC0; exact capture-day conflict recorded internally.",
+      "Camera original exceeds web image size limit; ordinary curl downloaded full original successfully."
+    ]
+  },
+  "deduplication": "Fresh inventory and pinned-main archive searched by topics and primary release identifiers. No previous article on these developments. Prior November 7 record had UIDAI held for access; primary mobile release now opened. Existing Aadhaar security/document-update guides retained and linked.",
+  "skippedTopics": [
+    {
+      "topic": "Diwali phishing advisory discovered in reporting",
+      "reason": "Original X advisory not opened/verified; not used for a new story."
+    }
+  ],
+  "articles": [
+    {
+      "slug": "wavex-iffi-goa-2026-startup-pavilion-application-news",
+      "title": "IFFI Goa 2026 में WaveX पवेलियन: फिल्म-टेक स्टार्टअप के लिए आवेदन आमंत्रित",
+      "status": "published",
+      "publishedAt": "2026-11-09T01:02:37.740577+00:00",
+      "verifiedClaims": [
+        "PIB release 2333906 dated 7 November 2026 invites DPIIT-registered film/allied-technology startups; committee screening; official WaveX website and query email. No deadline, fee, guaranteed booth or investment stated."
+      ],
+      "sourceURLs": [
+        "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2333906",
+        "https://wavex.wavesbazaar.com/",
+        "https://www.flickr.com/photos/185371484@N02/49140475212",
+        "https://commons.wikimedia.org/wiki/File:Blackmagic_Design_Pocket_Cinema_Camera_4K_(49140475212).jpg",
+        "https://creativecommons.org/licenses/by/2.0/"
+      ],
+      "primaryNoticeIdentifier": "PIB 2333906",
+      "downloadedPrimarySha256": "c93306c7bf4be7228a568fa2faac459d4620e6cf921462dfa9db01794f6a01a8",
+      "image": {
+        "path": "/images/cinema-camera-2018-archive.webp",
+        "sha256": "f6225fce7bd27e3447470ce66224b892e96df40f5aaa539f8723875bbe048a54",
+        "width": 1536,
+        "height": 864,
+        "provenance": "Dennis Dudda (Schnapsschüsse); Blackmagic Design // Pocket Cinema Camera 4K; taken 2018-11-16; original https://www.flickr.com/photos/185371484@N02/49140475212 ; Commons https://commons.wikimedia.org/wiki/File:Blackmagic_Design_Pocket_Cinema_Camera_4K_(49140475212).jpg; CC BY 2.0 verified on original Flickr licence link and Commons review. Cropped/resized 5024x3349 JPEG to 1536x864 WebP. General film-equipment archive, not IFFI 2026 or a WaveX applicant product.",
+        "reusedExistingAsset": false
+      }
+    },
+    {
+      "slug": "semicon-2-portal-ecms-12-approvals-investment-jobs-2026",
+      "title": "Semicon 2.0 पोर्टल शुरू, ECMS के 12 और प्रस्ताव मंजूर: निवेश और नौकरी के आंकड़े समझें",
+      "status": "published",
+      "publishedAt": "2026-11-09T01:02:37.740577+00:00",
+      "verifiedClaims": [
+        "PIB release 2333716 dated 6 November 2026: Semicon pillars 2/3/4 open; ECMS 12 approvals; expected investment 7503 crore, production 39045 crore and 7127 direct jobs; seven states include Punjab. Projections distinguished from vacancies and completed investment."
+      ],
+      "sourceURLs": [
+        "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2333716",
+        "https://ism.gov.in/",
+        "https://commons.wikimedia.org/wiki/File:12-inch_silicon_wafer.jpg",
+        "https://creativecommons.org/licenses/by-sa/3.0/"
+      ],
+      "primaryNoticeIdentifier": "PIB 2333716",
+      "downloadedPrimarySha256": "10cf730a9bac5185afda35a9d84fa46ac548e32371a128e2b993fc3a1b8e73fb",
+      "image": {
+        "path": "/images/silicon-wafer-2011-archive.webp",
+        "sha256": "d4439f57837aa82db11f42ad383e7fc458b9820d72c2a2071286c86222eb06c0",
+        "width": 1536,
+        "height": 864,
+        "provenance": "Peellden; 12-inch silicon wafer; EXIF capture 2011-07-30; https://commons.wikimedia.org/wiki/File:12-inch_silicon_wafer.jpg; selected CC BY-SA 3.0. Original 2000x2000 JPEG cropped/resized to 1536x864 WebP; derivative under CC BY-SA 3.0. Generic archival wafer; not Indian plant, approved ECMS project or November 2026 production.",
+        "reusedExistingAsset": false
+      }
+    },
+    {
+      "slug": "aadhaar-offline-verification-300-entities-consent-sharing-2026",
+      "title": "Aadhaar offline verification से जुड़ीं 300 संस्थाएं: सहमति से जानकारी साझा करने का मतलब",
+      "status": "published",
+      "publishedAt": "2026-11-09T01:02:37.740577+00:00",
+      "verifiedClaims": [
+        "PIB release 2333177 dated 5 November 2026: 300 OVSEs onboarded since January; sector examples; UIDAI FAQ confirms full/partial consent sharing and continued secure QR support. No personal transaction tested or universal mandate asserted."
+      ],
+      "sourceURLs": [
+        "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2333177",
+        "https://uidai.gov.in/hi/aadhaar-app-faq",
+        "https://commons.wikimedia.org/wiki/File:Black_smartphone_in_hand_(Unsplash).jpg",
+        "https://creativecommons.org/publicdomain/zero/1.0/"
+      ],
+      "primaryNoticeIdentifier": "PIB 2333177",
+      "downloadedPrimarySha256": "6722e2e1529f40918a094c33a72b7bd2bfeb592f03ccae9c311ac053a7f73a3a",
+      "image": {
+        "path": "/images/smartphone-hand-2016-archive.webp",
+        "sha256": "b4585e18e54d233e93ce54efcf2056a235f6e2413e092cb2f001740bb233affc",
+        "width": 1536,
+        "height": 864,
+        "provenance": "Dennis Cortés; Black smartphone in hand; original https://unsplash.com/photos/Fsl321ca52w ; Commons https://commons.wikimedia.org/wiki/File:Black_smartphone_in_hand_(Unsplash).jpg; CC0 1.0, Commons documents publication before June 2017 licence change. October 2016 archive; Commons summary day Oct 9 differs from EXIF Oct 7, so no exact capture-day claim. Cropped/resized 6000x4000 JPEG to 1536x864 WebP. No Aadhaar app interface, identity record or verification event depicted.",
+        "reusedExistingAsset": false
+      }
+    }
+  ],
+  "validation": {
+    "contentValidator": "passed",
+    "tests": "8 passed, 0 failed, with final published JSON",
+    "productionBuild": "passed",
+    "productionChecks": [
+      {
+        "slug": "wavex-iffi-goa-2026-startup-pavilion-application-news",
+        "http": 200,
+        "canonical": true,
+        "newsArticle": true,
+        "dates": true,
+        "largePreview": true,
+        "noCaption": true,
+        "internalLinks": [
+          "/news/freelancing-first-client-portfolio-payment-guide",
+          "/news/national-startup-awards-6-2026-student-prize-application"
+        ],
+        "sitemapRssCategory": true,
+        "images": [
+          {
+            "url": "/images/cinema-camera-2018-archive.webp",
+            "http": 200,
+            "format": "WEBP",
+            "dimensions": [
+              1536,
+              864
+            ],
+            "bytes": 93420
+          },
+          {
+            "url": "/_next/image?url=/images/cinema-camera-2018-archive.webp&w=1080&q=75",
+            "http": 200,
+            "format": "JPEG",
+            "dimensions": [
+              1080,
+              608
+            ],
+            "bytes": 40427
+          }
+        ]
+      },
+      {
+        "slug": "semicon-2-portal-ecms-12-approvals-investment-jobs-2026",
+        "http": 200,
+        "canonical": true,
+        "newsArticle": true,
+        "dates": true,
+        "largePreview": true,
+        "noCaption": true,
+        "internalLinks": [
+          "/news/india-eu-horizon-europe-negotiations-research-funding-2026",
+          "/news/national-startup-awards-6-2026-student-prize-application"
+        ],
+        "sitemapRssCategory": true,
+        "images": [
+          {
+            "url": "/images/silicon-wafer-2011-archive.webp",
+            "http": 200,
+            "format": "WEBP",
+            "dimensions": [
+              1536,
+              864
+            ],
+            "bytes": 286440
+          },
+          {
+            "url": "/_next/image?url=/images/silicon-wafer-2011-archive.webp&w=1080&q=75",
+            "http": 200,
+            "format": "JPEG",
+            "dimensions": [
+              1080,
+              608
+            ],
+            "bytes": 94313
+          }
+        ]
+      },
+      {
+        "slug": "aadhaar-offline-verification-300-entities-consent-sharing-2026",
+        "http": 200,
+        "canonical": true,
+        "newsArticle": true,
+        "dates": true,
+        "largePreview": true,
+        "noCaption": true,
+        "internalLinks": [
+          "/news/aadhaar-biometric-lock-unlock-otp-authentication-history-guide",
+          "/news/aadhaar-card-document-update-online-free-myaadhaar-portal-poi-poa-guide-2026"
+        ],
+        "sitemapRssCategory": true,
+        "images": [
+          {
+            "url": "/images/smartphone-hand-2016-archive.webp",
+            "http": 200,
+            "format": "WEBP",
+            "dimensions": [
+              1536,
+              864
+            ],
+            "bytes": 37280
+          },
+          {
+            "url": "/_next/image?url=/images/smartphone-hand-2016-archive.webp&w=1080&q=75",
+            "http": 200,
+            "format": "JPEG",
+            "dimensions": [
+              1080,
+              608
+            ],
+            "bytes": 26694
+          }
+        ]
+      }
+    ],
+    "sourceLinks": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:12-inch_silicon_wafer.jpg",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Black_smartphone_in_hand_(Unsplash).jpg",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Blackmagic_Design_Pocket_Cinema_Camera_4K_(49140475212).jpg",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://ism.gov.in/",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://uidai.gov.in/hi/aadhaar-app-faq",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://wavex.wavesbazaar.com/",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://www.flickr.com/photos/185371484@N02/49140475212",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2333177",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2333716",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2333906",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      }
+    ],
+    "visualReview": "All three final feature images inspected visually and decoded as 1536x864 WebP. No prohibited remarks or overlays; neutral alt text; no public feature figcaption; attribution in sources.",
+    "deployment": "Not deployed; GitHub changes await VPS pull/rebuild."
+  }
+}
