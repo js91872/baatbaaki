@@ -1,0 +1,371 @@
+{
+  "checkedAt": "2026-11-10T00:23:50.967518+00:00",
+  "baseHead": "bb8d6853ded2502102ed110624fdc83c38f37d94",
+  "scope": "Two new Hindi articles plus one material cricket update to avoid duplicate coverage. Rotating news discovery, not exhaustive or instantaneous monitoring. No recruitment-monitoring claim for this run.",
+  "freshRepositoryReads": [
+    "main ref",
+    "content/articles inventory",
+    "HINDI_EDITORIAL_STYLE_GUIDE.md",
+    "lib/pages.mjs editorial/corrections policies",
+    "scripts/validate-content.mjs",
+    "app/news/[slug]/page.js",
+    "scripts/deploy-vps.sh"
+  ],
+  "discovery": {
+    "officialIndexes": [
+      "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=6",
+      "https://www.bcci.tv/news",
+      "https://newsonair.gov.in/category/sports/",
+      "https://nr.indianrailways.gov.in/documents/press-release",
+      "https://cpcb.gov.in/National-Air-Quality-Index/"
+    ],
+    "unavailableMetrics": [
+      {
+        "url": "https://trends.google.com/trending?geo=IN",
+        "reason": "Page controls but no usable current rankings extracted."
+      },
+      {
+        "url": "https://www.youtube.com/feed/trending",
+        "reason": "Shell/footer, no usable current rankings."
+      },
+      {
+        "url": "https://x.com/explore",
+        "reason": "HTTP 403."
+      }
+    ],
+    "accessNotes": [
+      "PIB mobile release index timed out; full monthly index opened.",
+      "Northern Railway original preview/1560 was inaccessible in web retrieval, ordinary curl fetched full original HTTP 200; original bilingual notice read.",
+      "CPCB www airquality PDF timed out/503 and AQI path 404; linked cpcb.gov.in original PDFs opened, downloaded, text read and screenshots checked instead. Unverified app.cpcbccr.com mirror not used.",
+      "AIR individual Chhath report inaccessible in web retrieval; primary Northern Railway original used.",
+      "PIB photo-sharing HTML returned error and original image inaccessible in web tool; ordinary curl downloaded and decoded original static.pib.gov.in JPEG HTTP 200. Commons original-source review, capture date, PMO attribution and full GODL-India licence scope verified. Official data.gov.in licence page/PDF timed out or 503; Commons licence declaration used, not mere official-site availability."
+    ]
+  },
+  "deduplication": "Fresh main inventory and pinned archive searched for South Africa squad, Chhath holding areas, AQI and primary identifiers. Existing broad women-team guide overlapped and contained unsupported old captaincy/ranking claims; updated rather than making a competing new URL. Existing dust-action, Green Diwali, RailMadad and TDR stories are distinct and linked. Broad recruitment watchlist not represented as covered by this news batch.",
+  "skippedTopics": [
+    {
+      "topic": "Third entirely new article on women South Africa tour",
+      "reason": "Material development belongs on existing women-team guide; preserve URL and publishedAt."
+    },
+    {
+      "topic": "Live Delhi AQI and new restrictions",
+      "reason": "No verified current bulletin/order opened; excluded numerical live claims and new restrictions."
+    }
+  ],
+  "articles": [
+    {
+      "slug": "india-women-cricket-team-international-schedule-squad-rankings-guide-2026",
+      "title": "India Women South Africa Tour 2026: स्मृति मंधाना कप्तान, दिसंबर का शेड्यूल जारी",
+      "action": "material-update",
+      "status": "published",
+      "publishedAt": "2026-10-23T07:25:00.000Z",
+      "updatedAt": "2026-11-10T00:22:15.736Z",
+      "verifiedClaims": [
+        "BCCI advisory dated 9 November 2026: Smriti Mandhana captain for Test/ODI/T20I; Deepti Sharma Test/ODI vice-captain; Shafali Verma T20I vice-captain. One Test starts 9 December at Gqeberha; ODIs 16/19/22 December at Paarl/Cape Town/Bloemfontein; T20Is 26/29/30 December at Benoni/Potchefstroom/Potchefstroom.",
+        "Test/ODI squads have 15 players and T20I 17, counted from original lists. Harmanpreet Kaur and Jemimah Rodrigues present in all three. Sneh Rana in Test, Vaishnavi Sharma in ODI. No selection-reason, match time, broadcast or ticket claim.",
+        "Material update corrects old captaincy assertion and removes insufficiently sourced rankings/training claims; original URL and publishedAt retained, clear change note added."
+      ],
+      "sourceURLs": [
+        "https://www.bcci.tv/news/article/indias-womens-squad-for-all-format-tour-of-south-africa-announced",
+        "https://static.pib.gov.in/WriteReadData/Gallery/PhotoGallery/2025/Nov/H20251106195206.JPG",
+        "https://commons.wikimedia.org/wiki/File:Prime_Minister_of_Bharat,_Shri_Narendra_Damodardas_Modi_and_the_India_women%27s_national_cricket_team_at_7,_Lok_Kalyan_Marg.jpg"
+      ],
+      "downloadedPrimarySha256": [
+        {
+          "file": "source10-bcci",
+          "sha256": "efb5a851bf9c87a1203c6e3529f2205e100a5b8cb405911d076ffd0e8b74b9f4"
+        }
+      ],
+      "image": {
+        "path": "/images/india-women-team-2025-archive.webp",
+        "sha256": "8ef4c90e791fd20953c38f31dbbe1af30aa646fa780b50fed81f860bf0085bab",
+        "width": 1536,
+        "height": 864,
+        "provenance": "Prime Minister's Office, Government of India; 2025-11-05; original https://static.pib.gov.in/WriteReadData/Gallery/PhotoGallery/2025/Nov/H20251106195206.JPG; rights and attribution verified at https://commons.wikimedia.org/wiki/File:Prime_Minister_of_Bharat,_Shri_Narendra_Damodardas_Modi_and_the_India_women%27s_national_cricket_team_at_7,_Lok_Kalyan_Marg.jpg, GODL-India; original 2200x1467 JPEG cropped/resized to 1536x864 WebP. Archival team meeting with Prime Minister, not the November 2026 announcement or the selected South Africa touring squad. No endorsement implied.",
+        "reusedExistingAsset": false
+      },
+      "internalTargets": [
+        "/news/smriti-mandhana-2024-odi-performance-guide",
+        "/news/india-women-zimbabwe-2026-schedule-squads-guide"
+      ]
+    },
+    {
+      "slug": "chhath-2026-delhi-stations-holding-area-passenger-arrangements",
+      "title": "छठ यात्रा 2026: आनंद विहार में नया holding area, दिल्ली के स्टेशनों पर क्या इंतजाम हैं?",
+      "action": "new",
+      "status": "published",
+      "publishedAt": "2026-11-10T00:22:15.736Z",
+      "updatedAt": "2026-11-10T00:22:15.736Z",
+      "verifiedClaims": [
+        "Northern Railway original notice preview/1560, last-reviewed 09-11-2026: New Delhi permanent holding area commissioned 2025; Anand Vihar permanent holding area this year plus temporary tentage; ticket counters, toilets, ATVMs, catering, help booths and PA facilities.",
+        "23 special-train count explicitly confined to original notice-day context, not daily service or current November 10 timetable. Additional unscheduled specials conditional on monitored demand. No train number, platform, fare or ticket-availability claim."
+      ],
+      "sourceURLs": [
+        "https://nr.indianrailways.gov.in/documents/press-release/preview/1560",
+        "https://commons.wikimedia.org/wiki/File:Indian_Train_Station.jpg",
+        "https://creativecommons.org/licenses/by-sa/4.0/"
+      ],
+      "downloadedPrimarySha256": [
+        {
+          "file": "source10-rail",
+          "sha256": "40555d23cfcfc5f8b1284b00ce65aab531d642a9a6bbe578d5e216827ecba02e"
+        }
+      ],
+      "image": {
+        "path": "/images/railway-station-2018-archive.webp",
+        "sha256": "c942d6cb91ffacfee60240f7bfe2d641ddb14c88d138c13bd388a908059ff0ab",
+        "width": 1536,
+        "height": 864,
+        "provenance": "Shubhamrathod15; 2018-12-30; https://commons.wikimedia.org/wiki/File:Indian_Train_Station.jpg; CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/; existing licensed asset reused, original 6000x4000 cropped/resized to 1536x864 WebP, derivative under same licence. Jagriti Yatra archival train/station context; station location not asserted; not Chhath 2026 crowds or Anand Vihar holding area.",
+        "reusedExistingAsset": true
+      },
+      "internalTargets": [
+        "/news/railmadad-train-station-complaint-grp-festival-travel-guide",
+        "/news/train-late-three-hours-irctc-tdr-refund-deadline-guide"
+      ]
+    },
+    {
+      "slug": "delhi-aqi-readings-cpcb-pm25-station-average-explained",
+      "title": "दिल्ली का AQI अलग-अलग क्यों दिखता है? CPCB का पैमाना और PM2.5 का फर्क समझें",
+      "action": "new",
+      "status": "published",
+      "publishedAt": "2026-11-10T00:22:15.736Z",
+      "updatedAt": "2026-11-10T00:22:15.736Z",
+      "verifiedClaims": [
+        "Fresh CPCB original PDFs verify six national AQI bands 0-50/51-100/101-200/201-300/301-400/401-500, pollutant concentration versus index, eight pollutants and worst sub-index method.",
+        "CPCB calculation PDF: 24-hour values except 8-hour CO/O3; running-average example; minimum three pollutants including PM2.5 or PM10. Limitations PDF records technical/operational interruptions. No live AQI value, independent app-accuracy test, new GRAP/school/vehicle order or treatment instruction.",
+        "November 9 Indian Express report used only for current context of differing official/private readings. Numeric hypotheticals clearly labelled, not presented as measurements."
+      ],
+      "sourceURLs": [
+        "https://cpcb.gov.in/National-Air-Quality-Index/",
+        "https://cpcb.gov.in/displaypdf.php?id=bmF0aW9uYWwtYWlyLXF1YWxpdHktaW5kZXgvQWJvdXRfQVFJLnBkZg==",
+        "https://cpcb.gov.in/displaypdf.php?id=bmF0aW9uYWwtYWlyLXF1YWxpdHktaW5kZXgvSG93X0FRSV9DYWxjdWxhdGVkLnBkZg==",
+        "https://cpcb.gov.in/displaypdf.php?id=bmF0aW9uYWwtYWlyLXF1YWxpdHktaW5kZXgvTGltaXRhdGlvbnMucGRm",
+        "https://indianexpress.com/article/explained/explained-climate/delhi-aqi-today-cpcb-private-readings-difference-grap-rules-10956037/",
+        "https://commons.wikimedia.org/wiki/File:Pollution_in_Delhi.jpg",
+        "https://creativecommons.org/licenses/by-sa/4.0/"
+      ],
+      "downloadedPrimarySha256": [
+        {
+          "file": "cpcb10-about.pdf",
+          "sha256": "1161f80e2b871286f6c4fa5593fbf37c625fc7d3ea165d63fad785ca84b3541b"
+        },
+        {
+          "file": "cpcb10-calc.pdf",
+          "sha256": "5f5e6aed006313bf46118399805cf71ef9d1aee6e21b362df98782ab5b308ced"
+        },
+        {
+          "file": "cpcb10-limits.pdf",
+          "sha256": "65c897007da0d294a3b2343c43e9ed476eeef011ca3d230ed9c936b3c01c3bec"
+        }
+      ],
+      "image": {
+        "path": "/images/delhi-air-pollution-2017-archive.webp",
+        "sha256": "40d8643733908307b22c2e997c36b15e939b123c5f8f694dc467b06c9158b72d",
+        "width": 1536,
+        "height": 864,
+        "provenance": "Rrthakur22; 2017-11-02; https://commons.wikimedia.org/wiki/File:Pollution_in_Delhi.jpg; CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/; existing licensed asset reused, original 2592x1944 cropped/resized to 1536x864 WebP, derivative under same licence. Generic Delhi archive, not November 2026 air conditions or evidence of a current AQI number.",
+        "reusedExistingAsset": true
+      },
+      "internalTargets": [
+        "/news/delhi-caqm-construction-road-dust-review-resident-guide",
+        "/news/green-diwali-campaign-2026-pledge-family-school-guide"
+      ]
+    }
+  ],
+  "validation": {
+    "contentValidator": "passed with final published JSON",
+    "tests": "8 passed, 0 failed with final published JSON",
+    "productionBuild": "passed",
+    "productionChecks": [
+      {
+        "slug": "india-women-cricket-team-international-schedule-squad-rankings-guide-2026",
+        "http": 200,
+        "canonical": true,
+        "newsArticle": true,
+        "dates": true,
+        "largePreview": true,
+        "indexable": true,
+        "noFeatureCaption": true,
+        "internalLinks": [
+          "/news/smriti-mandhana-2024-odi-performance-guide",
+          "/news/india-women-zimbabwe-2026-schedule-squads-guide"
+        ],
+        "sitemapRssCategory": true,
+        "images": [
+          {
+            "url": "/images/india-women-team-2025-archive.webp",
+            "http": 200,
+            "format": "WEBP",
+            "dimensions": [
+              1536,
+              864
+            ],
+            "bytes": 159796
+          },
+          {
+            "url": "/_next/image?url=/images/india-women-team-2025-archive.webp&w=1080&q=75",
+            "http": 200,
+            "format": "JPEG",
+            "dimensions": [
+              1080,
+              608
+            ],
+            "bytes": 76087
+          }
+        ]
+      },
+      {
+        "slug": "chhath-2026-delhi-stations-holding-area-passenger-arrangements",
+        "http": 200,
+        "canonical": true,
+        "newsArticle": true,
+        "dates": true,
+        "largePreview": true,
+        "indexable": true,
+        "noFeatureCaption": true,
+        "internalLinks": [
+          "/news/railmadad-train-station-complaint-grp-festival-travel-guide",
+          "/news/train-late-three-hours-irctc-tdr-refund-deadline-guide"
+        ],
+        "sitemapRssCategory": true,
+        "images": [
+          {
+            "url": "/images/railway-station-2018-archive.webp",
+            "http": 200,
+            "format": "WEBP",
+            "dimensions": [
+              1536,
+              864
+            ],
+            "bytes": 142562
+          },
+          {
+            "url": "/_next/image?url=/images/railway-station-2018-archive.webp&w=1080&q=75",
+            "http": 200,
+            "format": "JPEG",
+            "dimensions": [
+              1080,
+              608
+            ],
+            "bytes": 60494
+          }
+        ]
+      },
+      {
+        "slug": "delhi-aqi-readings-cpcb-pm25-station-average-explained",
+        "http": 200,
+        "canonical": true,
+        "newsArticle": true,
+        "dates": true,
+        "largePreview": true,
+        "indexable": true,
+        "noFeatureCaption": true,
+        "internalLinks": [
+          "/news/delhi-caqm-construction-road-dust-review-resident-guide",
+          "/news/green-diwali-campaign-2026-pledge-family-school-guide"
+        ],
+        "sitemapRssCategory": true,
+        "images": [
+          {
+            "url": "/images/delhi-air-pollution-2017-archive.webp",
+            "http": 200,
+            "format": "WEBP",
+            "dimensions": [
+              1536,
+              864
+            ],
+            "bytes": 97056
+          },
+          {
+            "url": "/_next/image?url=/images/delhi-air-pollution-2017-archive.webp&w=1080&q=75",
+            "http": 200,
+            "format": "JPEG",
+            "dimensions": [
+              1080,
+              608
+            ],
+            "bytes": 41125
+          }
+        ]
+      }
+    ],
+    "sourceLinkChecks": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Indian_Train_Station.jpg",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Pollution_in_Delhi.jpg",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Prime_Minister_of_Bharat,_Shri_Narendra_Damodardas_Modi_and_the_India_women%27s_national_cricket_team_at_7,_Lok_Kalyan_Marg.jpg",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://cpcb.gov.in/National-Air-Quality-Index/",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://cpcb.gov.in/displaypdf.php?id=bmF0aW9uYWwtYWlyLXF1YWxpdHktaW5kZXgvQWJvdXRfQVFJLnBkZg==",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://cpcb.gov.in/displaypdf.php?id=bmF0aW9uYWwtYWlyLXF1YWxpdHktaW5kZXgvSG93X0FRSV9DYWxjdWxhdGVkLnBkZg==",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://cpcb.gov.in/displaypdf.php?id=bmF0aW9uYWwtYWlyLXF1YWxpdHktaW5kZXgvTGltaXRhdGlvbnMucGRm",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://indianexpress.com/article/explained/explained-climate/delhi-aqi-today-cpcb-private-readings-difference-grap-rules-10956037/",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://nr.indianrailways.gov.in/documents/press-release/preview/1560",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://static.pib.gov.in/WriteReadData/Gallery/PhotoGallery/2025/Nov/H20251106195206.JPG",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      },
+      {
+        "url": "https://www.bcci.tv/news/article/indias-womens-squad-for-all-format-tour-of-south-africa-announced",
+        "http": "200",
+        "exit": 0,
+        "error": ""
+      }
+    ],
+    "visualInspection": "All three 1536x864 WebP images decoded and viewed. No added overlays, prohibited image remarks or public figure caption. Credits in body/sources satisfy reuse attribution; imageCaption retained internally only.",
+    "ci": "Matching commit workflow checked separately after guarded ref update; outcome reported in run report."
+  },
+  "deployment": "Not performed. GitHub content awaits VPS pull/rebuild. Fresh scripts/deploy-vps.sh requires clean worktree, fast-forward ancestry, and no existing standalone.previous; run report command archives existing rollback under unique /var/backups/baatbaaki path first without deleting it."
+}
