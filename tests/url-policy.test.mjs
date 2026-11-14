@@ -42,3 +42,10 @@ test('every suppressed published URL has an explicit HTTP 410 inventory entry or
   }
   assert.deepEqual(missing,[], 'Add an explicit retired slug or citizen-service exception');
 });
+
+test('distinct DigiLocker and pension preparation guides stay public',()=>{
+ const slugs=new Set(getArticles().map(a=>a.slug));
+ assert.ok(slugs.has('digilocker-driving-licence-rc-download-traffic-police-validity-guide-2026'));
+ assert.ok(slugs.has('digilocker-driving-licence-rc-issued-documents-guide'));
+ assert.ok(slugs.has('jeevan-pramaan-life-certificate-october-november-pension-guide'));
+});
