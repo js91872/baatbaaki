@@ -30,3 +30,15 @@ test('historical duplicate topics are not blindly consolidated',()=>{
   assert.ok(active.has('voter-id-card-online-apply-form-6-correction-form-8-guide-2026'));
   assert.ok(active.has('voter-list-name-missing-form-6-form-8-check-guide'));
 });
+
+import fs from 'node:fs';
+import path from 'node:path';
+import {preservedLegacyExceptions} from '../lib/url-policy.mjs';
+test('every suppressed published URL has an explicit HTTP 410 inventory entry or 301 redirect',()=>{
+  const missing=[];
+  for(const file of fs.readdirSync('content/articles').filter(x=>x.endsWith('.json'))){
+    const a=JSON.parse(fs.readFileSync(path.join('content/articles',file),'utf8'));
+    if(a.status==='published'&&isRetired(a)&&!retiredSlugs.has(a.slug)&&!isRedirected(a.slug))missing.push(a.slug);
+  }
+  assert.deepEqual(missing,[], 'Add an explicit retired slug or citizen-service exception');
+});
