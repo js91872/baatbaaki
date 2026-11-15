@@ -10,11 +10,11 @@
   "schemaType": "Article",
   "publishedAt": "2026-10-08T00:02:24.136761+00:00",
   "updatedAt": "2026-10-18T13:05:43.698215+00:00",
-  "image": "/images/neet-physics-basics-guide.webp",
-  "imageWidth": 1536,
-  "imageHeight": 864,
-  "imageAlt": "मेज पर भौतिकी की नोटबुक और अध्ययन उपकरण के साथ छात्र का संपादकीय चित्र",
-  "imageCaption": "संपादकीय चित्र",
+  "image": "/images/editorial-neet-physics-practice.svg",
+  "imageWidth": 1200,
+  "imageHeight": 675,
+  "imageAlt": "NEET भौतिकी की पढ़ाई का अभ्यास, वेक्टर और सूत्रों का सांकेतिक चित्र।",
+  "imageCaption": "भौतिकी की तैयारी और संख्यात्मक अभ्यास का संपादकीय चित्र।",
   "sources": [
     {
       "label": "NMC/NTA: NEET UG 2026 Physics सहित आधिकारिक पाठ्यक्रम",
