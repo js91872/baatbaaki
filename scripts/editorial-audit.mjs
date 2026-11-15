@@ -16,7 +16,12 @@ for(const a of reviewed){
  const lead=a.body.split(/\n\n+/)[0]||'';
  if(lead.length>500)checks.push('long-opening');
  if(!a.imageCaption||/^(संपादकीय चित्र|प्रतीकात्मक चित्र)$/u.test(a.imageCaption.trim()))checks.push('generic-image-caption-review');
- for(const [name,rx] of patterns)if(rx.test(a.body))checks.push(name);
+ for(const [name,rx] of patterns){
+  if(name==='approval-guarantee'){
+   const sentences=a.body.split(/[।\n]+/).map(x=>x.trim()).filter(Boolean);
+   if(sentences.some(sentence=>rx.test(sentence)&&!/नहीं|मत मानें|गारंटी नहीं|बिना पुष्टि/i.test(sentence)))checks.push(name);
+  }else if(rx.test(a.body))checks.push(name);
+ }
  if(checks.length)findings.push({slug:a.slug,checks});
 }
 const typeCounts=Object.fromEntries([...new Set(findings.flatMap(x=>x.checks))].sort().map(t=>[t,findings.filter(x=>x.checks.includes(t)).length]));
