@@ -9,9 +9,9 @@
   "kind": "खबर समझें",
   "publishedAt": "2026-10-07T14:45:28.850048+00:00",
   "updatedAt": "2026-10-18T13:05:43.698215+00:00",
-  "image": "/images/india-west-indies-iyer-century.webp",
-  "imageAlt": "रोशन क्रिकेट मैदान पर बल्ला और गेंद",
-  "imageCaption": "संपादकीय चित्र",
+  "image": "/images/editorial-cricket-t20-century.svg",
+  "imageAlt": "भारत और वेस्टइंडीज टी20 मैच के विषय का सांकेतिक मैदान और स्कोरबोर्ड।",
+  "imageCaption": "भारत–वेस्टइंडीज टी20 क्रिकेट विषय का संपादकीय ग्राफिक; वास्तविक मैच की तस्वीर नहीं।",
   "sources": [
     {
       "label": "ICC — पहले T20I की आधिकारिक रिपोर्ट और श्रृंखला कार्यक्रम",
@@ -19,5 +19,7 @@
     }
   ],
   "expiresAt": null,
-  "seoTitle": "IND vs WI T20 2026: अय्यर का शतक और भारत की जीत"
+  "seoTitle": "IND vs WI T20 2026: अय्यर का शतक और भारत की जीत",
+  "imageWidth": 1200,
+  "imageHeight": 675
 }
