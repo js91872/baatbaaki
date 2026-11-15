@@ -9,9 +9,9 @@
   "kind": "खबर समझें",
   "publishedAt": "2026-10-07T14:45:28.850411+00:00",
   "updatedAt": "2026-10-18T13:05:43.698215+00:00",
-  "image": "/images/asian-games-cricket-gold-2026.webp",
-  "imageAlt": "क्रिकेट बल्ले और गेंद के पास नीले फीते वाला स्वर्ण पदक",
-  "imageCaption": "संपादकीय चित्र",
+  "image": "/images/editorial-cricket-gold-context.svg",
+  "imageAlt": "क्रिकेट का बल्ला, गेंद और स्वर्ण पदक का सांकेतिक ग्राफिक।",
+  "imageCaption": "एशियाई खेलों में क्रिकेट और स्वर्ण पदक के विषय का सांकेतिक चित्र; किसी परिणाम की पुष्टि नहीं करता।",
   "sources": [
     {
       "label": "ICC — एशियाई खेलों के पुरुष क्रिकेट पदक मुकाबलों की रिपोर्ट",
@@ -19,5 +19,7 @@
     }
   ],
   "expiresAt": null,
-  "seoTitle": "Asian Games 2026 क्रिकेट: भारत का स्वर्ण और फाइनल"
+  "seoTitle": "Asian Games 2026 क्रिकेट: भारत का स्वर्ण और फाइनल",
+  "imageWidth": 1200,
+  "imageHeight": 675
 }
