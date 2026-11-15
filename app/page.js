@@ -15,7 +15,7 @@ export default function Home() {
   const trending=all.slice(3,8);
   const latest=all.slice(1,13);
   return <main id="main" className="wrap homepage bb-home">
-    <div className="bb-topline"><span className="bb-live-dot"/> <span>आज की खास खबरें</span><span className="bb-topline-desc">देश, मनोरंजन, क्रिकेट और आपके काम की बातें</span></div>
+    <div className="bb-topline"><span className="bb-live-dot"/> <span>आज की खास खबरें</span><span className="bb-topline-desc">योजनाएं, शिक्षा, नागरिक सेवाएं और क्रिकेट</span></div>
     <nav className="bb-topic-nav" aria-label="खबरों के विषय">{categories.map(c=><Link href={'/category/'+c.slug} key={c.slug}>{c.name}<span aria-hidden="true"> ↗</span></Link>)}</nav>
     <div className="bb-section-title"><div><span className="bb-kicker">BAATBAAKI • TOP STORIES</span><h1>आज क्या है खास?</h1></div><Link href="/search">सभी खबरें देखें <span aria-hidden="true">→</span></Link></div>
     <section className="bb-hero" aria-label="आज की मुख्य खबरें">
@@ -27,7 +27,7 @@ export default function Home() {
     </section>
     {trending.length>0&&<section className="bb-trending" aria-label="लोकप्रिय खबरें"><div className="bb-trending-heading"><span className="bb-fire">●</span> चर्चा में</div><div className="bb-trending-list">{trending.map(a=><Link href={'/news/'+a.slug} key={a.slug}><span className="bb-category">{categoryName(a.category)}</span><strong>{a.title}</strong><span className="bb-arrow" aria-hidden="true">↗</span></Link>)}</div></section>}
     <section className="bb-latest" aria-label="नई खबरें"><div className="bb-section-title"><div><span className="bb-kicker">LATEST STORIES</span><h2>ताज़ा खबरें और आसान जानकारी</h2></div><Link href="/search">और पढ़ें <span aria-hidden="true">→</span></Link></div><div className="bb-article-grid">{latest.map(a=><StoryCard article={a} key={a.slug}/>)}</div></section>
-    <section className="bb-explore"><div><span className="bb-kicker">खोजें और जानें</span><h2>किस विषय पर पढ़ना चाहेंगे?</h2><p>अपनी पसंद की खबरें आसानी से खोजें।</p></div><form action="/search"><label htmlFor="home-search">अपना विषय लिखें</label><div><input id="home-search" name="q" type="search" placeholder="जैसे NEET, क्रिकेट, बॉलीवुड…"/><button type="submit">खोजें →</button></div></form></section>
+    <section className="bb-explore"><div><span className="bb-kicker">खोजें और जानें</span><h2>किस विषय पर पढ़ना चाहेंगे?</h2><p>अपनी पसंद की खबरें आसानी से खोजें।</p></div><form action="/search"><label htmlFor="home-search">अपना विषय लिखें</label><div><input id="home-search" name="q" type="search" placeholder="जैसे NEET, आधार, क्रिकेट…"/><button type="submit">खोजें →</button></div></form></section>
     <section className="bb-directory"><div className="bb-section-title"><div><span className="bb-kicker">CATEGORIES</span><h2>अपनी पसंद की खबरें</h2></div></div><div className="bb-directory-grid">{categories.map(c=><Link key={c.slug} href={'/category/'+c.slug}><strong>{c.name}</strong><span>{c.description}</span><span className="bb-dir-arrow" aria-hidden="true">↗</span></Link>)}</div></section>
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({'@context':'https://schema.org','@type':'WebSite',name:'बात बाकी',url:siteUrl,inLanguage:'hi-IN',publisher:{'@id':siteUrl+'/#organization'}}).replace(/</g,'\\u003c')}}/>
   </main>;
