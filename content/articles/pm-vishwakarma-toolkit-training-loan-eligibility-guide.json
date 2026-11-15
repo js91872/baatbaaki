@@ -10,11 +10,11 @@
   "schemaType": "Article",
   "publishedAt": "2026-10-08T00:02:24.136082+00:00",
   "updatedAt": "2026-10-18T13:05:43.698215+00:00",
-  "image": "/images/vishwakarma-benefits-guide.webp",
-  "imageWidth": 1536,
-  "imageHeight": 864,
-  "imageAlt": "छोटे कार्यस्थल में हाथ के औजार से लकड़ी का काम करता भारतीय कारीगर",
-  "imageCaption": "संपादकीय चित्र",
+  "image": "/images/editorial-vishwakarma-artisan-tools.svg",
+  "imageWidth": 1200,
+  "imageHeight": 675,
+  "imageAlt": "कारीगर के औजार, प्रशिक्षण और हस्तकला का सांकेतिक चित्र।",
+  "imageCaption": "पीएम विश्वकर्मा में कारीगर प्रशिक्षण और उपकरणों का सांकेतिक चित्र।",
   "sources": [
     {
       "label": "myScheme: PM Vishwakarma पात्रता और लाभ",

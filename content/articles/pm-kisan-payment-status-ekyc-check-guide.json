@@ -10,11 +10,11 @@
   "schemaType": "Article",
   "publishedAt": "2026-10-07T16:56:19.070846+00:00",
   "updatedAt": "2026-11-15T02:32:00.000Z",
-  "image": "/images/pm-kisan-status.webp",
-  "imageWidth": 1536,
-  "imageHeight": 864,
-  "imageAlt": "फसल के पास मोबाइल पकड़ते किसान के हाथ",
-  "imageCaption": "संपादकीय चित्र",
+  "image": "/images/editorial-pm-kisan-ekyc.svg",
+  "imageWidth": 1200,
+  "imageHeight": 675,
+  "imageAlt": "खेत, किसान का स्मार्टफोन और भुगतान स्थिति जांचने का सांकेतिक चित्र।",
+  "imageCaption": "पीएम किसान में भुगतान स्थिति और eKYC जांच दर्शाता संपादकीय चित्र; आधिकारिक पोर्टल का स्क्रीनशॉट नहीं।",
   "sources": [
     {
       "label": "PM-Kisan: पात्रता और आधिकारिक स्टेटस सेवाएं",

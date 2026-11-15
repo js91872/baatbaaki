@@ -10,11 +10,11 @@
   "schemaType": "Article",
   "publishedAt": "2026-10-08T00:02:24.136254+00:00",
   "updatedAt": "2026-10-18T13:05:43.698215+00:00",
-  "image": "/images/jan-dhan-overdraft-guide.webp",
-  "imageWidth": 1536,
-  "imageHeight": 864,
-  "imageAlt": "बैंक काउंटर पर दस्तावेज देखते ग्राहक और अधिकारी का संपादकीय चित्र",
-  "imageCaption": "संपादकीय चित्र",
+  "image": "/images/editorial-jan-dhan-banking.svg",
+  "imageWidth": 1200,
+  "imageHeight": 675,
+  "imageAlt": "जन धन बैंक खाते की पासबुक, बचत और बैंक का सांकेतिक चित्र।",
+  "imageCaption": "जन धन बैंकिंग सुविधाओं को समझाने वाला संपादकीय चित्र, किसी बैंक का आधिकारिक दस्तावेज नहीं।",
   "sources": [
     {
       "label": "PMJDY: योजना और खाते की सुविधाएं",

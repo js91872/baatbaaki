@@ -10,11 +10,11 @@
   "schemaType": "Article",
   "publishedAt": "2026-10-07T16:56:19.072770+00:00",
   "updatedAt": "2026-11-15T02:32:00.000Z",
-  "image": "/images/neet-preparation.webp",
-  "imageWidth": 1536,
-  "imageHeight": 864,
-  "imageAlt": "मेडिकल प्रवेश की तैयारी करती छात्रा की मेज पर किताबें और वनस्पति का रेखाचित्र",
-  "imageCaption": "संपादकीय चित्र",
+  "image": "/images/editorial-neet-weekly-revision.svg",
+  "imageWidth": 1200,
+  "imageHeight": 675,
+  "imageAlt": "NEET की साप्ताहिक तैयारी योजना, किताब और कैलेंडर का चित्र।",
+  "imageCaption": "NEET सिलेबस के साप्ताहिक रिविजन को समझाने वाला संपादकीय चित्र।",
   "sources": [
     {
       "label": "NTA: NEET की आधिकारिक वेबसाइट",

@@ -10,11 +10,11 @@
   "schemaType": "Article",
   "publishedAt": "2026-10-07T16:56:19.071057+00:00",
   "updatedAt": "2026-10-18T13:05:43.698215+00:00",
-  "image": "/images/mudra-loan.webp",
-  "imageWidth": 1536,
-  "imageHeight": 864,
-  "imageAlt": "सिलाई मशीन और कपड़े के साथ छोटा भारतीय कार्यस्थल",
-  "imageCaption": "संपादकीय चित्र",
+  "image": "/images/editorial-mudra-small-business.svg",
+  "imageWidth": 1200,
+  "imageHeight": 675,
+  "imageAlt": "छोटे उद्यम की मशीन, व्यापार और ऋण कागजात का चित्र।",
+  "imageCaption": "मुद्रा ऋण में छोटे व्यवसाय और दस्तावेजों का सांकेतिक चित्र; ऋण मंजूरी की गारंटी नहीं।",
   "sources": [
     {
       "label": "वित्तीय सेवा विभाग: PMMY की चार श्रेणियां और शर्तें",

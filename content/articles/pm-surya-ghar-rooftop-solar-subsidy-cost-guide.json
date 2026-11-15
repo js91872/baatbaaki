@@ -10,11 +10,11 @@
   "schemaType": "Article",
   "publishedAt": "2026-10-08T00:02:24.136434+00:00",
   "updatedAt": "2026-10-18T13:05:43.698215+00:00",
-  "image": "/images/surya-ghar-rooftop-guide.webp",
-  "imageWidth": 1536,
-  "imageHeight": 864,
-  "imageAlt": "भारतीय घर की छत पर सौर पैनल और नीचे परिवार का संपादकीय चित्र",
-  "imageCaption": "संपादकीय चित्र",
+  "image": "/images/editorial-rooftop-solar-house.svg",
+  "imageWidth": 1200,
+  "imageHeight": 675,
+  "imageAlt": "घर की छत पर सोलर पैनल और सूर्य का सांकेतिक चित्र।",
+  "imageCaption": "छत पर सौर पैनल लगे घर का समझाने वाला चित्र, वास्तविक सरकारी स्थापना की तस्वीर नहीं।",
   "sources": [
     {
       "label": "प्रधानमंत्री कार्यालय: PM Surya Ghar की कैबिनेट मंजूरी और सहायता",

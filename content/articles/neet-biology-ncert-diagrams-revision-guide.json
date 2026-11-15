@@ -10,11 +10,11 @@
   "schemaType": "Article",
   "publishedAt": "2026-10-08T00:02:24.136595+00:00",
   "updatedAt": "2026-10-18T13:05:43.698215+00:00",
-  "image": "/images/neet-biology-diagrams-guide.webp",
-  "imageWidth": 1536,
-  "imageHeight": 864,
-  "imageAlt": "मेज पर जीवविज्ञान की किताब और पत्ते के चित्र के साथ पढ़ती छात्रा का संपादकीय चित्र",
-  "imageCaption": "संपादकीय चित्र",
+  "image": "/images/editorial-neet-biology-diagrams.svg",
+  "imageWidth": 1200,
+  "imageHeight": 675,
+  "imageAlt": "NEET बायोलॉजी के लिए कोशिका, डीएनए और नोटबुक का शैक्षिक चित्र।",
+  "imageCaption": "NCERT जीवविज्ञान में चित्रों के अभ्यास को दर्शाता संपादकीय चित्र।",
   "sources": [
     {
       "label": "NCERT: आधिकारिक पाठ्यपुस्तकें",
